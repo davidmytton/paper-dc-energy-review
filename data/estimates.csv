@@ -1,0 +1,255 @@
+Reference,Published,Method,Geography,Scenario name,Reference year,Value (TWh),Pinpoint,Notes
+"Koomey, 2007a",2007,Bottom-up,USA,Historical estimate,2003,35.0,Table 6,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007a",2007,Bottom-up,Global,Historical estimate,2003,90.0,Table 6,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007a",2007,Bottom-up,USA,Historical estimate,2004,40.0,Table 6,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007a",2007,Bottom-up,Global,Historical estimate,2004,109.0,Table 6,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007a",2007,Bottom-up,USA,Historical estimate,2005,45.0,Table 6,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007a",2007,Bottom-up,Global,Historical estimate,2005,123.0,Table 6,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Brown et al., 2007",2007,Bottom-up,USA,Historical estimate,2006,61.4,Figure 2-2,"Total electricity consumption, including storage and network."
+"Brown et al., 2007",2007,Bottom-up,USA,Projection: Historical trends,2011,124.5,Table 3-7,"Total electricity consumption, including storage and network."
+"Brown et al., 2007",2007,Bottom-up,USA,Projection: Current efficiency trends,2011,107.4,Table 3-7,"Total electricity consumption, including storage and network."
+"Brown et al., 2007",2007,Bottom-up,USA,Projection: Improved operation,2011,84.0,Table 3-7,"Total electricity consumption, including storage and network."
+"Brown et al., 2007",2007,Bottom-up,USA,Projection: Best practice,2011,47.7,Table 3-7,"Total electricity consumption, including storage and network."
+"Brown et al., 2007",2007,Bottom-up,USA,Projection: State-of-the-art,2011,33.6,Table 3-7,"Total electricity consumption, including storage and network."
+"Koomey, 2007b",2007,Bottom-up,USA,Historical estimate,2000,23.3,Table 4,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007b",2007,Bottom-up,Global,Historical estimate,2000,58.4,Table 4,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007b",2007,Bottom-up,USA,Historical estimate,2005,45.1,Table 5,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Koomey, 2007b",2007,Bottom-up,Global,Historical estimate,2005,122.9,Table 5,"Total electricity consumption (including cooling and aux equipment), excluding storage and network."
+"Bio Intelligence Service, 2008",2008,Extrapolation,EU25,Business as usual,2005,29.1,Table 59,
+"Bio Intelligence Service, 2008",2008,Extrapolation,EU26,Business as usual,2010,55.8,Table 59,
+"Bio Intelligence Service, 2008",2008,Extrapolation,EU27,Business as usual,2020,96.0,Table 59,
+"Bio Intelligence Service, 2008",2008,Extrapolation,EU28,Eco,2005,29.1,Table 60,
+"Bio Intelligence Service, 2008",2008,Extrapolation,EU29,Eco,2010,50.2,Table 60,
+"Bio Intelligence Service, 2008",2008,Extrapolation,EU30,Eco,2020,69.8,Table 60,
+"Koomey, 2008",2008,Bottom-up,USA,Historical estimate,2000,28.2,Table 2,"Total electricity consumption, including storage and network."
+"Koomey, 2008",2008,Bottom-up,Global,Historical estimate,2000,70.8,Table 2,"Total electricity consumption, including storage and network."
+"Koomey, 2008",2008,Bottom-up,USA,Historical estimate,2005,56.0,Table 2,"Total electricity consumption, including storage and network."
+"Koomey, 2008",2008,Bottom-up,Global,Historical estimate,2005,152.5,Table 2,"Total electricity consumption, including storage and network."
+"Pickavet et al., 2008",2008,Bottom-up,Global,,2008,254.04,Fig 1,
+"Somavat, Jadhav & Namboodiri, 2010",2010,Extrapolation,Global,Projection,2011,168.8,Pg 142,"Takes US figure for 2011 from Brown et al., 2007 then doubles it on the assumption that US represents half the global total."
+"Malmodin et al., 2010",2010,"Bottom-up
+Extrapolation",Global,Historical estimate,2007,180,Table 2,
+"Bertoldi, 2010",2010,Survey,Western Europe,Survey,2007,56,Pg 2,Survey of 142 Code of Conduct participants (pg 30).
+"Bertoldi, 2010",2010,Survey,Western Europe,Survey,2020,104,Pg 2,
+"Vereecken et al., 2010",2010,Extrapolation,Global,,2008,254.04,Table III,
+"Vereecken et al., 2010",2010,Extrapolation,Global,,2020,989.88,Table III,
+"Koomey, 2011",2011,"Bottom-up
+Extrapolation",Global,Upper bound,2010,271.8,Table 2,
+"Koomey, 2011",2011,"Bottom-up
+Extrapolation",Global,Lower bound,2010,203.4,Table 2,
+"Koomey, 2011",2011,"Bottom-up
+Extrapolation",USA,Upper bound,2010,85.6,Table 2,
+"Koomey, 2011",2011,"Bottom-up
+Extrapolation",USA,Lower bound,2010,67.1,Table 2,
+"Masanet et al., 2011",2011,Bottom-up,USA,Historical estimate,2008,69.0,Table 4,
+"Global e-Sustainability Initiative aisbl & The Boston Consulting Group, Inc, 2012",2012,Extrapolation,Global,Historical estimate,2011,237,"Figure 5, Pg 211","Average of Koomey, 2011 & Lower Bounds."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,"Koomey, 2011 Extrapolation",2010,237.4,Table 4b,"Average of Koomey, 2011 & Lower Bounds. Includes network."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,"Koomey, 2011 Extrapolation",2011,265.9,Table 4b,2010 figure with 12% annual growth. Includes network.
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,"Koomey, 2011 Extrapolation",2012,297.8,Table 4b,2010 figure with 12% annual growth. Includes network.
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,2012 Baseline,2012,281,Table 4c,"Data centers, excluding networks."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2013,258,Pg 28,"Data centers, excluding networks. Applied to 2010 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2017,370,Pg 28,"Data centers, excluding networks. Applied to 2010 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Expected growth (14%),2017,558,Pg 28,"Data centers, excluding networks. Applied to 2010 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,High growth (20%),2017,800,Pg 28,"Data centers, excluding networks. Applied to 2010 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2013,302.0,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2014,324.7,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2015,349.0,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2016,375.2,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Low growth (7.5%),2017,403.3,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Expected growth (14%),2013,320.3,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Expected growth (14%),2014,365.1,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Expected growth (14%),2015,416.2,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Expected growth (14%),2016,474.5,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,Expected growth (14%),2017,540.9,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,High growth (20%),2013,337.1,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,High growth (20%),2014,404.5,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,High growth (20%),2015,485.5,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,High growth (20%),2016,582.5,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Corcoran & Andrae, 2013",2013,Extrapolation,Global,High growth (20%),2017,699.1,Table 15,"Data centers, excluding networks. Tracks network data growth linearly. Table incorrectly labeled as ""Network Electricity Consumption"". Applied to 2012 baseline."
+"Van Heddeghem et al., 2014",2014,Bottom-up,Global,Historical estimate,2007,216,Table 3,
+"Van Heddeghem et al., 2014",2014,Bottom-up,Global,Historical estimate,2012,268,Table 3,
+"Liua et al., 2014",2014,Bottom-up,EU27,,2011,52.00,Pg 125,
+"Malmodin et al., 2014",2014,"Bottom-up
+Top-down
+Extrapolation",Sweden,Historical estimate,2010,1.38,Table S4.1,"Based on Koomey, 2011, then adjusted for the global ratio between estimated active servers and PCs globally and the ratio of the number of PCs in Sweden."
+"Whitehead et al., 2014",2014,Extrapolation,Global,Historical estimate,2010,238,Pg 154,"Average of Koomey, 2011 & Lower Bounds."
+"Whitehead et al., 2014",2014,Extrapolation,Global,Projection,2012,291,Pg 154,"Extrapolates 56% growth between 2010-2015 based on same growth 2005-2010 from Koomey, 2011."
+"Whitehead et al., 2014",2014,Extrapolation,Global,Projection,2015,371.1,Pg 154,"Extrapolates 56% growth between 2010-2015 based on same growth 2005-2010 from Koomey, 2011."
+"Whitney & Delforge, 2014",2014,Extrapolation,USA,Historical estimate,2011,76.4,Appendix 2,
+"Whitney & Delforge, 2014",2014,Extrapolation,USA,Historical estimate,2013,91.0,Opening paragraph,No calculations provided.
+"Whitney & Delforge, 2014",2014,Extrapolation,USA,Projection,2013,140.0,Opening paragraph,No calculations provided.
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Best (15% annual improvement),2010,189,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Expected (10% annual improvement),2010,196,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Worst (5% annual improvement),2010,199,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Best (15% annual improvement),2020,345,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Expected (10% annual improvement),2020,660,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Worst (5% annual improvement),2020,1200,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Best (15% annual improvement),2030,1137,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Expected (10% annual improvement),2030,2967,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
+"Andrae & Edler, 2015",2015,Extrapolation,Global,Worst (5% annual improvement),2030,7993,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
+"Bio by Deloitte, 2015",2015,"Bottom-up
+Extrapolation",EU28,,2015,78,Pg 32 (Task 7),
+"Hintemann, 2015a",2015,Bottom-up,Germany,,2010,10.5,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
+"Hintemann, 2015a",2015,Bottom-up,Germany,,2015,12.0,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
+"Hintemann, 2015a",2015,Bottom-up,Germany,,2020,14.3,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
+"Hintemann, 2015a",2015,Bottom-up,Germany,,2025,16.4,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
+"Hintemann, 2015b",2015,Bottom-up,Germany,,2008,10.1,Figure 3,"Update to Hintemann and Fichter, 2010 (in German so excluded)."
+"Hintemann, 2015b",2015,Bottom-up,Germany,,2013,9.7,Figure 3,"Update to Hintemann and Fichter, 2010 (in German so excluded)."
+"Hintemann & Clausen, 2016",2016,"Bottom-up
+Extrapolation",Germany,,2010,10.4,Table II,"Figure taken from Stobbe et al., 2015 (in German so excluded)."
+"Hintemann & Clausen, 2016",2016,"Bottom-up
+Extrapolation",Germany,,2015,11.7,Table II,"Figure taken from Stobbe et al., 2015 (in German so excluded)."
+"Hintemann & Clausen, 2016",2016,"Bottom-up
+Extrapolation",Global,,2010,222.8,Table II,
+"Hintemann & Clausen, 2016",2016,"Bottom-up
+Extrapolation",Global,,2015,287,Table II,
+"Shehabi et al., 2016",2016,Bottom-up,USA,,2014,70,Executive Summary,
+"Shehabi et al., 2016",2016,Bottom-up,USA,,2020,73,Executive Summary,
+"Malmodin & Lundén, 2016",2016,Unknown,Sweden,,2015,1.25,Pg 212,"Based on Malmodin et al., 2014 but calculations for this updated figure are not provided."
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2013,98.99,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2014,98.11,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2015,106.00,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2016,105.12,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2017,112.13,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2018,108.62,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2019,95.48,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2020,98.99,Table 1,System boundary unknown. Converted from GW to TWh.
+"Avgerinou, Bertoldi & Castellazzi, 2017",2017,Survey,Europe,,2016,3.7,Pg 154,"289 data centers from 120 organizations. The previous report - Bertoldi, 2014 - states that this covers 3-5% of the total data centers in Europe."
+"IEA, 2017",2017,Bottom-up,Global,,2014,194,Pg 105,
+"IEA, 2017",2017,Bottom-up,Global,,2020,200,Pg 106,
+"Malmodin & Lundén, 2018",2018,Bottom-up,Global,,2015,245,Table 6,
+"Shehabi et al., 2018",2018,Bottom-up,USA,Projection: Best practices,2020,45,Pg 8,
+"Shehabi et al., 2018",2018,Bottom-up,USA,Projection: Current trends,2020,73,Pg 7,
+"Shehabi et al., 2018",2018,Bottom-up,USA,Projection: Frozen efficiency,2020,170,Pg 8,
+"Belkhir & Elmeligi, 2018",2018,Extrapolation,Global,,2008,254,Pg 456,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2010,10.5,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2011,10.7,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2012,10.9,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2013,11.2,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2014,11.5,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2015,12.0,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2016,12.4,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Germany,,2017,13.2,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
+Extrapolation",Global,,2017,350,Figure 4,
+"Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2018,160.89,Pg 4,Detailed report in Chinese. Summary provided in English.
+"Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2019,178.02,Pg 4,Detailed report in Chinese. Summary provided in English.
+"Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2020,196.96,Pg 4,Detailed report in Chinese. Summary provided in English.
+"Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2021,217.93,Pg 4,Detailed report in Chinese. Summary provided in English.
+"Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2022,241.13,Pg 4,Detailed report in Chinese. Summary provided in English.
+"Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2023,266.79,Pg 4,Detailed report in Chinese. Summary provided in English.
+"Andrae, 2019a",2019,Extrapolation,Global,,2018,211,Table 1,
+"Andrae, 2019a",2019,Extrapolation,Global,,2019,208,Table 1,
+"Andrae, 2019a",2019,Extrapolation,Global,,2020,207,Table 1,
+"Andrae, 2019a",2019,Extrapolation,Global,,2021,202,Table 1,
+"Andrae, 2019a",2019,Extrapolation,Global,,2022,239,Table 1,
+"Andrae, 2019a",2019,Extrapolation,Global,,2023,287,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2024,347,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2025,429,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2026,540,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2027,702,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2028,946,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2029,1324,,
+"Andrae, 2019a",2019,Extrapolation,Global,,2030,1929,,
+"Andrae, 2019b",2019,Bottom-up,Global,,2010,189,,
+"Andrae, 2019c",2019,Extrapolation,Global,,2030,8253,Table IV,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2013,323,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2014,322,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2015,400,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2016,498,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2017,593,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2020,894,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2023,1242,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2025,1918,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2013,323,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2014,322,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2015,400,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2016,503,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2017,559,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2020,651,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2023,802,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth higher energy efficiency,2025,1236,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2013,323,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2014,322,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2015,400,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2016,503,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2017,559,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2020,651,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2023,1014,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Higher growth peaked energy efficiency,2025,2040,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2013,323,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2014,322,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2015,400,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2016,503,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2017,559,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2020,651,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2023,753,Appendix 1,
+"The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2025,761,Appendix 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2010,10.5,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2011,10.7,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2012,10.9,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2013,11.2,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2014,11.5,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2015,12.0,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2016,12.4,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2017,13.2,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Germany,,2018,14.0,Figure 1,
+"Hintemann, 2020",2020,"Bottom-up
+Extrapolation",Global,,2018,400.0,Pg 4,
+"Andrae, 2020a",2020,Unknown,Global,,2020,289.08,Section 5.1,
+"Andrae, 2020a",2020,Unknown,Global,,2018,400,Section 5.1,
+"Andrae, 2020a",2020,Unknown,Global,,2030,2000,Section 5.1,
+"Andrae, 2020a",2020,Unknown,Global,,2020,294,Section 5.1,
+"Andrae, 2020a",2020,Unknown,Global,,2030,783,Section 5.1,
+"Andrae, 2020a",2020,Unknown,Global,,2015,220,Table 7,
+"Andrae, 2020a",2020,Unknown,Global,,2020,207,Table 7,
+"Andrae, 2020a",2020,Unknown,Global,,2025,469,Table 7,
+"Andrae, 2020a",2020,Unknown,Global,,2030,799,Table 7,
+"Andrae, 2020b",2020,Extrapolation,Global,,2020,299,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2021,311,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2022,328,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2023,320,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2024,377,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2025,412,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2026,471,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2027,551,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2028,652,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,,2029,788,Table 1,
+"Andrae, 2020b",2020,Extrapolation,Global,Data Centers Expected,2020,299,Figure 1,
+"Andrae, 2020b",2020,Extrapolation,Global,Data Centers Best,2020,196,Figure 1,
+"Andrae, 2020b",2020,Extrapolation,Global,Data Centers Expected,2030,974,Figure 1,
+"Andrae, 2020b",2020,Extrapolation,Global,Data Centers Best,2030,366,Figure 1,
+"Masanet et al., 2020",2020,Bottom-up,Global,Historical,2010,193.7,"Supplementary Material: Sheet ""Figure 2a""",
+"Masanet et al., 2020",2020,Bottom-up,Global,Historical,2018,205.2,"Supplementary Material: Sheet ""Figure 2a""",
+"Masanet et al., 2020",2020,Bottom-up,Global,Current trends analysis,2019,199.3,"Supplementary Material: Sheet ""Figure 2a""",
+"Masanet et al., 2020",2020,Bottom-up,Global,Current trends analysis,2020,196.2,"Supplementary Material: Sheet ""Figure 2a""",
+"Masanet et al., 2020",2020,Bottom-up,Global,Current trends analysis,2021,195.0,"Supplementary Material: Sheet ""Figure 2a""",
+"Masanet et al., 2020",2020,Bottom-up,Global,Current trends analysis,2022,201.3,"Supplementary Material: Sheet ""Figure 2a""",
+"Masanet et al., 2020",2020,Bottom-up,Global,Current trends analysis,2023,209.6,"Supplementary Material: Sheet ""Figure 2a""",
+"Montevecchi et al., 2020",2020,Bottom-up,EU28,,2010,53.9,Pg 52,
+"Montevecchi et al., 2020",2020,Bottom-up,EU28,,2018,76.8,Pg 52,
+"Montevecchi et al., 2020",2020,Bottom-up,EU28,,2025,92.6,Pg 52,
+"Liu et al., 2020",2020,Extrapolation,Global,Decentralized,2030,1800,Pg 278,
+"Liu et al., 2020",2020,Extrapolation,Global,Centralized,2030,1499,Fig 10,
+"Koot & Wijnhoven, 2021",2021,Bottom-up,Global,Baseline,2016,286.42,Table 8,
+"Koot & Wijnhoven, 2021",2021,Bottom-up,Global,Baseline,2030,320.87,Table 8,
+"Koot & Wijnhoven, 2021",2021,Bottom-up,Global,End of Moore's Law,2030,658.03,Table 8,
+"Koot & Wijnhoven, 2021",2021,Bottom-up,Global,Rise of Industrial IoT,2030,364.00,Table 8,
+"Koot & Wijnhoven, 2021",2021,Bottom-up,Global,End of Moore's Law + Rise of Industrial IoT,2030,752.00,Pg 11,
