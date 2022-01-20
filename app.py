@@ -75,53 +75,53 @@ total_sources_unique = len(sources_unique.index)
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query(
-            'Geography == \"Global\" and (`Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030)')
+            'Geography == \"Global\" and (`Estimate year` == 2020 or `Estimate year` == 2025 or `Estimate year` == 2030)')
     else:
         figresult = estimates.query(
-            'Geography == \"Global\" and (`Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030) and `Value (TWh)` < 2000')
+            'Geography == \"Global\" and (`Estimate year` == 2020 or `Estimate year` == 2025 or `Estimate year` == 2030) and `Value (TWh)` < 2000')
 
     fig = px.box(figresult,
-                 x='Reference year',
+                 x='Estimate year',
                  y='Value (TWh)',
                  template='simple_white')
     fig.update_layout(font_family='sans-serif')
 
     # Show values
-    for s in figresult['Reference year'].unique():
+    for s in figresult['Estimate year'].unique():
         # Max
         fig.add_annotation(x=s,
-                           y=figresult[figresult['Reference year']
+                           y=figresult[figresult['Estimate year']
                                        == s]['Value (TWh)'].max(),
                            text="max = " + str(
-                               figresult[figresult['Reference year'] == s]['Value (TWh)'].max()),
+                               figresult[figresult['Estimate year'] == s]['Value (TWh)'].max()),
                            yshift=10,
                            showarrow=False)
 
         # Count
         fig.add_annotation(x=s,
-                           y=figresult[figresult['Reference year']
+                           y=figresult[figresult['Estimate year']
                                        == s]['Value (TWh)'].max(),
                            text="n = " + str(
-                               len(figresult[figresult['Reference year'] == s]['Value (TWh)'])),
+                               len(figresult[figresult['Estimate year'] == s]['Value (TWh)'])),
                            yshift=25,
                            showarrow=False)
 
         # Median
         fig.add_annotation(x=s,
-                           y=figresult[figresult['Reference year']
+                           y=figresult[figresult['Estimate year']
                                        == s]['Value (TWh)'].median(),
                            text="median = " +
-                           str(figresult[figresult['Reference year']
+                           str(figresult[figresult['Estimate year']
                                == s]['Value (TWh)'].median()),
                            yshift=10,
                            showarrow=False)
 
         # Min
         fig.add_annotation(x=s,
-                           y=figresult[figresult['Reference year']
+                           y=figresult[figresult['Estimate year']
                                        == s]['Value (TWh)'].min(),
                            text="min = " + str(
-                               figresult[figresult['Reference year'] == s]['Value (TWh)'].min()),
+                               figresult[figresult['Estimate year'] == s]['Value (TWh)'].min()),
                            yshift=-10,
                            showarrow=False)
 
@@ -138,24 +138,24 @@ def generate_fig(exclude):
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query(
-            'Geography == \"Global\" and `Reference year` >= 2010')
+            'Geography == \"Global\" and `Estimate year` >= 2010')
     else:
         figresult = estimates.query(
-            'Geography == \"Global\" and `Reference year` >= 2010 and `Value (TWh)` < 2000')
+            'Geography == \"Global\" and `Estimate year` >= 2010 and `Value (TWh)` < 2000')
 
     fig = px.box(figresult,
-                 x='Reference year',
+                 x='Estimate year',
                  y='Value (TWh)',
                  template='simple_white')
     fig.update_layout(font_family='sans-serif')
 
     # Show estimate counts
-    for s in figresult['Reference year'].unique():
+    for s in figresult['Estimate year'].unique():
         fig.add_annotation(x=s,
-                           y=figresult[figresult['Reference year']
+                           y=figresult[figresult['Estimate year']
                                        == s]['Value (TWh)'].max(),
                            text="n = " + str(
-                               len(figresult[figresult['Reference year'] == s]['Value (TWh)'])),
+                               len(figresult[figresult['Estimate year'] == s]['Value (TWh)'])),
                            yshift=10,
                            showarrow=False)
 
@@ -264,7 +264,7 @@ app.layout = html.Div([
     '''),
     html.H2('Figure 1'),
     dcc.Markdown('''
-Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (reference year). All estimate values are provided in Table S2.
+Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (Estimate year). All estimate values are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-1-exclude',
@@ -275,7 +275,7 @@ Global data center energy estimate ranges (in TWh) plotted by the year the estim
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (reference year). All estimate values are provided in Table S2.
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (Estimate year). All estimate values are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-2-exclude',
