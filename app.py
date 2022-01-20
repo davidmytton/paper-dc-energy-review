@@ -113,7 +113,6 @@ def generate_fig(exclude):
 #
 # Figure 2
 #
-# TODO - Can we show a mean regression
 # Check box option to exclude estimates >2000 TWh (default = true).
 @app.callback(
     Output("fig-2", "figure"),
@@ -147,7 +146,6 @@ def generate_fig(exclude):
 
 #
 # Figure 3
-#
 #
 # Define colors
 # From https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
@@ -252,9 +250,7 @@ app.layout = html.Div([
     '''),
     html.H2('Figure 1'),
     dcc.Markdown('''
-Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (reference year) and
-grouped by calculation method (Extrapolation or Bottom-up, excluding publications with multiple methodology categories). 
-Method categorization is described in the "Review methodology" section. All estimate values are provided in Table S2.
+Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (reference year). All estimate values are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-1-exclude',
@@ -265,9 +261,7 @@ Method categorization is described in the "Review methodology" section. All esti
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by
-the year the estimate applies to (reference year). All estimate values are
-provided in Table S2.
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (reference year). All estimate values are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-2-exclude',
@@ -278,10 +272,7 @@ provided in Table S2.
     dcc.Graph(id='fig-2'),
     html.H2('Figure 3'),
     dcc.Markdown('''
-Sankey diagram showing data center energy estimate publications analyzed in this review with their key sources. Sources
-in orange indicate that source could not be found. Node size based on the number of independent citations from 
-publications analyzed. See Table S1 for the full list of publications, sources and reasons for sources that could not 
-be found.
+Sankey diagram showing data center energy estimate publications analyzed in this review with their key sources. Sources in orange indicate that source could not be found. Node size based on the number of independent citations from  publications analyzed. See Table S1 for the full list of publications, sources and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig3),
 ])
