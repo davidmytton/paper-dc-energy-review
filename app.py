@@ -61,7 +61,8 @@ total_estimates_2030 = len(result.index)
 # There is a row for each entry in Table S1, which doesn't map to anything
 # relevant for visualizing. As such, we de-dup so a source and target only
 # appears once. This provides the true citation count for each source.
-sources_unique = sources.drop_duplicates(subset=['Authors', 'Source'])
+sources_unique = sources.drop_duplicates(
+    subset=['Authors', 'Source (Grouped for Visualisations)'])
 
 total_sources_unique = len(sources_unique.index)
 
@@ -127,9 +128,6 @@ def generate_fig(exclude):
 #
 # Figure 3
 #
-# TODO - Need to be grouped by year, move chronologically to the right
-# TODO - Normalize same sources e.g. all IDC as one
-# TODO - Separate by the source category
 #
 # Define colors
 # From https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
@@ -151,8 +149,8 @@ for index, row in sources_unique.iterrows():
     # Set the color based on the source reliability classification, but hard
     # code any sources which are also in the review
     # Colors from https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
-    if row['Paper (Journal) Reliability'] == 'EL' \
-            or row['Paper (Journal) Reliability'] == 'PD':
+    if row['Source Reliability'] == 'EL' \
+            or row['Source Reliability'] == 'PD':
         color_node = COLOR_FOUND_DARK
         color_link = COLOR_FOUND_LIGHT
     else:
@@ -167,12 +165,12 @@ for index, row in sources_unique.iterrows():
         labels.append(row['Authors'])
         colors_node.append(color_node)
 
-    if row['Source'] not in labels:
-        labels.append(row['Source'])
+    if row['Source (Grouped for Visualisations)'] not in labels:
+        labels.append(row['Source (Grouped for Visualisations)'])
         colors_node.append(color_node)
 
     # Create the node and link
-    sources.append(labels.index(row['Source']))
+    sources.append(labels.index(row['Source (Grouped for Visualisations)']))
     targets.append(labels.index(row['Authors']))
     colors_link.append(color_link)
 
