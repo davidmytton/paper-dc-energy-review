@@ -70,7 +70,7 @@ total_sources_unique = len(sources_unique.index)
 #
 # Figure 1
 #
-# Ideally this would use a break in the y axis to show all the valyues, but
+# Ideally this would use a break in the y axis to show all the values, but
 # that does not seem possible with Plotly.
 #
 # https://stackoverflow.com/a/65766964/2183 is an option for bar charts but
@@ -98,6 +98,16 @@ def generate_fig(exclude):
                  color='Method',
                  template='simple_white')
     fig.update_layout(font_family='sans-serif')
+
+    # Show estimate counts
+    for s in figresult['Reference year'].unique():
+        fig.add_annotation(x=s,
+                           y=figresult[figresult['Reference year']
+                                       == s]['Value (TWh)'].max(),
+                           text="n = " + str(
+                               len(figresult[figresult['Reference year'] == s]['Value (TWh)'])),
+                           yshift=10,
+                           showarrow=False)
     return fig
 
 
@@ -122,6 +132,17 @@ def generate_fig(exclude):
                  y='Value (TWh)',
                  template='simple_white')
     fig.update_layout(font_family='sans-serif')
+
+    # Show estimate counts
+    for s in figresult['Reference year'].unique():
+        fig.add_annotation(x=s,
+                           y=figresult[figresult['Reference year']
+                                       == s]['Value (TWh)'].max(),
+                           text="n = " + str(
+                               len(figresult[figresult['Reference year'] == s]['Value (TWh)'])),
+                           yshift=10,
+                           showarrow=False)
+
     return fig
 
 
@@ -245,8 +266,10 @@ Method categorization is described in the "Review methodology" section. All esti
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
-Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (reference year). All 
-estimate values are provided in Table S2.
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by
+the year the estimate applies to (reference year). All estimate values are
+provided in Table S2. Excludes estimates > 2000 TWh to allow for effective
+scaling of the visualization.
     '''),
     dcc.Checklist(
         id='fig-2-exclude',
