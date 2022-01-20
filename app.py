@@ -49,13 +49,16 @@ result = estimates.query(
     Geography == \"Western Europe\"')
 total_estimates_europe = len(result.index)
 
-result = estimates.query('`Reference year` == 2020')
+result = estimates.query(
+    'Geography == \"Global\" and `Reference year` == 2020')
 total_estimates_2020 = len(result.index)
 
-result = estimates.query('`Reference year` == 2025')
+result = estimates.query(
+    'Geography == \"Global\" and `Reference year` == 2025')
 total_estimates_2025 = len(result.index)
 
-result = estimates.query('`Reference year` == 2030')
+result = estimates.query(
+    'Geography == \"Global\" and `Reference year` == 2030')
 total_estimates_2030 = len(result.index)
 
 # There is a row for each entry in Table S1, which doesn't map to anything
@@ -66,16 +69,55 @@ sources_unique = sources.drop_duplicates(
 
 total_sources_unique = len(sources_unique.index)
 
+
 #
 # Figure 1
 #
-# TODO - Can we show a mean regression
-# Check box option to exclude estimates >2000 TWh (default = true).
-
-
+# Ideally this would use a break in the y axis to show all the values, but
+# that does not seem possible with Plotly.
+#
+# https://stackoverflow.com/a/65766964/2183 is an option for bar charts but
+# probably wouldn't work for a box plot due to the integrated error bars.
+#
+# Fall back solution is a check box option to exclude estimates >2000 TWh
+# (default = true).
 @app.callback(
     Output("fig-1", "figure"),
     [Input("fig-1-exclude", "value")])
+def generate_fig(exclude):
+    if not exclude:
+        figresult = estimates.query(
+            'Geography == \"Global\" and (`Reference year` == 2010 or `Reference year` == 2015 or `Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030)')
+    else:
+        figresult = estimates.query(
+            'Geography == \"Global\" and (`Reference year` == 2010 or `Reference year` == 2015 or `Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030) and `Value (TWh)` < 2000')
+
+    fig = px.box(figresult,
+                 x='Reference year',
+                 y='Value (TWh)',
+                 template='simple_white')
+    fig.update_layout(font_family='sans-serif')
+
+    # Show estimate counts
+    for s in figresult['Reference year'].unique():
+        fig.add_annotation(x=s,
+                           y=figresult[figresult['Reference year']
+                                       == s]['Value (TWh)'].max(),
+                           text="n = " + str(
+                               len(figresult[figresult['Reference year'] == s]['Value (TWh)'])),
+                           yshift=10,
+                           showarrow=False)
+    return fig
+
+
+#
+# Figure 2
+#
+# TODO - Can we show a mean regression
+# Check box option to exclude estimates >2000 TWh (default = true).
+@app.callback(
+    Output("fig-2", "figure"),
+    [Input("fig-2-exclude", "value")])
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query(
@@ -104,7 +146,7 @@ def generate_fig(exclude):
 
 
 #
-# Figure 2
+# Figure 3
 #
 #
 # Define colors
@@ -158,7 +200,7 @@ for index, row in sources_unique.iterrows():
     values.append(1)
 
 # Create the figure
-fig2 = go.Figure(data=[go.Sankey(
+fig3 = go.Figure(data=[go.Sankey(
     node=dict(
         pad=15,
         thickness=20,
@@ -172,7 +214,7 @@ fig2 = go.Figure(data=[go.Sankey(
         color=colors_link,
     ))])
 
-fig2.update_layout(font_family='sans-serif', height=5000)
+fig3.update_layout(font_family='sans-serif', height=5000)
 # fig.write_image('figure.pdf', width=2000)
 
 #
@@ -202,7 +244,7 @@ app.layout = html.Div([
     - Global: {total_estimates_global}.
     - US: {total_estimates_us}.
     - Europe: {total_estimates_europe}.
-- Estimates for: 
+- Global estimates for: 
     - 2020: {total_estimates_2020}.
     - 2025: {total_estimates_2025}.
     - 2030: {total_estimates_2030}.
@@ -210,10 +252,9 @@ app.layout = html.Div([
     '''),
     html.H2('Figure 1'),
     dcc.Markdown('''
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by
-the year the estimate applies to (reference year). All estimate values are
-provided in Table S2. Excludes estimates > 2000 TWh to allow for effective
-scaling of the visualization.
+Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (reference year) and
+grouped by calculation method (Extrapolation or Bottom-up, excluding publications with multiple methodology categories). 
+Method categorization is described in the "Review methodology" section. All estimate values are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-1-exclude',
@@ -224,12 +265,25 @@ scaling of the visualization.
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by
+the year the estimate applies to (reference year). All estimate values are
+provided in Table S2.
+    '''),
+    dcc.Checklist(
+        id='fig-2-exclude',
+        options=[{'value': 'true', 'label': 'Exclude estimates >2000 TWh'}],
+        value=['true'],
+        labelStyle={'display': 'inline-block'}
+    ),
+    dcc.Graph(id='fig-2'),
+    html.H2('Figure 3'),
+    dcc.Markdown('''
 Sankey diagram showing data center energy estimate publications analyzed in this review with their key sources. Sources
 in orange indicate that source could not be found. Node size based on the number of independent citations from 
 publications analyzed. See Table S1 for the full list of publications, sources and reasons for sources that could not 
 be found.
     '''),
-    dcc.Graph(figure=fig2),
+    dcc.Graph(figure=fig3),
 ])
 
 app.run_server(debug=True)
