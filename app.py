@@ -49,18 +49,6 @@ result = estimates.query(
     Geography == \"Western Europe\"')
 total_estimates_europe = len(result.index)
 
-result = estimates.query(
-    'Geography == \"Global\" and `Reference year` == 2020')
-total_estimates_2020 = len(result.index)
-
-result = estimates.query(
-    'Geography == \"Global\" and `Reference year` == 2025')
-total_estimates_2025 = len(result.index)
-
-result = estimates.query(
-    'Geography == \"Global\" and `Reference year` == 2030')
-total_estimates_2030 = len(result.index)
-
 # There is a row for each entry in Table S1, which doesn't map to anything
 # relevant for visualizing. As such, we de-dup so a source and target only
 # appears once. This provides the true citation count for each source.
@@ -238,15 +226,11 @@ app.layout = html.Div([
     dcc.Markdown(f'''
 - Publications analyzed: {total_publications_analyzed}.
 - Total estimates: {total_estimates}.
+- Key sources: {total_sources_unique}.
 - Estimates by country:
     - Global: {total_estimates_global}.
     - US: {total_estimates_us}.
     - Europe: {total_estimates_europe}.
-- Global estimates for: 
-    - 2020: {total_estimates_2020}.
-    - 2025: {total_estimates_2025}.
-    - 2030: {total_estimates_2030}.
-- Key sources: {total_sources_unique}.
     '''),
     html.H2('Figure 1'),
     dcc.Markdown('''
