@@ -75,10 +75,10 @@ total_sources_unique = len(sources_unique.index)
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query(
-            'Geography == \"Global\" and (`Reference year` == 2010 or `Reference year` == 2015 or `Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030)')
+            'Geography == \"Global\" and (`Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030)')
     else:
         figresult = estimates.query(
-            'Geography == \"Global\" and (`Reference year` == 2010 or `Reference year` == 2015 or `Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030) and `Value (TWh)` < 2000')
+            'Geography == \"Global\" and (`Reference year` == 2020 or `Reference year` == 2025 or `Reference year` == 2030) and `Value (TWh)` < 2000')
 
     fig = px.box(figresult,
                  x='Reference year',
@@ -86,15 +86,45 @@ def generate_fig(exclude):
                  template='simple_white')
     fig.update_layout(font_family='sans-serif')
 
-    # Show estimate counts
+    # Show values
     for s in figresult['Reference year'].unique():
+        # Max
+        fig.add_annotation(x=s,
+                           y=figresult[figresult['Reference year']
+                                       == s]['Value (TWh)'].max(),
+                           text="max = " + str(
+                               figresult[figresult['Reference year'] == s]['Value (TWh)'].max()),
+                           yshift=10,
+                           showarrow=False)
+
+        # Count
         fig.add_annotation(x=s,
                            y=figresult[figresult['Reference year']
                                        == s]['Value (TWh)'].max(),
                            text="n = " + str(
                                len(figresult[figresult['Reference year'] == s]['Value (TWh)'])),
+                           yshift=25,
+                           showarrow=False)
+
+        # Median
+        fig.add_annotation(x=s,
+                           y=figresult[figresult['Reference year']
+                                       == s]['Value (TWh)'].median(),
+                           text="median = " +
+                           str(figresult[figresult['Reference year']
+                               == s]['Value (TWh)'].median()),
                            yshift=10,
                            showarrow=False)
+
+        # Min
+        fig.add_annotation(x=s,
+                           y=figresult[figresult['Reference year']
+                                       == s]['Value (TWh)'].min(),
+                           text="min = " + str(
+                               figresult[figresult['Reference year'] == s]['Value (TWh)'].min()),
+                           yshift=-10,
+                           showarrow=False)
+
     return fig
 
 
