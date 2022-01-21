@@ -1,319 +1,319 @@
-﻿Source (Grouped for Visualisations),Source (Pre-Group),Authors,Paper (Journal) Year,Source Type,Source Year,Source Use,Source Reliability,Source Use Count,,Unique Sources,Unique Sources (Reliability),Unique Sources (Type),Source Year,,Source Year (no blanks)
-AC4DC,AC4DC,"Hintemann, 2015a",2015,Data without source,n/a,"MS, SS, StS, NtS, IS",NS,5,,AC4DC,NS,Data without source,n/a,,2006
-Advanced Micro Devices,Advanced Micro Devices,"Masanet et al., 2011",2011,Data with source,2006,SS,NF,1,,Advanced Micro Devices,NF,Data with source,2006,,2015
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Andrae, 2019a",2019,Paper (Journal) ,2015,"MS, SS, StS, IS",EL,4,,"Andrae and Edler, 2015",EL,Paper (Journal) ,2015,,2019
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Andrae, 2019b",2019,Paper (Journal) ,2015,"MS, SS, NtS",EL,3,,"Andrae, 2019a",EL,Report (Self-Published),2019,,2019
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Andrae, 2019c",2019,Paper (Journal) ,2015,"MS, SS, NtS",EL,3,,"Andrae, 2019b",EL,Report (Self-Published),2019,,2019
-"Andrae and Edler, 2015","Andrae and Edler, 2015","The Shift Project, 2019",2019,Paper (Journal) ,2015,"MS, SS, StS, NtS",EL,4,,"Andrae, 2019c",EL,Paper (Journal),2019,,2019
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Andrae, 2020a",2020,Paper (Journal) ,2015,"MS, SS, StS, NtS, IS",EL,5,,"Andrae, 2019d",EL,Paper (Journal) ,2019,,2019
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Andrae, 2020b",2020,Paper (Journal) ,2015,SS,EL,1,,"Andrae, 2019e",EL,Presentation,2019,,2020
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Montevecchi et al., 2020",2020,Paper (Journal) ,2015,"SS, StS, NtS, IS",EL,4,,"Andrae, 2020a",EL,Paper (Journal) ,2020,,2011
-"Andrae and Edler, 2015","Andrae and Edler, 2015","Liu et al., 2020",2020,Paper (Journal) ,2015,"SS, StS, NtS, IS",EL,4,,"Arnclan Computer Services, 2011",BL,Report,2011,,2015
-"Andrae, 2019a","Andrae, 2019a","Andrae, 2019c",2019,Report (Self-Published),2019,"MS, SS",EL,2,,"ASHRAE, 2015",EL,Report,2015,,2018
-"Andrae, 2019a","Andrae, 2019a","Montevecchi et al., 2020",2020,Report (Self-Published),2019,"SS, StS, NtS, IS",EL,4,,"Aslan et al., 2018",EL,Paper (Journal) ,2018,,2017
-"Andrae, 2019b","Andrae, 2019b","Andrae, 2019c",2019,Report (Self-Published),2019,"MS, SS",EL,2,,ATandT,NS,Data without source,n/a,,2013
-"Andrae, 2019c","Andrae, 2019c","Andrae, 2020a",2020,Paper (Journal),2019,"SS, StS, NtS, IS",EL,4,,"Avgerinou et al., 2017",EL,Paper (Journal) ,2017,,2018
-"Andrae, 2019d","Andrae, 2019d","Andrae, 2020a",2020,Paper (Journal) ,2019,"MS, SS, StS, NtS, IS",EL,5,,IDC,PC,Various,n/a,,2007
-"Andrae, 2019e","Andrae, 2019e","Montevecchi et al., 2020",2020,Presentation,2019,"SS, StS, NtS, IS",EL,4,,IDC/EITO,NS,Data without source,n/a,,2007
-"Andrae, 2020a","Andrae, 2020a","Andrae, 2020b",2020,Paper (Journal) ,2020,NtS,EL,1,,"Barroso et al., 2013",EL,Report,2013,,2008
-"Arnclan Computer Services, 2011","Arnclan Computer Services, 2011","Liua et al., 2014",2014,Report,2011,SS,BL,1,,"Bashroush, 2018",EL,Paper (Journal) ,2018,,2012
-"ASHRAE, 2015","ASHRAE, 2015","Shehabi et al., 2016",2016,Report,2015,StS,EL,1,,"Battles et al., 2007",EL,Report,2007,,1982
-"ASHRAE, 2015","ASHRAE, 2015","Shehabi et al., 2018",2018,Report,2015,StS,EL,1,,BCG,NS,Data without source,n/a,,2015
-"Aslan et al., 2018","Aslan et al., 2018","Koot and Wijnhoven, 2021",2021,Paper (Journal) ,2018,NtS,EL,1,,"Belady and Malone, 2007",EL,Paper (Conference),2007,,2010
-ATandT,ATandT,"GeSI and BCG, 2012",2012,Data without source,n/a,"SS, IS",NS,2,,"Belady et al., 2008",EL,Report,2008,,2014
-"Avgerinou et al., 2017","Avgerinou et al., 2017","Masanet et al., 2020",2020,Paper (Journal) ,2017,IS,EL,1,,"Bennett and Delforge, 2012",EL,Report,2012,,2007
-"Avgerinou et al., 2017","Avgerinou et al., 2017","Montevecchi et al., 2020",2020,Paper (Journal) ,2017,"SS, StS, NtS, IS",EL,4,,"Bennett, 1982",EL,Paper (Journal) ,1982,,2008
-"Avgerinou et al., 2017","Avgerinou et al., 2017","Liu et al., 2020",2020,Paper (Journal) ,2017,IS,EL,1,,"Bio by Deloitte, 2015",EL,Report,2015,,2011
-IDC,"Bailey et al., 2007 (IDC)","Koomey, 2008",2008,Report,2007,MS,PC,1,,"Bozman and Broderick, 2010",EL,Report,2010,,2013
-IDC,"Bailey et al., 2007 (IDC)","Koomey, 2011",2011,Report,2007,MS,PC,1,,"BroadGroup, 2014",NS,Data without source,2014,,2019
-IDC,"Bailey et al., 2007 (IDC)","Masanet et al., 2011",2011,Report,2007,MS,PC,1,,"Brown et al., 2007",EL,Report,2007,,2015
-IDC,"Bailey et al., 2007 (IDC)","Shehabi et al., 2016",2016,Report,2007,MS,PC,1,,"Brown et al., 2008",EL,Report,2008,,2016
-IDC,"Cohen et al., 2007 (IDC)","Koomey, 2007a",2007,"Report (Draft), Data with source",2007,MS,PC,1,,"Carbon Disclosure Project, 2011",EL,Report,2011,,2013
-IDC,IDC,"Brown et al., 2007",2007,Data with source,n/a,MS,PC,1,,CBRE,EL,Report,n/a,,2012
-IDC,IDC,"Koomey, 2007b",2007,Personal Communications,n/a,IS,PC,1,,"CEET, 2013",EL,Report,2013,,2013
-IDC,IDC,"Koomey, 2008",2008,Data with source,n/a,MS,PC,1,,"CESI, 2019",NF,Report,2019,,2007
-IDC,IDC,"Malmodin et al., 2010",2010,Report,2006,MS,PC,1,,"Chen et al., 2015",EL,Paper (Journal) ,2015,,2007
-IDC,IDC,"Koomey, 2011",2011,Personal Communications,n/a,MS,PC,1,,"China Cooling Association, 2016",NF,Report,2016,,2020
-IDC,IDC,"Masanet et al., 2011",2011,Data with source,n/a,MS,PC,1,,Cisco,NS,Data without source,n/a,,2011
-IDC,IDC,"Liua et al., 2014",2014,Data without source,n/a,MS,PC,1,,"Corcoran and Andrae, 2013",EL,Report,2013,,2012
-IDC,IDC,"Bio by Deloitte, 2015",2015,Data without source,n/a,MS,PC,1,,"Corcoran, 2012",El,Paper (Magazine),2012,,2014
-IDC,IDC,"Hintemann and Clausen, 2016",2016,Data without source,n/a,MS,PC,1,,"Coroama et al., 2013",EL,Paper (Journal) ,2013,,2019
-IDC,IDC,"Shehabi et al., 2016",2016,Data with source,n/a,MS,PC,1,,"Cucchietti et al., 2007",EL,Paper (Conference),2007,,2009
-IDC,IDC,"Malmodin and Lunden, 2018a",2018,Data with source,n/a,MS,PC,1,,"Dagher, Marcellin & Neifeld, 2007",EL,Paper (Journal),2007,,2009
-IDC,IDC,"Shehabi et al., 2018",2018,"Data with source, Personal Communications",n/a,MS,PC,1,,"Daly et al., 2020",EL,Paper (Magazine),2020,,2010
-IDC,IDC,"The Shift Project, 2019",2019,Data without source,n/a,MS,PC,1,,"DCD, 2011",BL,Report,2011,,2018
-IDC,"IDC, 2012","Van Heddeghem et al., 2014",2014,Data without source,2012,MS,EL,1,,"DCD, 2012",NF,Report,2012,,2014
-IDC,"IDC, 2013","Van Heddeghem et al., 2014",2014,Data without source,2013,MS,EL,1,,"DCD, 2013a",NF,Report,n/a,,2019
-IDC,"IDC, 2014","Shehabi et al., 2016",2016,Data with source,2014,MS,PC,1,,"DCD, 2013b",NF,Report,n/a,,2005
-IDC,"IDC, 2015","Shehabi et al., 2016",2016,Report,2015,MS,PC,1,,"Dietrich, 2014",EL,Presentation,2014,,2017
-IDC,"IDC, 2015","Shehabi et al., 2018",2018,Data with source,2015,MS,PC,1,,"Digiconomist, 2019",EL,Report,2019,,2020
-IDC,"IDC, 2018","Hintemann and Hinterholzer, 2019",2019,Data with source,2018,MS,PC,1,,"Donovan, 2009",EL,Report,2009,,2012
-IDC,"IDC, 2018","Hintemann, 2020",2020,Data with source,2018,MS,PC,1,,"Energy Star, 2009",EL,Specification Document,2009,,2012
-IDC/EITO,IDC/EITO,"Hintemann, 2015a",2015,Data without source,n/a,MS,NS,1,,"Energy Star, 2010",BL,Specification Document,2010,,2019
-IDC/EITO,IDC/EITO,"Hintemann and Hinterholzer, 2019",2019,Data without source,n/a,MS,NS,1,,"Ericsson, 2018",EL,Report,2018,,2006
-IDC/EITO,IDC/EITO,"Hintemann, 2020",2020,Data without source,n/a,MS,NS,1,,"Experton, 2011",BL,Report,n/a,,2019
-IDC/EITO,IDC/EITO,"Montevecchi et al., 2020",2020,Data without source,n/a,MS,NS,1,,"Fichter and Hintemann, 2014",EL,Paper (Journal) ,2014,,2015
-IDC,"Reinsel et al., 2018 (IDC)","Masanet et al., 2020",2020,Report,2018,"MS, StS",EL,2,,"FIRI, 2019",EL,Report,2019,,2011
-IDC,"Villars, 2014 (IDC)","Shehabi et al., 2016",2016,Report,2014,MS,PC,1,,"Frank, 2005",EL,Paper (Conference),2005,,2016
-"Barroso et al., 2013","Barroso et al., 2013","Shehabi et al., 2016",2016,Report,2013,SS,EL,1,,"Fuchs et al., 2017",EL,Report,2017,,2019
-"Barroso et al., 2013","Barroso et al., 2013","Koot and Wijnhoven, 2021",2021,Report,2013,IS,EL,1,,"Fuchs et al., 2020",EL,Paper (Journal) ,2020,,2014
-"Bashroush, 2018","Bashroush, 2018","Andrae, 2019b",2019,Paper (Journal) ,2018,SS,EL,1,,"Garnier, 2012",EL,Presentation,2012,,2016
-"Battles et al., 2007","Battles et al., 2007","Masanet et al., 2011",2011,Report,2007,StS,EL,1,,Gartner,NS,Various,n/a,,2015
-BCG,BCG,"GeSI and BCG, 2012",2012,Data without source,n/a,"SS, IS",NS,2,,"GeSI and BCG, 2012",EL,Report,2012,,2015
-"Belady and Malone, 2007","Belady and Malone, 2007","Koomey, 2008",2008,Paper (Conference),2007,IS,EL,1,,Google,NS,Data without source,n/a,,2016
-"Belady et al., 2008","Belady et al., 2008","Masanet et al., 2011",2011,Report,2008,IS,EL,1,,"Google, 2019",EL,Report,2019,,2018
-"Bennett and Delforge, 2012","Bennett and Delforge, 2012","Whitney & Delforge, 2014",2014,Report,2012,IS,EL,1,,"Greenberg et al., 2006",EL,Report,2006,,2015
-"Bennett, 1982","Bennett, 1982","Andrae, 2019c",2019,Paper (Journal) ,1982,SS,EL,1,,"Greenpeace and NCEPU, 2019",EL,Report,2019,,2008
-"Bio by Deloitte, 2015","Bio by Deloitte, 2015","Montevecchi et al., 2020",2020,Report,2015,"SS, StS, NtS, IS",EL,4,,"Hachman, 2015",EL,News Piece,2015,,2017
-"Bozman and Broderick, 2010","Bozman and Broderick, 2010","Liua et al., 2014",2014,Report,2010,SS,EL,1,,"Hilbert and Lopez, 2011",EL,Paper (Journal) ,2011,,2019
-"BroadGroup, 2014","BroadGroup, 2014","Bertoldi et al., 2017",2017,Data without source,2014,"MS, SS, StS, NtS, IS",NS,5,,"Hintemann and Clausen, 2016",EL,Paper (Conference),2016,,2017
-"Brown et al., 2007","Brown et al., 2007","Bio Intelligence Service, 2008",2008,Report,2007,"MS, SS, StS, NtS, IS",EL,5,,"Hintemann and Hinterholzer, 2019",EL,Paper (Conference),2019,,2011
-"Brown et al., 2007","Brown et al., 2007","Koomey, 2008",2008,Report,2007,"MS, StS, NtS",EL,3,,"Hintemann et al., 2014",EL,Primary Data Collection (Survey),2014,,2019
-"Brown et al., 2007","Brown et al., 2007","Somavat et al., 2010",2010,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hintemann et al., 2016",EL,Paper (Conference),2016,,2018
-"Brown et al., 2007","Brown et al., 2007","Malmodin et al., 2010",2010,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hintemann, 2015",EL,Paper (Journal) ,2015,,2011
-"Brown et al., 2007","Brown et al., 2007","Koomey, 2011",2011,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hintemann, 2015b",EL,Primary Data Collection (Survey),2015,,2015
-"Brown et al., 2007","Brown et al., 2007","Masanet et al., 2011",2011,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hoefflinger, 2016",EL,Book Chapter,2016,,2008
-"Brown et al., 2007","Brown et al., 2007","Whitney & Delforge, 2014",2014,Report,2007,MS,EL,1,,"Howard-Healy, 2013",BL,Report,n/a,,2011
-"Brown et al., 2007","Brown et al., 2007","Shehabi et al., 2016",2016,Report,2007,"SS, NtS",EL,2,,"Howard-Healy, 2018",NF,Presentation,2018,,2015
-"Brown et al., 2007","Brown et al., 2007","Shehabi et al., 2018",2018,Report,2007,"SS, NtS",EL,2,,"Huang et al., 2015",EL,Report,2015,,2012
-"Brown et al., 2008","Brown et al., 2008","Masanet et al., 2011",2011,Report,2008,IS,EL,1,,"Hylick et al., 2008",EL,Paper (Conference),2008,,1988
-"Carbon Disclosure Project, 2011","Carbon Disclosure Project, 2011","GeSI and BCG, 2012",2012,Report,2011,IS,EL,1,,"IEA, 2017",EL,Report,2017,,2012
-CBRE,"CBRE, 2017","Hintemann and Hinterholzer, 2019",2019,Report,2017,MS,EL,1,,"IEA, 2019",EL,Data with source,2019,,2011
-CBRE,"CBRE, 2017","Hintemann, 2020",2020,Report,2017,MS,EL,1,,IHS,NS,Data without source,n/a,,2013
-CBRE,"CBRE, 2017","Montevecchi et al., 2020",2020,Report,2017,MS,EL,1,,Industry Comment,PC,Data without source,n/a,,2013
-CBRE,"CBRE, 2018","Hintemann and Hinterholzer, 2019",2019,Report,2018,MS,EL,1,,"Ionescu, 2017",EL,Paper (Conference),2017,,2018
-CBRE,"CBRE, 2018","Hintemann, 2020",2020,Report,2018,MS,EL,1,,"Kaskade, 2011",EL,Blog Post,2011,,2018
-CBRE,"CBRE, 2018","Montevecchi et al., 2020",2020,Report,2018,MS,EL,1,,"Kezhi Consulting, 2019",EL,Report,2019,,2010
-CBRE,"CBRE, 2020","Hintemann, 2020",2020,Report,2020,MS,EL,1,,"Kief and Victora, 2018",EL,Paper (Journal) ,2018,,2013
-"CEET, 2013","CEET, 2013","Corcoran and Andrae, 2013",2013,Report,2013,NtS,EL,1,,Koomey 2011,EL,Report,2011,,2014
-"CESI, 2019","CESI, 2019","Greenpeace and NCEPU, 2019",2019,Report,2019,MS,NF,1,,"Koomey and Taylor, 2015",EL,Report,2015,,2006
-"Chen et al., 2015","Chen et al., 2015","Shehabi et al., 2018",2018,Paper (Journal) ,2015,SS,EL,1,,"Koomey, 2007",EL,Report,n/a,,2011
-"China Cooling Association, 2016","China Cooling Association, 2016","Greenpeace and NCEPU, 2019",2019,Report,2016,"MS, SS, StS, NtS, IS",NF,5,,"Koomey, 2008",EL,Paper (Journal) ,2008,,2020
-Cisco,Cisco,"GeSI and BCG, 2012",2012,Data without source,n/a,"MS, NtS",NS,2,,"Koomey, 2011",El,Report,2011,,2020
-Cisco,Cisco,"Corcoran and Andrae, 2013",2013,Data with source,n/a,MS,NS,1,,"Kuckelhaus et al., 2015",EL,Report,2015,,2009
-Cisco,Cisco,"Andrae, 2020b",2020,Data with source,2012,MS,NS,1,,"Lambert et al., 2012",EL,Paper (Journal) ,2012,,2018
-Cisco,"Cisco, 2011","Masanet et al., 2020",2020,Report,2011,MS,BL,1,,"Landauer, 1988",EL,Paper (Journal) ,1988,,2012
-Cisco,"Cisco, 2012","Masanet et al., 2020",2020,Report,2012,MS,BL,1,,"Lanzisera et al., 2012",EL,Paper (Journal) ,2012,,2008
-Cisco,"Cisco, 2013","Andrae and Edler, 2015",2015,Report,2013,MS,EL,1,,"Lorenz, 2011",BL,Blog Post,2011,,2019
-Cisco,"Cisco, 2013","Masanet et al., 2020",2020,Report,2013,MS,EL,1,,"Lunden and Malmodin, 2013",EL,Paper (Conference),2013,,2019
-Cisco,"Cisco, 2013","Liu et al., 2020",2020,Data with source,2013,MS,EL,1,,"Malmodin and Lunden, 2016",EL,Paper (Conference),2013,,2010
-Cisco,"Cisco, 2013","Koot and Wijnhoven, 2021",2021,Data with source,2013,MS,EL,1,,"Malmodin and Lunden, 2018",EL,Paper (Journal) ,2018,,2015
-Cisco,"Cisco, 2013","Koot and Wijnhoven, 2021",2021,Data with source,2013,SS,EL,1,,"Malmodin and Lunden, 2018b",EL,Report,2018,,2009
-Cisco,"Cisco, 2013","Koot and Wijnhoven, 2021",2021,Data with source,2013,StS,EL,1,,"Malmodin et al., 2010",EL,Paper (Journal) ,2010,,2020
-Cisco,"Cisco, 2013","Koot and Wijnhoven, 2021",2021,Data with source,2013,NtS,EL,1,,"Malmodin et al., 2013",EL,Paper (Conference),2013,,2011
-Cisco,"Cisco, 2014","Masanet et al., 2020",2020,Report,2014,MS,BL,1,,"Malmodin et al., 2014",EL,Paper (Journal) ,2014,,2016
-Cisco,"Cisco, 2015","Hintemann and Clausen, 2016",2016,Report,n/a,MS,BL,1,,"Malone and Belady, 2006",EL,Paper (Journal) (Conference),2006,,2018
-Cisco,"Cisco, 2015","Hintemann and Hinterholzer, 2019",2019,Data with source,2015,MS,BL,1,,Manufacturing Data,NS,Data without source,n/a,,2011
-Cisco,"Cisco, 2015","The Shift Project, 2019",2019,Data with source,2015,MS,BL,1,,"Masanet et al., 2011",EL,Paper (Journal) ,2011,,2012
-Cisco,"Cisco, 2015","Hintemann, 2020",2020,Data with source,2015,MS,BL,1,,"Masanet et al., 2020",EL,Paper (Journal) ,2020,,2021
-Cisco,"Cisco, 2015","Masanet et al., 2020",2020,Report,2015,MS,BL,1,,"Mitchell and York, 2020",EL,Paper (Journal) ,2020,,2017
-Cisco,"Cisco, 2015","Montevecchi et al., 2020",2020,Report,2015,MS,BL,1,,"NetApp, 2009",BL,Report,2009,,2018
-Cisco,"Cisco, 2016","IEA, 2017",2017,Data with source,2016,MS,NF,1,,"NL Times, 2018",EL,Report,2018,,2009
-Cisco,"Cisco, 2016","Hintemann and Hinterholzer, 2019",2019,Data with source,2016,MS,NF,1,,"NRDC & WSP, 2012",EL,Report,2012,,2019
-Cisco,"Cisco, 2016","The Shift Project, 2019",2019,Data with source,2016,MS,NF,1,,Personal Communication,PC,Personal Communications,n/a,,2014
-Cisco,"Cisco, 2016","Hintemann, 2020",2020,Data with source,2016,MS,NF,1,,"Pickavet et al., 2008",EL,Paper (Conference),2008,,2015
-Cisco,"Cisco, 2016","Masanet et al., 2020",2020,Report,2016,MS,NF,1,,"Porod, 2019",EL,Book Chapter,2019,,2012
-Cisco,"Cisco, 2016","Masanet et al., 2020",2020,Report,2016,SS,NF,1,,PTS,BL,Data with source,n/a,,2008
-Cisco,"Cisco, 2016","Masanet et al., 2020",2020,Report,2016,StS,NF,1,,"Rauchs et al., 2019",EL,Report,2019,,2019
-Cisco,"Cisco, 2016","Montevecchi et al., 2020",2020,Report,2016,MS,NF,1,,"Reinsel, 2010",PC,Report,2010,,2017
-Cisco,"Cisco, 2016","Liu et al., 2020",2020,Data with source,2016,MS,NF,1,,"SCB, 2015",NS,Data without source,2015,,2012
-Cisco,"Cisco, 2017","The Shift Project, 2019",2019,Data with source,2017,MS,BL,1,,"Schappi et al., 2009",NF,Report,2009,,2012
-Cisco,"Cisco, 2018","The Shift Project, 2019",2019,Data with source,2018,MS,BL,1,,"Shalf, 2020",EL,Paper (Journal) ,2020,,2011
-Cisco,"Cisco, 2018","Masanet et al., 2020",2020,Report,2018,MS,BL,1,,"Shehabi et al., 2011",EL,Paper (Journal) ,2011,,2014
-Cisco,"Cisco, 2018","Masanet et al., 2020",2020,Report,2018,SS,BL,1,,"Shehabi et al., 2016",EL,Report,2016,,2010
-Cisco,"Cisco, 2018","Masanet et al., 2020",2020,Report,2018,StS,BL,1,,"Shehabi et al., 2018",EL,Paper (Journal) ,2018,,2007
-Cisco,"Cisco, 2020","Koot and Wijnhoven, 2021",2021,Report,2020,MS,EL,1,,"SNIA, 2011",EL,Report,2011,,2014
-"Corcoran and Andrae, 2013","Corcoran and Andrae, 2013","Andrae and Edler, 2015",2015,Report,2013,"SS, StS, IS",EL,3,,SPEC,EL,Data with source,n/a,,2020
-"Corcoran and Andrae, 2013","Corcoran and Andrae, 2013","Liu et al., 2020",2020,Report,2013,"SS, StS, NtS, IS",EL,4,,"Stansberry and Kudritzki, 2012",EL,Report,2012,,
-"Corcoran, 2012","Corcoran, 2012","Corcoran and Andrae, 2013",2013,Paper (Magazine),2012,"MS, SS, StS, NtS, IS",El,5,,Statista,NS,Data without source,n/a,,
-"Coroama et al., 2013","Coroama et al., 2013","Corcoran and Andrae, 2013",2013,Paper (Journal) ,2013,NtS,EL,1,,"Stobbe et al., 2021",EL,Book Chapter,2021,,
-"Cucchietti et al., 2007","Cucchietti et al., 2007","Corcoran and Andrae, 2013",2013,Paper (Conference),2007,NtS,EL,1,,"Summers, 2017",NF,Presentation,2017,,
-"Dagher, Marcellin & Neifeld, 2007","Dagher, Marcellin & Neifeld, 2007","Liu et al., 2020",2020,Paper (Journal),2007,"SS, StS, NtS, IS",EL,4,,"Summers, 2018",NF,Presentation,2018,,
-"Daly et al., 2020","Daly et al., 2020","Masanet et al., 2020",2020,Paper (Magazine),2020,MS,EL,1,,Survey,NS,Primary Data Collection (Survey),n/a,,
-"DCD, 2011","DCD, 2011","Whitehead et al., 2014",2014,Report,2011,MS,BL,1,,"Swedish Energy Agency, 2009",NF,Data with source,2009,,
-"DCD, 2012","DCD, 2012","Whitehead et al., 2014",2014,Report,2012,MS,NF,1,,"Synergy Research Group, 2019",EL,Report,2019,,
-"DCD, 2013a","DCD, 2013a","Hintemann, 2015b",2015,Report,n/a,MS,NF,1,,Techconsult,BL,Data without source,n/a,,
-"DCD, 2013b","DCD, 2013b","Hintemann, 2015b",2015,Report,n/a,MS,NF,1,,"Technavio, 2014",BL,Data with source,2014,,
-"Dietrich, 2014","Dietrich, 2014","Shehabi et al., 2016",2016,Presentation,2014,SS,EL,1,,"Technavio, 2015",BL,Data with source,2015,,
-"Dietrich, 2014","Dietrich, 2014","Shehabi et al., 2018",2018,Presentation,2014,SS,EL,1,,Telecom Italia,NF,Data with source,n/a,,
-"Digiconomist, 2019","Digiconomist, 2019","Montevecchi et al., 2020",2020,Report,2019,"SS, StS, NtS, IS",EL,4,,"Telecom Italia, 2012",EL,Report,2012,,
-"Donovan, 2009","Donovan, 2009","Malmodin et al., 2014",2010,Report,2009,NtS,EL,1,,"TeliaSonera, 2008",NS,Report,2008,,
-"Energy Star, 2009","Energy Star, 2009","Masanet et al., 2011",2011,Specification Document,2009,SS,EL,1,,"The Shift Project, 2019",EL,Report,2019,,
-"Energy Star, 2010","Energy Star, 2010","Van Heddeghem et al., 2014",2014,Specification Document,2010,IS,BL,1,,"The Zettabyte Era, 2017",BL,Report,2017,,
-"Ericsson, 2018","Ericsson, 2018","Andrae, 2019a",2019,Report,2018,MS,EL,1,,"Time Magazine, 2012",EL,News Piece,2012,,
-"Experton, 2011","Experton, 2011","Hintemann, 2015b",2015,Report,n/a,MS,BL,1,,"Tucker et al., 2012",EL,Paper (Conference),2012,,
-"Fichter and Hintemann, 2014","Fichter and Hintemann, 2014","Hintemann and Hinterholzer, 2019",2019,Paper (Journal) ,2014,"SS, StS, NtS, IS",EL,4,,Expert Interviews,PC,Personal Communications,n/a,,
-"Fichter and Hintemann, 2014","Fichter and Hintemann, 2014","Hintemann, 2020",2020,Paper (Journal) ,2014,"SS, StS, NtS, IS",EL,4,,"Uptime institute, 2011",NF,Report,2011,,
-"Fichter and Hintemann, 2014","Fichter and Hintemann, 2014","Montevecchi et al., 2020",2020,Paper (Journal) ,2014,"MS, SS, StS, NtS, IS",EL,5,,US EPA,NF,Report (Draft),n/a,,
-"FIRI, 2019","FIRI, 2019","Greenpeace and NCEPU, 2019",2019,Report,2019,MS,EL,1,,"Van Heddeghem et al., 2014",EL,Paper (Journal) ,2014,,
-"Frank, 2005","Frank, 2005","Andrae, 2019c",2019,Paper (Conference),2005,SS,EL,1,,"Vereecken et al., 2010b",EL,Paper (Journal),2010,,
-"Fuchs et al., 2017","Fuchs et al., 2017","Malmodin and Lunden, 2018a",2018,Report,2017,SS,EL,1,,"Verizon Communications, 2010",EL,Report,2007,,
-"Fuchs et al., 2020","Fuchs et al., 2020","Masanet et al., 2020",2020,Paper (Journal) ,2020,SS,EL,1,,"Xu, 2014",EL,Paper (Journal) ,2014,,
-"Garnier, 2012","Garnier, 2012","Shehabi et al., 2016",2016,Presentation,2012,"SS, StS, NtS",EL,3,,"Zhang et al., 2020",EL,Paper (Journal) ,2020,,
-Gartner,Gartner,"Hintemann and Clausen, 2016",2016,Data without source,n/a,MS,NS,1,,,,,,,
-Gartner,Gartner,"The Shift Project, 2019",2019,Data without source,n/a,MS,NS,1,,,,,,,
-Gartner,"Gartner, 2007","Somavat et al., 2010",2010,Report,2007,MS,BL,1,,,,,,,
-Gartner,"Gartner, 2020","Hintemann, 2020",2020,Data with source,2020,MS,EL,1,,,,,,,
-"GeSI and BCG, 2012","GeSI and BCG, 2012","Whitney & Delforge, 2014",2014,Report,2012,MS,EL,1,,,,,,,
-Google,Google,"GeSI and BCG, 2012",2012,Data without source,n/a,IS,NS,1,,,,,,,
-"Google, 2019","Google, 2019","Masanet et al., 2020",2020,Report,2019,IS,EL,1,,,,,,,
-"Greenberg et al., 2006","Greenberg et al., 2006","Koomey, 2007a",2007,Report,2006,IS,EL,1,,,,,,,
-"Greenberg et al., 2006","Greenberg et al., 2006","Koomey, 2008",2008,Report,2006,IS,EL,1,,,,,,,
-"Greenberg et al., 2006","Greenberg et al., 2006","Masanet et al., 2011",2011,Report,2006,IS,EL,1,,,,,,,
-"Greenpeace and NCEPU, 2019","Greenpeace and NCEPU, 2019","Andrae, 2020a",2020,Report,2019,MS,EL,1,,,,,,,
-"Hachman, 2015","Hachman, 2015","Andrae and Edler, 2015",2015,News Piece,2015,"SS, StS, NtS",EL,3,,,,,,,
-"Hachman, 2015","Hachman, 2015","Liu et al., 2020",2020,News Piece,2015,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Hilbert and Lopez, 2011","Hilbert and Lopez, 2011","Andrae, 2019b",2019,Paper (Journal) ,2011,MS,EL,1,,,,,,,
-"Hintemann and Clausen, 2016","Hintemann and Clausen, 2016","Hintemann and Hinterholzer, 2019",2019,Paper (Conference),2016,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Hintemann and Hinterholzer, 2019","Hintemann and Hinterholzer, 2019","Hintemann, 2020",2020,Paper (Conference),2019,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hintemann and Hinterholzer, 2019","Hintemann and Hinterholzer, 2019","Montevecchi et al., 2020",2020,Paper (Conference),2019,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hintemann et al., 2014","Hintemann et al., 2014","Hintemann, 2015a",2015,Primary Data Collection (Survey),2014,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hintemann et al., 2014","Hintemann et al., 2014","Hintemann and Hinterholzer, 2019",2019,Paper (Conference),2014,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hintemann et al., 2014","Hintemann et al., 2014","Hintemann, 2020",2020,Paper (Conference),2014,MS,EL,1,,,,,,,
-"Hintemann et al., 2014","Hintemann et al., 2014","Montevecchi et al., 2020",2020,Paper (Conference),2014,MS,EL,1,,,,,,,
-"Hintemann et al., 2016","Hintemann et al., 2016","Hintemann and Hinterholzer, 2019",2019,Paper (Conference),2016,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Hintemann, 2015","Hintemann, 2015","Hintemann and Hinterholzer, 2019",2019,Paper (Journal) ,2015,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hintemann, 2015","Hintemann, 2015","Hintemann, 2020",2020,Paper (Journal) ,2015,MS,EL,1,,,,,,,
-"Hintemann, 2015","Hintemann, 2015","Montevecchi et al., 2020",2020,Paper (Journal) ,2015,MS,EL,1,,,,,,,
-"Hintemann, 2015b","Hintemann, 2015b","Hintemann, 2015a",2015,Primary Data Collection (Survey),2015,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hintemann, 2015b","Hintemann, 2015b","Hintemann, 2015b",2015,Primary Data Collection (Survey),2015,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Hoefflinger, 2016","Hoefflinger, 2016","Andrae, 2019c",2019,Book Chapter,2016,SS,EL,1,,,,,,,
-"Howard-Healy, 2013","Howard-Healy, 2013","Hintemann, 2015b",2015,Report,n/a,MS,BL,1,,,,,,,
-"Howard-Healy, 2018","Howard-Healy, 2018","Hintemann and Hinterholzer, 2019",2019,Presentation,2018,MS,NF,1,,,,,,,
-"Howard-Healy, 2018","Howard-Healy, 2018","Hintemann, 2020",2020,Report,2018,MS,NF,1,,,,,,,
-"Howard-Healy, 2018","Howard-Healy, 2018","Montevecchi et al., 2020",2020,Report,2018,MS,NF,1,,,,,,,
-"Huang et al., 2015","Huang et al., 2015","Shehabi et al., 2016",2016,Report,2015,StS,EL,1,,,,,,,
-"Hylick et al., 2008","Hylick et al., 2008","Shehabi et al., 2016",2016,Paper (Conference),2008,StS,EL,1,,,,,,,
-"IEA, 2017","IEA, 2017","Malmodin and Lunden, 2018a",2018,Report,2017,"SS, StS, NtS, IS",EL,4,,,,,,,
-"IEA, 2019","IEA, 2019","Montevecchi et al., 2020",2020,Data with source,2019,"SS, StS, NtS, IS",EL,4,,,,,,,
-IHS,IHS,"Hintemann and Clausen, 2016",2016,Data without source,n/a,MS,NS,1,,,,,,,
-Industry Comment,Industry Comment,"Shehabi et al., 2016",2016,Data without source,n/a,NtS,PC,1,,,,,,,
-"Ionescu, 2017","Ionescu, 2017","Andrae, 2019b",2019,Paper (Conference),2017,SS,EL,1,,,,,,,
-"Kaskade, 2011","Kaskade, 2011","Liua et al., 2014",2014,Blog Post,2011,MS,EL,1,,,,,,,
-"Kezhi Consulting, 2019","Kezhi Consulting, 2019","Greenpeace and NCEPU, 2019",2019,Report,2019,MS,EL,1,,,,,,,
-"Kief and Victora, 2018","Kief and Victora, 2018","Masanet et al., 2020",2020,Paper (Journal) ,2018,MS,EL,1,,,,,,,
-Koomey 2011,Koomey 2011,"GeSI and BCG, 2012",2012,Report,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Koomey and Taylor, 2015","Koomey and Taylor, 2015","Montevecchi et al., 2020",2020,Report,2015,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Brown et al., 2007",2007,Report,2007,"SS, IS",EL,2,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Koomey, 2007b",2007,Report,2007,"MS, SS, IS",EL,3,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Bio Intelligence Service, 2008",2008,Report,2007,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Koomey, 2008",2008,Report,2007,SS,EL,1,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Somavat et al., 2010",2010,Report,2007,MS,EL,1,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Malmodin et al., 2010",2010,Report,2007,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Koomey, 2007","Koomey, 2007a","Masanet et al., 2011",2011,Report,2007,"SS, NtS, IS",EL,3,,,,,,,
-"Koomey, 2007","Koomey, 2007b","Koomey, 2008",2008,Report,2007,SS,EL,1,,,,,,,
-"Koomey, 2007","Koomey, 2007b","Malmodin et al., 2010",2010,Report,2007,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Koomey, 2007","Koomey, 2007b","Masanet et al., 2011",2011,Report,2007,"SS, NtS, IS",EL,3,,,,,,,
-"Koomey, 2008","Koomey, 2008","Koomey, 2011",2011,Paper (Journal) ,2008,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Koomey, 2008","Koomey, 2008","Masanet et al., 2011",2011,Paper (Journal) ,2008,"SS, NtS",EL,2,,,,,,,
-"Koomey, 2008","Koomey, 2008","Masanet et al., 2020",2020,Paper (Journal) ,2018,MS,EL,1,,,,,,,
-"Koomey, 2011","Koomey, 2011","Corcoran and Andrae, 2013",2013,Report,2011,"MS, SS, StS, NtS, IS",El,5,,,,,,,
-"Koomey, 2011","Koomey, 2011","Liua et al., 2014",2014,Report,2011,IS,El,1,,,,,,,
-"Koomey, 2011","Koomey, 2011","Malmodin et al., 2014",2010,Report,2011,"SS, StS, NtS, IS",El,4,,,,,,,
-"Koomey, 2011","Koomey, 2011","Van Heddeghem et al., 2014",2014,Report,2011,"SS, StS, NtS, IS",El,4,,,,,,,
-"Koomey, 2011","Koomey, 2011","Whitehead et al., 2014",2014,Report,2011,"MS, SS, StS, NtS, IS",El,5,,,,,,,
-"Koomey, 2011","Koomey, 2011","Whitney & Delforge, 2014",2014,Report,2011,"MS, SS, StS, NtS, IS",El,5,,,,,,,
-"Koomey, 2011","Koomey, 2011","Shehabi et al., 2016",2016,Report,2011,"SS, StS",El,2,,,,,,,
-"Koomey, 2011","Koomey, 2011","Malmodin and Lunden, 2018a",2018,Report,2011,"SS, StS, NtS, IS",El,4,,,,,,,
-"Kuckelhaus et al., 2015","Kuckelhaus et al., 2015","Koot and Wijnhoven, 2021",2021,Report,2015,MS,EL,1,,,,,,,
-"Lambert et al., 2012","Lambert et al., 2012","Corcoran and Andrae, 2013",2013,Paper (Journal) ,2012,NtS,EL,1,,,,,,,
-"Landauer, 1988","Landauer, 1988","Andrae, 2019c",2019,Paper (Journal) ,1988,SS,EL,1,,,,,,,
-"Lanzisera et al., 2012","Lanzisera et al., 2012","Shehabi et al., 2016",2016,Paper (Journal) ,2012,NtS,EL,1,,,,,,,
-"Lanzisera et al., 2012","Lanzisera et al., 2012","Shehabi et al., 2018",2018,Paper (Journal) ,2012,NtS,EL,1,,,,,,,
-"Lorenz, 2011","Lorenz, 2011","Whitney & Delforge, 2014",2014,Blog Post,2011,MS,BL,1,,,,,,,
-"Lunden and Malmodin, 2013","Lunden and Malmodin, 2013","Malmodin and Lunden, 2016",2016,Paper (Conference),2013,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Malmodin and Lunden, 2016","Malmodin and Lunden, 2016","Malmodin and Lunden, 2018a",2018,Paper (Conference),2013,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Malmodin and Lunden, 2018","Malmodin and Lunden, 2018","Montevecchi et al., 2020",2020,Paper (Journal) ,2018,MS,EL,1,,,,,,,
-"Malmodin and Lunden, 2018b","Malmodin and Lunden, 2018b","Malmodin and Lunden, 2018a",2018,Report,2018,NtS,EL,1,,,,,,,
-"Malmodin et al., 2010","Malmodin et al., 2010","GeSI and BCG, 2012",2012,Paper (Journal) ,2010,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Malmodin et al., 2010","Malmodin et al., 2010","Malmodin and Lunden, 2018a",2018,Paper (Journal) ,2010,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin and Lunden, 2018a",2018,Paper (Conference),2013,MS,EL,1,,,,,,,
-"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin and Lunden, 2018a",2018,Paper (Conference),2013,SS,EL,1,,,,,,,
-"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin and Lunden, 2018a",2018,Paper (Conference),2013,StS,EL,1,,,,,,,
-"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin and Lunden, 2018a",2018,Paper (Conference),2013,NtS,EL,1,,,,,,,
-"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin and Lunden, 2018a",2018,Paper (Conference),2013,IS,EL,1,,,,,,,
-"Malmodin et al., 2014","Malmodin et al., 2014","Malmodin and Lunden, 2016",2016,Paper (Journal) ,2014,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Malone and Belady, 2006","Malone and Belady, 2006","Koomey, 2007a",2007,Paper (Journal) (Conference),2006,IS,EL,1,,,,,,,
-Manufacturing Data,Manufacturing Data,"Koomey, 2007a",2007,Data without source,n/a,SS,NS,1,,,,,,,
-Manufacturing Data,Manufacturing Data,"Montevecchi et al., 2020",2020,Data without source,n/a,"SS, StS, NtS, IS",NS,4,,,,,,,
-"Masanet et al., 2011","Masanet et al., 2011","Whitehead et al., 2014",2014,Paper (Journal) ,2011,MS,EL,1,,,,,,,
-"Masanet et al., 2011","Masanet et al., 2011","Whitney & Delforge, 2014",2014,Paper (Journal) ,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Masanet et al., 2011","Masanet et al., 2011","Shehabi et al., 2016",2016,Paper (Journal) ,2011,SS,EL,1,,,,,,,
-"Masanet et al., 2011","Masanet et al., 2011","Shehabi et al., 2018",2018,Paper (Conference),2011,MS,EL,1,,,,,,,
-"Masanet et al., 2020","Masanet et al., 2020","Montevecchi et al., 2020",2020,Paper (Journal) ,2020,MS,EL,1,,,,,,,
-"Masanet et al., 2020","Masanet et al., 2020","Koot and Wijnhoven, 2021",2021,Paper (Journal) ,2020,"MS, SS, StS, NtS",EL,4,,,,,,,
-"Mitchell and York, 2020","Mitchell and York, 2020","Andrae, 2020a",2020,Paper (Journal) ,2020,SS,EL,1,,,,,,,
-"NetApp, 2009","NetApp, 2009","Liua et al., 2014",2014,Report,2009,NtS,BL,1,,,,,,,
-"NL Times, 2018","NL Times, 2018","Koot and Wijnhoven, 2021",2021,Report,2018,MS,EL,1,,,,,,,
-"NRDC & WSP, 2012","NRDC & WSP, 2012","Shehabi et al., 2016",2016,Report,2012,MS,EL,1,,,,,,,
-Personal Communication,Personal Communication,"Masanet et al., 2011",2011,Personal Communications,n/a,"SS, StS, NtS",PC,3,,,,,,,
-Personal Communication,Personal Communication,"Shehabi et al., 2016",2016,Personal Communications,n/a,MS,PC,1,,,,,,,
-"Pickavet et al., 2008","Pickavet et al., 2008","Vereecken et al., 2010a",2010,Paper (Conference),2008,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Pickavet et al., 2008","Pickavet et al., 2008","Corcoran and Andrae, 2013",2010,Paper (Conference),2008,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Porod, 2019","Porod, 2019","Andrae, 2019c",2019,Book Chapter,2019,SS,EL,1,,,,,,,
-PTS,PTS,"Malmodin et al., 2014",2010,Data with source,n/a,MS,BL,1,,,,,,,
-PTS,"PTS, 2015","Malmodin and Lunden, 2016",2016,Data with source,2015,MS,BL,1,,,,,,,
-"Rauchs et al., 2019","Rauchs et al., 2019","Montevecchi et al., 2020",2020,Report,2019,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Reinsel, 2010","Reinsel, 2010","Shehabi et al., 2016",2016,Report,2010,StS,PC,1,,,,,,,
-"Reinsel, 2010","Reinsel, 2010","Shehabi et al., 2018",2018,Report,2010,StS,PC,1,,,,,,,
-"SCB, 2015","SCB, 2015","Malmodin and Lunden, 2016",2016,Data without source,2015,MS,NS,1,,,,,,,
-"Schappi et al., 2009","Schappi et al., 2009","Liua et al., 2014",2014,Report,2009,"MS, SS",NF,2,,,,,,,
-"Shalf, 2020","Shalf, 2020","Koot and Wijnhoven, 2021",2021,Paper (Journal) ,2020,SS,EL,1,,,,,,,
-"Shehabi et al., 2011","Shehabi et al., 2011","Shehabi et al., 2016",2016,Paper (Journal) ,2011,IS,EL,1,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","IEA, 2017",2017,Report,2016,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","Malmodin and Lunden, 2018a",2018,Report,2016,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","Shehabi et al., 2018",2018,Report,2016,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","The Shift Project, 2019",2019,Report,2016,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","Masanet et al., 2020",2020,Report,2016,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","Montevecchi et al., 2020",2020,Report,2016,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
-"Shehabi et al., 2016","Shehabi et al., 2016","Koot and Wijnhoven, 2021",2021,Report,2016,"StS, NtS",EL,2,,,,,,,
-"Shehabi et al., 2018","Shehabi et al., 2018","Montevecchi et al., 2020",2020,Paper (Journal) ,2018,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Shehabi et al., 2018","Shehabi et al., 2018","Koot and Wijnhoven, 2021",2021,Paper (Journal) ,2018,"SS, StS, NtS",EL,3,,,,,,,
-"SNIA, 2011","SNIA, 2011","Liua et al., 2014",2014,Report,2011,StS,EL,1,,,,,,,
-SPEC,SPEC,"Liua et al., 2014",2014,Data with source,n/a,SS,EL,1,,,,,,,
-SPEC,SPEC,"Whitney & Delforge, 2014",2014,Data with source,n/a,SS,EL,1,,,,,,,
-SPEC,SPEC,"Shehabi et al., 2016",2016,Data with source,n/a,SS,EL,1,,,,,,,
-SPEC,SPEC,"Shehabi et al., 2018",2018,Data with source,n/a,SS,EL,1,,,,,,,
-"Stansberry and Kudritzki, 2012","Stansberry and Kudritzki, 2012","Liua et al., 2014",2014,Report,2012,"SS, IS",EL,2,,,,,,,
-Statista,Statista,"The Shift Project, 2019",2019,Data without source,n/a,MS,NS,1,,,,,,,
-"Stobbe et al., 2021","Stobbe et al., 2021","Andrae, 2020a",2020,Book Chapter,2021,NtS,EL,1,,,,,,,
-"Summers, 2017","Summers, 2017","Andrae, 2019c",2019,Presentation,2017,SS,NF,1,,,,,,,
-"Summers, 2018","Summers, 2018","Andrae, 2019b",2019,Presentation,2018,SS,NF,1,,,,,,,
-"Summers, 2018","Summers, 2018","Andrae, 2019c",2019,Presentation,2018,SS,NF,1,,,,,,,
-Survey,Survey,"Bertoldi, 2010",2010,Primary Data Collection (Survey),n/a,"MS, SS, StS, NtS, IS",NS,5,,,,,,,
-Survey,Survey,"Shehabi et al., 2016",2016,Primary Data Collection (Survey),n/a,NtS,NS,1,,,,,,,
-Survey,Survey,"Avgerinou et al., 2017",2017,Primary Data Collection (Survey),2017,"MS, SS, StS, NtS, IS",NS,5,,,,,,,
-"Swedish Energy Agency, 2009","Swedish Energy Agency, 2009","Malmodin and Lunden, 2016",2016,Data with source,2009,"SS, StS, NtS, IS",NF,4,,,,,,,
-"Synergy Research Group, 2019","Synergy Research Group, 2019","Greenpeace and NCEPU, 2019",2019,Report,2019,MS,EL,1,,,,,,,
-"Synergy Research Group, 2019","Synergy Research Group, 2019","Masanet et al., 2020",2020,Data with source,2019,"MS, SS",EL,2,,,,,,,
-Techconsult,Techconsult,"Hintemann, 2015a",2015,Data without source,n/a,MS,BL,1,,,,,,,
-Techconsult,Techconsult,"Hintemann, 2015b",2015,Data without source,n/a,MS,BL,1,,,,,,,
-Techconsult,Techconsult,"Hintemann and Hinterholzer, 2019",2019,Data without source,n/a,MS,BL,1,,,,,,,
-Techconsult,Techconsult,"Hintemann, 2020",2020,Data without source,n/a,MS,BL,1,,,,,,,
-Techconsult,Techconsult,"Montevecchi et al., 2020",2020,Data without source,n/a,MS,BL,1,,,,,,,
-"Technavio, 2014","Technavio, 2014","Belkhir & Elmeligi, 2018",2018,Data with source,2014,MS,BL,1,,,,,,,
-"Technavio, 2015","Technavio, 2015","Belkhir & Elmeligi, 2018",2018,Data with source,2015,MS,BL,1,,,,,,,
-Telecom Italia,Telecom Italia,"Corcoran and Andrae, 2013",2013,Data with source,n/a,NtS,NF,1,,,,,,,
-"Telecom Italia, 2012","Telecom Italia, 2012","Corcoran and Andrae, 2013",2013,Report,2012,NtS,EL,1,,,,,,,
-"TeliaSonera, 2008","TeliaSonera, 2008","Malmodin et al., 2014",2010,Report,2008,MS,NS,1,,,,,,,
-"The Shift Project, 2019","The Shift Project, 2019","Montevecchi et al., 2020",2020,Report,2019,"SS, StS, NtS, IS",EL,4,,,,,,,
-"The Zettabyte Era, 2017","The Zettabyte Era, 2017","The Shift Project, 2019",2019,Report,2017,MS,BL,1,,,,,,,
-"Time Magazine, 2012","Time Magazine, 2012","Andrae and Edler, 2015",2015,News Piece,2012,"SS, StS, IS",EL,3,,,,,,,
-"Tucker et al., 2012","Tucker et al., 2012","Andrae and Edler, 2015",2015,Paper (Conference),2012,"SS, StS, IS",EL,3,,,,,,,
-Expert Interviews,Expert Interviews,"Brown et al., 2007",2007,Personal Communications,n/a,"SS, NtS",PC,2,,,,,,,
-Expert Interviews,Expert Interviews,"GeSI and BCG, 2012",2012,Data without source,n/a,SS,PC,1,,,,,,,
-Expert Interviews,Expert Interviews,"Liua et al., 2014",2014,Data without source,n/a,IS,PC,1,,,,,,,
-Expert Interviews,Expert Interviews,"Whitney & Delforge, 2014",2014,Data without source,n/a,MS,PC,1,,,,,,,
-Expert Interviews,Expert Interviews,"The Shift Project, 2019",2019,Personal Communications,n/a,SS,PC,1,,,,,,,
-Expert Interviews,Expert Interviews,"Montevecchi et al., 2020",2020,Personal Communications,n/a,IS,PC,1,,,,,,,
-"Uptime institute, 2011","Uptime institute, 2011","Van Heddeghem et al., 2014",2014,Report,2011,IS,NF,1,,,,,,,
-US EPA,US EPA,"Brown et al., 2007",2007,Report (Draft),n/a,IS,NF,1,,,,,,,
-"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Shehabi et al., 2016",2016,Paper (Journal) ,2014,NtS,EL,1,,,,,,,
-"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Andrae, 2019b",2019,Paper (Journal) ,2014,SS,EL,1,,,,,,,
-"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Andrae, 2019c",2019,Paper (Journal) ,2014,SS,EL,1,,,,,,,
-"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Montevecchi et al., 2020",2020,Paper (Journal) ,2014,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Vereecken et al., 2010b","Vereecken et al., 2010b","Belkhir & Elmeligi, 2018",2018,Paper (Journal),2010,"SS, StS, NtS, IS",EL,4,,,,,,,
-"Verizon Communications, 2010","Verizon Communications, 2010","Corcoran and Andrae, 2013",2013,Report,2007,NtS,EL,1,,,,,,,
-"Xu, 2014","Xu, 2014","Andrae, 2019b",2019,Paper (Journal) ,2014,"MS, SS",EL,2,,,,,,,
-"Xu, 2014","Xu, 2014","Andrae, 2019c",2019,Paper (Journal) ,2014,SS,EL,1,,,,,,,
-"Zhang et al., 2020","Zhang et al., 2020","Andrae, 2020a",2020,Paper (Journal) ,2020,NtS,EL,1,,,,,,,
+﻿Source (Grouped for Visualisations),Source (Pre-Group),Authors,Citation Count,Paper (Journal) Year,Source Type,Source Year,Source Use,Source Reliability,Source Use Count,,Unique Sources,Unique Sources (Reliability),Unique Sources (Type),Source Year,,Source Year (no blanks)
+AC4DC,AC4DC,"Hintemann, 2015a",0,2015,Data without source,n/a,"MS, SS, StS, NtS, IS",NS,5,,AC4DC,"MS, SS, StS, NtS, IS",2015,Data without source,,2006
+Advanced Micro Devices,Advanced Micro Devices,"Masanet et al., 2011",105,2011,Data with source,2006,SS,NF,1,,Advanced Micro Devices,SS,2011,Data with source,,2015
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Andrae, 2019a",12,2019,Paper (Journal) ,2015,"MS, SS, StS, IS",EL,4,,"Andrae & Edler, 2015","MS, SS, StS, IS",2019,Paper (Journal) ,,2019
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Andrae, 2019b",2,2019,Paper (Journal) ,2015,"MS, SS, NtS",EL,3,,"Andrae, 2019a","MS, SS",2019,Report (Self-Published),,2019
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Andrae, 2019c",19,2019,Paper (Journal) ,2015,"MS, SS, NtS",EL,3,,"Andrae, 2019b","MS, SS",2019,Report (Self-Published),,2019
+"Andrae & Edler, 2015","Andrae & Edler, 2015","The Shift Project, 2019",28,2019,Paper (Journal) ,2015,"MS, SS, StS, NtS",EL,4,,"Andrae, 2019c","SS, StS, NtS, IS",2020,Paper (Journal),,2019
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Andrae, 2020a",23,2020,Paper (Journal) ,2015,"MS, SS, StS, NtS, IS",EL,5,,"Andrae, 2019d","MS, SS, StS, NtS, IS",2020,Paper (Journal) ,,2019
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Andrae, 2020b",21,2020,Paper (Journal) ,2015,SS,EL,1,,"Andrae, 2019e","SS, StS, NtS, IS",2020,Presentation,,2020
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2015,"SS, StS, NtS, IS",EL,4,,"Andrae, 2020a",NtS,2020,Paper (Journal) ,,2011
+"Andrae & Edler, 2015","Andrae & Edler, 2015","Liu et al., 2020",24,2020,Paper (Journal) ,2015,"SS, StS, NtS, IS",EL,4,,"Arnclan Computer Services, 2011",SS,2014,Report,,2015
+"Andrae, 2019a","Andrae, 2019a","Andrae, 2019c",19,2019,Report (Self-Published),2019,"MS, SS",EL,2,,"ASHRAE, 2015",StS,2016,Report,,2018
+"Andrae, 2019a","Andrae, 2019a","Montevecchi et al., 2020",8,2020,Report (Self-Published),2019,"SS, StS, NtS, IS",EL,4,,"Aslan et al., 2018",NtS,2021,Paper (Journal) ,,2017
+"Andrae, 2019b","Andrae, 2019b","Andrae, 2019c",19,2019,Report (Self-Published),2019,"MS, SS",EL,2,,ATandT,"SS, IS",2012,Data without source,,2013
+"Andrae, 2019c","Andrae, 2019c","Andrae, 2020a",23,2020,Paper (Journal),2019,"SS, StS, NtS, IS",EL,4,,"Avgerinou, Bertoldi & Castellazzi, 2017",IS,2020,Paper (Journal) ,,2018
+"Andrae, 2019d","Andrae, 2019d","Andrae, 2020a",23,2020,Paper (Journal) ,2019,"MS, SS, StS, NtS, IS",EL,5,,IDC,MS,Various,Data with source,,2007
+"Andrae, 2019e","Andrae, 2019e","Montevecchi et al., 2020",8,2020,Presentation,2019,"SS, StS, NtS, IS",EL,4,,IDC/EITO,MS,2015,Data without source,,2007
+"Andrae, 2020a","Andrae, 2020a","Andrae, 2020b",21,2020,Paper (Journal) ,2020,NtS,EL,1,,"Barroso et al., 2013",SS,2016,Report,,2008
+"Arnclan Computer Services, 2011","Arnclan Computer Services, 2011","Liua et al., 2014",23,2014,Report,2011,SS,BL,1,,"Bashroush, 2018",SS,2019,Paper (Journal) ,,2012
+"ASHRAE, 2015","ASHRAE, 2015","Shehabi et al., 2016",691,2016,Report,2015,StS,EL,1,,"Battles et al., 2007",StS,2011,Report,,1982
+"ASHRAE, 2015","ASHRAE, 2015","Shehabi et al., 2018",68,2018,Report,2015,StS,EL,1,,BCG,"SS, IS",2012,Data without source,,2015
+"Aslan et al., 2018","Aslan et al., 2018","Koot & Wijnhoven, 2021",19,2021,Paper (Journal) ,2018,NtS,EL,1,,"Belady & Malone, 2007",IS,2008,Paper (Conference),,2010
+ATandT,ATandT,"GeSI & BCG, 2012",71,2012,Data without source,n/a,"SS, IS",NS,2,,"Belady et al., 2008",IS,2011,Report,,2014
+"Avgerinou, Bertoldi & Castellazzi, 2017","Avgerinou, Bertoldi & Castellazzi, 2017","Masanet et al., 2020",265,2020,Paper (Journal) ,2017,IS,EL,1,,"Bennett & Delforge, 2012",IS,2014,Report,,2007
+"Avgerinou, Bertoldi & Castellazzi, 2017","Avgerinou, Bertoldi & Castellazzi, 2017","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2017,"SS, StS, NtS, IS",EL,4,,"Bennett, 1982",SS,2019,Paper (Journal) ,,2008
+"Avgerinou, Bertoldi & Castellazzi, 2017","Avgerinou, Bertoldi & Castellazzi, 2017","Liu et al., 2020",24,2020,Paper (Journal) ,2017,IS,EL,1,,"Bio by Deloitte, 2015","SS, StS, NtS, IS",2020,Report,,2011
+IDC,"Bailey et al., 2007 (IDC)","Koomey, 2008",581,2008,Report,2007,MS,PC,1,,"Bozman & Broderick, 2010",SS,2014,Report,,2013
+IDC,"Bailey et al., 2007 (IDC)","Koomey, 2011",1627,2011,Report,2007,MS,PC,1,,"BroadGroup, 2014","MS, SS, StS, NtS, IS",2017,Data without source,,2019
+IDC,"Bailey et al., 2007 (IDC)","Masanet et al., 2011",105,2011,Report,2007,MS,PC,1,,"Brown et al., 2007","MS, SS, StS, NtS, IS",2008,Report,,2015
+IDC,"Bailey et al., 2007 (IDC)","Shehabi et al., 2016",691,2016,Report,2007,MS,PC,1,,"Brown et al., 2008",IS,2011,Report,,2016
+IDC,"Cohen et al., 2007 (IDC)","Koomey, 2007a",762,2007,"Report (Draft), Data with source",2007,MS,PC,1,,"Carbon Disclosure Project, 2011",IS,2012,Report,,2013
+IDC,IDC,"Brown et al., 2007",519,2007,Data with source,n/a,MS,PC,1,,CBRE,EL,Report,n/a,,2012
+IDC,IDC,"Koomey, 2007b",38,2007,Personal Communications,n/a,IS,PC,1,,"CEET, 2013",NtS,2013,Report,,2013
+IDC,IDC,"Koomey, 2008",581,2008,Data with source,n/a,MS,PC,1,,"CESI, 2019",MS,2019,Report,,2007
+IDC,IDC,"Malmodin et al., 2010",277,2010,Report,2006,MS,PC,1,,"Chen et al., 2015",SS,2018,Paper (Journal) ,,2007
+IDC,IDC,"Koomey, 2011",1627,2011,Personal Communications,n/a,MS,PC,1,,"China Cooling Association, 2016","MS, SS, StS, NtS, IS",2019,Report,,2020
+IDC,IDC,"Masanet et al., 2011",105,2011,Data with source,n/a,MS,PC,1,,Cisco,"MS, NtS",2012,Data without source,,2011
+IDC,IDC,"Liua et al., 2014",23,2014,Data without source,n/a,MS,PC,1,,"Corcoran & Andrae, 2013","SS, StS, IS",2015,Report,,2012
+IDC,IDC,"Bio by Deloitte, 2015",0,2015,Data without source,n/a,MS,PC,1,,"Corcoran, 2012","MS, SS, StS, NtS, IS",2013,Paper (Magazine),,2014
+IDC,IDC,"Hintemann & Clausen, 2016",26,2016,Data without source,n/a,MS,PC,1,,"Coroama et al., 2013",NtS,2013,Paper (Journal) ,,2019
+IDC,IDC,"Shehabi et al., 2016",691,2016,Data with source,n/a,MS,PC,1,,"Cucchietti et al., 2007",NtS,2013,Paper (Conference),,2009
+IDC,IDC,"Malmodin & Lunden, 2018a",144,2018,Data with source,n/a,MS,PC,1,,"Dagher, Marcellin & Neifeld, 2007","SS, StS, NtS, IS",2020,Paper (Journal),,2009
+IDC,IDC,"Shehabi et al., 2018",68,2018,"Data with source, Personal Communications",n/a,MS,PC,1,,"Daly et al., 2020",MS,2020,Paper (Magazine),,2010
+IDC,IDC,"The Shift Project, 2019",28,2019,Data without source,n/a,MS,PC,1,,"DCD, 2011",MS,2014,Report,,2018
+IDC,"IDC, 2012","Van Heddeghem et al., 2014",541,2014,Data without source,2012,MS,EL,1,,"DCD, 2012",MS,2014,Report,,2014
+IDC,"IDC, 2013","Van Heddeghem et al., 2014",541,2014,Data without source,2013,MS,EL,1,,"DCD, 2013a",MS,2015,Report,,2019
+IDC,"IDC, 2014","Shehabi et al., 2016",691,2016,Data with source,2014,MS,PC,1,,"DCD, 2013b",MS,2015,Report,,2005
+IDC,"IDC, 2015","Shehabi et al., 2016",691,2016,Report,2015,MS,PC,1,,"Dietrich, 2014",SS,2016,Presentation,,2017
+IDC,"IDC, 2015","Shehabi et al., 2018",68,2018,Data with source,2015,MS,PC,1,,"Digiconomist, 2019","SS, StS, NtS, IS",2020,Report,,2020
+IDC,"IDC, 2018","Hintemann & Hinterholzer, 2019",26,2019,Data with source,2018,MS,PC,1,,"Donovan, 2009",NtS,2010,Report,,2012
+IDC,"IDC, 2018","Hintemann, 2020",2,2020,Data with source,2018,MS,PC,1,,"Energy Star, 2009",SS,2011,Specification Document,,2012
+IDC/EITO,IDC/EITO,"Hintemann, 2015a",0,2015,Data without source,n/a,MS,NS,1,,"Energy Star, 2010",IS,2014,Specification Document,,2019
+IDC/EITO,IDC/EITO,"Hintemann & Hinterholzer, 2019",26,2019,Data without source,n/a,MS,NS,1,,"Ericsson, 2018",MS,2019,Report,,2006
+IDC/EITO,IDC/EITO,"Hintemann, 2020",2,2020,Data without source,n/a,MS,NS,1,,"Experton, 2011",MS,2015,Report,,2019
+IDC/EITO,IDC/EITO,"Montevecchi et al., 2020",8,2020,Data without source,n/a,MS,NS,1,,"Fichter & Hintemann, 2014","SS, StS, NtS, IS",2019,Paper (Journal) ,,2015
+IDC,"Reinsel et al., 2018 (IDC)","Masanet et al., 2020",265,2020,Report,2018,"MS, StS",EL,2,,"FIRI, 2019",MS,2019,Report,,2011
+IDC,"Villars, 2014 (IDC)","Shehabi et al., 2016",691,2016,Report,2014,MS,PC,1,,"Frank, 2005",SS,2019,Paper (Conference),,2016
+"Barroso et al., 2013","Barroso et al., 2013","Shehabi et al., 2016",691,2016,Report,2013,SS,EL,1,,"Fuchs et al., 2017",SS,2018,Report,,2019
+"Barroso et al., 2013","Barroso et al., 2013","Koot & Wijnhoven, 2021",19,2021,Report,2013,IS,EL,1,,"Fuchs et al., 2020",SS,2020,Paper (Journal) ,,2014
+"Bashroush, 2018","Bashroush, 2018","Andrae, 2019b",2,2019,Paper (Journal) ,2018,SS,EL,1,,"Garnier, 2012","SS, StS, NtS",2016,Presentation,,2016
+"Battles et al., 2007","Battles et al., 2007","Masanet et al., 2011",105,2011,Report,2007,StS,EL,1,,Gartner,MS,Various,Data without source,,2015
+BCG,BCG,"GeSI & BCG, 2012",71,2012,Data without source,n/a,"SS, IS",NS,2,,"GeSI & BCG, 2012",MS,2014,Report,,2015
+"Belady & Malone, 2007","Belady & Malone, 2007","Koomey, 2008",581,2008,Paper (Conference),2007,IS,EL,1,,Google,IS,2012,Data without source,,2016
+"Belady et al., 2008","Belady et al., 2008","Masanet et al., 2011",105,2011,Report,2008,IS,EL,1,,"Google, 2019",IS,2020,Report,,2018
+"Bennett & Delforge, 2012","Bennett & Delforge, 2012","Whitney & Delforge, 2014",259,2014,Report,2012,IS,EL,1,,"Greenberg et al., 2006",IS,2007,Report,,2015
+"Bennett, 1982","Bennett, 1982","Andrae, 2019c",19,2019,Paper (Journal) ,1982,SS,EL,1,,"Greenpeace & NCEPU, 2019",MS,2020,Report,,2008
+"Bio by Deloitte, 2015","Bio by Deloitte, 2015","Montevecchi et al., 2020",8,2020,Report,2015,"SS, StS, NtS, IS",EL,4,,"Hachman, 2015","SS, StS, NtS",2015,News Piece,,2017
+"Bozman & Broderick, 2010","Bozman & Broderick, 2010","Liua et al., 2014",23,2014,Report,2010,SS,EL,1,,"Hilbert & Lopez, 2011",MS,2019,Paper (Journal) ,,2019
+"BroadGroup, 2014","BroadGroup, 2014","Bertoldi, Avgerinou & Castellazzi, 2017",18,2017,Data without source,2014,"MS, SS, StS, NtS, IS",NS,5,,"Hintemann & Clausen, 2016","SS, StS, NtS, IS",2019,Paper (Conference),,2017
+"Brown et al., 2007","Brown et al., 2007","Bio Intelligence Service, 2008",11,2008,Report,2007,"MS, SS, StS, NtS, IS",EL,5,,"Hintemann & Hinterholzer, 2019","MS, SS, StS, NtS, IS",2020,Paper (Conference),,2011
+"Brown et al., 2007","Brown et al., 2007","Koomey, 2008",581,2008,Report,2007,"MS, StS, NtS",EL,3,,"Hintemann et al., 2014","MS, SS, StS, NtS, IS",2015,Primary Data Collection (Survey),,2019
+"Brown et al., 2007","Brown et al., 2007","Somavat, Jadhav & Namboodiri, 2010",57,2010,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hintemann et al., 2016","SS, StS, NtS, IS",2019,Paper (Conference),,2018
+"Brown et al., 2007","Brown et al., 2007","Malmodin et al., 2010",277,2010,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hintemann, 2015","MS, SS, StS, NtS, IS",2019,Paper (Journal) ,,2011
+"Brown et al., 2007","Brown et al., 2007","Koomey, 2011",1627,2011,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hintemann, 2015b","MS, SS, StS, NtS, IS",2015,Primary Data Collection (Survey),,2015
+"Brown et al., 2007","Brown et al., 2007","Masanet et al., 2011",105,2011,Report,2007,"SS, StS, NtS, IS",EL,4,,"Hoefflinger, 2016",SS,2019,Book Chapter,,2008
+"Brown et al., 2007","Brown et al., 2007","Whitney & Delforge, 2014",259,2014,Report,2007,MS,EL,1,,"Howard-Healy, 2013",MS,2015,Report,,2011
+"Brown et al., 2007","Brown et al., 2007","Shehabi et al., 2016",691,2016,Report,2007,"SS, NtS",EL,2,,"Howard-Healy, 2018",MS,2019,Presentation,,2015
+"Brown et al., 2007","Brown et al., 2007","Shehabi et al., 2018",68,2018,Report,2007,"SS, NtS",EL,2,,"Huang et al., 2015",StS,2016,Report,,2012
+"Brown et al., 2008","Brown et al., 2008","Masanet et al., 2011",105,2011,Report,2008,IS,EL,1,,"Hylick et al., 2008",StS,2016,Paper (Conference),,1988
+"Carbon Disclosure Project, 2011","Carbon Disclosure Project, 2011","GeSI & BCG, 2012",71,2012,Report,2011,IS,EL,1,,"IEA, 2017","SS, StS, NtS, IS",2018,Report,,2012
+CBRE,"CBRE, 2017","Hintemann & Hinterholzer, 2019",26,2019,Report,2017,MS,EL,1,,"IEA, 2019","SS, StS, NtS, IS",2020,Data with source,,2011
+CBRE,"CBRE, 2017","Hintemann, 2020",2,2020,Report,2017,MS,EL,1,,IHS,MS,2016,Data without source,,2013
+CBRE,"CBRE, 2017","Montevecchi et al., 2020",8,2020,Report,2017,MS,EL,1,,Industry Comment,NtS,2016,Data without source,,2013
+CBRE,"CBRE, 2018","Hintemann & Hinterholzer, 2019",26,2019,Report,2018,MS,EL,1,,"Ionescu, 2017",SS,2019,Paper (Conference),,2018
+CBRE,"CBRE, 2018","Hintemann, 2020",2,2020,Report,2018,MS,EL,1,,"Kaskade, 2011",MS,2014,Blog Post,,2018
+CBRE,"CBRE, 2018","Montevecchi et al., 2020",8,2020,Report,2018,MS,EL,1,,"Kezhi Consulting, 2019",MS,2019,Report,,2010
+CBRE,"CBRE, 2020","Hintemann, 2020",2,2020,Report,2020,MS,EL,1,,"Kief & Victora, 2018",MS,2020,Paper (Journal) ,,2013
+"CEET, 2013","CEET, 2013","Corcoran & Andrae, 2013",67,2013,Report,2013,NtS,EL,1,,Koomey 2011,"MS, SS, StS, NtS, IS",2012,Report,,2014
+"CESI, 2019","CESI, 2019","Greenpeace & NCEPU, 2019",0,2019,Report,2019,MS,NF,1,,"Koomey & Taylor, 2015","SS, StS, NtS, IS",2020,Report,,2006
+"Chen et al., 2015","Chen et al., 2015","Shehabi et al., 2018",68,2018,Paper (Journal) ,2015,SS,EL,1,,"Koomey, 2007",EL,Report,n/a,,2011
+"China Cooling Association, 2016","China Cooling Association, 2016","Greenpeace & NCEPU, 2019",0,2019,Report,2016,"MS, SS, StS, NtS, IS",NF,5,,"Koomey, 2008","MS, SS, StS, NtS, IS",2011,Paper (Journal) ,,2020
+Cisco,Cisco,"GeSI & BCG, 2012",71,2012,Data without source,n/a,"MS, NtS",NS,2,,"Koomey, 2011","MS, SS, StS, NtS, IS",2013,Report,,2020
+Cisco,Cisco,"Corcoran & Andrae, 2013",67,2013,Data with source,n/a,MS,NS,1,,"Kuckelhaus et al., 2015",MS,2021,Report,,2009
+Cisco,Cisco,"Andrae, 2020b",21,2020,Data with source,2012,MS,NS,1,,"Lambert et al., 2012",NtS,2013,Paper (Journal) ,,2018
+Cisco,"Cisco, 2011","Masanet et al., 2020",265,2020,Report,2011,MS,BL,1,,"Landauer, 1988",SS,2019,Paper (Journal) ,,2012
+Cisco,"Cisco, 2012","Masanet et al., 2020",265,2020,Report,2012,MS,BL,1,,"Lanzisera et al., 2012",NtS,2016,Paper (Journal) ,,2008
+Cisco,"Cisco, 2013","Andrae & Edler, 2015",659,2015,Report,2013,MS,EL,1,,"Lorenz, 2011",MS,2014,Blog Post,,2019
+Cisco,"Cisco, 2013","Masanet et al., 2020",265,2020,Report,2013,MS,EL,1,,"Lunden & Malmodin, 2013","MS, SS, StS, NtS, IS",2016,Paper (Conference),,2019
+Cisco,"Cisco, 2013","Liu et al., 2020",24,2020,Data with source,2013,MS,EL,1,,"Malmodin & Lunden, 2016","MS, SS, StS, NtS, IS",2018,Paper (Conference),,2010
+Cisco,"Cisco, 2013","Koot & Wijnhoven, 2021",19,2021,Data with source,2013,MS,EL,1,,"Malmodin & Lunden, 2018",MS,2020,Paper (Journal) ,,2015
+Cisco,"Cisco, 2013","Koot & Wijnhoven, 2021",19,2021,Data with source,2013,SS,EL,1,,"Malmodin & Lunden, 2018b",NtS,2018,Report,,2009
+Cisco,"Cisco, 2013","Koot & Wijnhoven, 2021",19,2021,Data with source,2013,StS,EL,1,,"Malmodin et al., 2010","SS, StS, NtS, IS",2012,Paper (Journal) ,,2020
+Cisco,"Cisco, 2013","Koot & Wijnhoven, 2021",19,2021,Data with source,2013,NtS,EL,1,,"Malmodin et al., 2013",MS,2018,Paper (Conference),,2011
+Cisco,"Cisco, 2014","Masanet et al., 2020",265,2020,Report,2014,MS,BL,1,,"Malmodin et al., 2014","MS, SS, StS, NtS, IS",2016,Paper (Journal) ,,2016
+Cisco,"Cisco, 2015","Hintemann & Clausen, 2016",26,2016,Report,n/a,MS,BL,1,,"Malone & Belady, 2006",IS,2007,Paper (Journal) (Conference),,2018
+Cisco,"Cisco, 2015","Hintemann & Hinterholzer, 2019",26,2019,Data with source,2015,MS,BL,1,,Manufacturing Data,SS,2007,Data without source,,2011
+Cisco,"Cisco, 2015","The Shift Project, 2019",28,2019,Data with source,2015,MS,BL,1,,"Masanet et al., 2011",MS,2014,Paper (Journal) ,,2012
+Cisco,"Cisco, 2015","Hintemann, 2020",2,2020,Data with source,2015,MS,BL,1,,"Masanet et al., 2020",MS,2020,Paper (Journal) ,,2021
+Cisco,"Cisco, 2015","Masanet et al., 2020",265,2020,Report,2015,MS,BL,1,,"Mitchell & York, 2020",SS,2020,Paper (Journal) ,,2017
+Cisco,"Cisco, 2015","Montevecchi et al., 2020",8,2020,Report,2015,MS,BL,1,,"NetApp, 2009",NtS,2014,Report,,2018
+Cisco,"Cisco, 2016","IEA, 2017",15,2017,Data with source,2016,MS,NF,1,,"NL Times, 2018",MS,2021,Report,,2009
+Cisco,"Cisco, 2016","Hintemann & Hinterholzer, 2019",26,2019,Data with source,2016,MS,NF,1,,"NRDC & WSP, 2012",MS,2016,Report,,2019
+Cisco,"Cisco, 2016","The Shift Project, 2019",28,2019,Data with source,2016,MS,NF,1,,Personal Communication,"SS, StS, NtS",2011,Personal Communications,,2014
+Cisco,"Cisco, 2016","Hintemann, 2020",2,2020,Data with source,2016,MS,NF,1,,"Pickavet et al., 2008","MS, SS, StS, NtS, IS",2010,Paper (Conference),,2015
+Cisco,"Cisco, 2016","Masanet et al., 2020",265,2020,Report,2016,MS,NF,1,,"Porod, 2019",SS,2019,Book Chapter,,2012
+Cisco,"Cisco, 2016","Masanet et al., 2020",265,2020,Report,2016,SS,NF,1,,PTS,MS,2010,Data with source,,2008
+Cisco,"Cisco, 2016","Masanet et al., 2020",265,2020,Report,2016,StS,NF,1,,"Rauchs et al., 2019","SS, StS, NtS, IS",2020,Report,,2019
+Cisco,"Cisco, 2016","Montevecchi et al., 2020",8,2020,Report,2016,MS,NF,1,,"Reinsel, 2010",StS,2016,Report,,2017
+Cisco,"Cisco, 2016","Liu et al., 2020",24,2020,Data with source,2016,MS,NF,1,,"SCB, 2015",MS,2016,Data without source,,2012
+Cisco,"Cisco, 2017","The Shift Project, 2019",28,2019,Data with source,2017,MS,BL,1,,"Schappi et al., 2009","MS, SS",2014,Report,,2012
+Cisco,"Cisco, 2018","The Shift Project, 2019",28,2019,Data with source,2018,MS,BL,1,,"Shalf, 2020",SS,2021,Paper (Journal) ,,2011
+Cisco,"Cisco, 2018","Masanet et al., 2020",265,2020,Report,2018,MS,BL,1,,"Shehabi et al., 2011",IS,2016,Paper (Journal) ,,2014
+Cisco,"Cisco, 2018","Masanet et al., 2020",265,2020,Report,2018,SS,BL,1,,"Shehabi et al., 2016","SS, StS, NtS, IS",2017,Report,,2010
+Cisco,"Cisco, 2018","Masanet et al., 2020",265,2020,Report,2018,StS,BL,1,,"Shehabi et al., 2018","SS, StS, NtS, IS",2020,Paper (Journal) ,,2007
+Cisco,"Cisco, 2020","Koot & Wijnhoven, 2021",19,2021,Report,2020,MS,EL,1,,"SNIA, 2011",StS,2014,Report,,2014
+"Corcoran & Andrae, 2013","Corcoran & Andrae, 2013","Andrae & Edler, 2015",659,2015,Report,2013,"SS, StS, IS",EL,3,,SPEC,SS,2014,Data with source,,2020
+"Corcoran & Andrae, 2013","Corcoran & Andrae, 2013","Liu et al., 2020",24,2020,Report,2013,"SS, StS, NtS, IS",EL,4,,"Stansberry & Kudritzki, 2012","SS, IS",2014,Report,,
+"Corcoran, 2012","Corcoran, 2012","Corcoran & Andrae, 2013",67,2013,Paper (Magazine),2012,"MS, SS, StS, NtS, IS",EL,5,,Statista,MS,2019,Data without source,,
+"Coroama et al., 2013","Coroama et al., 2013","Corcoran & Andrae, 2013",67,2013,Paper (Journal) ,2013,NtS,EL,1,,"Stobbe et al., 2021",NtS,2020,Book Chapter,,
+"Cucchietti et al., 2007","Cucchietti et al., 2007","Corcoran & Andrae, 2013",67,2013,Paper (Conference),2007,NtS,EL,1,,"Summers, 2017",SS,2019,Presentation,,
+"Dagher, Marcellin & Neifeld, 2007","Dagher, Marcellin & Neifeld, 2007","Liu et al., 2020",24,2020,Paper (Journal),2007,"SS, StS, NtS, IS",EL,4,,"Summers, 2018",SS,2019,Presentation,,
+"Daly et al., 2020","Daly et al., 2020","Masanet et al., 2020",265,2020,Paper (Magazine),2020,MS,EL,1,,Survey,"MS, SS, StS, NtS, IS",2010,Primary Data Collection (Survey),,
+"DCD, 2011","DCD, 2011","Whitehead et al., 2014",113,2014,Report,2011,MS,BL,1,,"Swedish Energy Agency, 2009","SS, StS, NtS, IS",2016,Data with source,,
+"DCD, 2012","DCD, 2012","Whitehead et al., 2014",113,2014,Report,2012,MS,NF,1,,"Synergy Research Group, 2019",MS,2019,Report,,
+"DCD, 2013a","DCD, 2013a","Hintemann, 2015b",14,2015,Report,n/a,MS,NF,1,,Techconsult,MS,2015,Data without source,,
+"DCD, 2013b","DCD, 2013b","Hintemann, 2015b",14,2015,Report,n/a,MS,NF,1,,"Technavio, 2014",MS,2018,Data with source,,
+"Dietrich, 2014","Dietrich, 2014","Shehabi et al., 2016",691,2016,Presentation,2014,SS,EL,1,,"Technavio, 2015",MS,2018,Data with source,,
+"Dietrich, 2014","Dietrich, 2014","Shehabi et al., 2018",68,2018,Presentation,2014,SS,EL,1,,Telecom Italia,NtS,2013,Data with source,,
+"Digiconomist, 2019","Digiconomist, 2019","Montevecchi et al., 2020",8,2020,Report,2019,"SS, StS, NtS, IS",EL,4,,"Telecom Italia, 2012",NtS,2013,Report,,
+"Donovan, 2009","Donovan, 2009","Malmodin et al., 2014",84,2010,Report,2009,NtS,EL,1,,"TeliaSonera, 2008",MS,2010,Report,,
+"Energy Star, 2009","Energy Star, 2009","Masanet et al., 2011",105,2011,Specification Document,2009,SS,EL,1,,"The Shift Project, 2019","SS, StS, NtS, IS",2020,Report,,
+"Energy Star, 2010","Energy Star, 2010","Van Heddeghem et al., 2014",541,2014,Specification Document,2010,IS,BL,1,,"The Zettabyte Era, 2017",MS,2019,Report,,
+"Ericsson, 2018","Ericsson, 2018","Andrae, 2019a",12,2019,Report,2018,MS,EL,1,,"Time Magazine, 2012","SS, StS, IS",2015,News Piece,,
+"Experton, 2011","Experton, 2011","Hintemann, 2015b",14,2015,Report,n/a,MS,BL,1,,"Tucker et al., 2012","SS, StS, IS",2015,Paper (Conference),,
+"Fichter & Hintemann, 2014","Fichter & Hintemann, 2014","Hintemann & Hinterholzer, 2019",26,2019,Paper (Journal) ,2014,"SS, StS, NtS, IS",EL,4,,Expert Interviews,"SS, NtS",2007,Personal Communications,,
+"Fichter & Hintemann, 2014","Fichter & Hintemann, 2014","Hintemann, 2020",2,2020,Paper (Journal) ,2014,"SS, StS, NtS, IS",EL,4,,"Uptime institute, 2011",IS,2014,Report,,
+"Fichter & Hintemann, 2014","Fichter & Hintemann, 2014","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2014,"MS, SS, StS, NtS, IS",EL,5,,US EPA,IS,2007,Report (Draft),,
+"FIRI, 2019","FIRI, 2019","Greenpeace & NCEPU, 2019",0,2019,Report,2019,MS,EL,1,,"Van Heddeghem et al., 2014",NtS,2016,Paper (Journal) ,,
+"Frank, 2005","Frank, 2005","Andrae, 2019c",19,2019,Paper (Conference),2005,SS,EL,1,,"Vereecken et al., 2010b","SS, StS, NtS, IS",2018,Paper (Journal),,
+"Fuchs et al., 2017","Fuchs et al., 2017","Malmodin & Lunden, 2018a",144,2018,Report,2017,SS,EL,1,,"Verizon Communications, 2010",NtS,2013,Report,,
+"Fuchs et al., 2020","Fuchs et al., 2020","Masanet et al., 2020",265,2020,Paper (Journal) ,2020,SS,EL,1,,"Xu, 2014","MS, SS",2019,Paper (Journal) ,,
+"Garnier, 2012","Garnier, 2012","Shehabi et al., 2016",691,2016,Presentation,2012,"SS, StS, NtS",EL,3,,"Zhang et al., 2020",NtS,2020,Paper (Journal) ,,
+Gartner,Gartner,"Hintemann & Clausen, 2016",26,2016,Data without source,n/a,MS,NS,1,,,,,,,
+Gartner,Gartner,"The Shift Project, 2019",28,2019,Data without source,n/a,MS,NS,1,,,,,,,
+Gartner,"Gartner, 2007","Somavat, Jadhav & Namboodiri, 2010",57,2010,Report,2007,MS,BL,1,,,,,,,
+Gartner,"Gartner, 2020","Hintemann, 2020",2,2020,Data with source,2020,MS,EL,1,,,,,,,
+"GeSI & BCG, 2012","GeSI & BCG, 2012","Whitney & Delforge, 2014",259,2014,Report,2012,MS,EL,1,,,,,,,
+Google,Google,"GeSI & BCG, 2012",71,2012,Data without source,n/a,IS,NS,1,,,,,,,
+"Google, 2019","Google, 2019","Masanet et al., 2020",265,2020,Report,2019,IS,EL,1,,,,,,,
+"Greenberg et al., 2006","Greenberg et al., 2006","Koomey, 2007a",762,2007,Report,2006,IS,EL,1,,,,,,,
+"Greenberg et al., 2006","Greenberg et al., 2006","Koomey, 2008",581,2008,Report,2006,IS,EL,1,,,,,,,
+"Greenberg et al., 2006","Greenberg et al., 2006","Masanet et al., 2011",105,2011,Report,2006,IS,EL,1,,,,,,,
+"Greenpeace & NCEPU, 2019","Greenpeace & NCEPU, 2019","Andrae, 2020a",23,2020,Report,2019,MS,EL,1,,,,,,,
+"Hachman, 2015","Hachman, 2015","Andrae & Edler, 2015",659,2015,News Piece,2015,"SS, StS, NtS",EL,3,,,,,,,
+"Hachman, 2015","Hachman, 2015","Liu et al., 2020",24,2020,News Piece,2015,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Hilbert & Lopez, 2011","Hilbert & Lopez, 2011","Andrae, 2019b",2,2019,Paper (Journal) ,2011,MS,EL,1,,,,,,,
+"Hintemann & Clausen, 2016","Hintemann & Clausen, 2016","Hintemann & Hinterholzer, 2019",26,2019,Paper (Conference),2016,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Hintemann & Hinterholzer, 2019","Hintemann & Hinterholzer, 2019","Hintemann, 2020",2,2020,Paper (Conference),2019,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hintemann & Hinterholzer, 2019","Hintemann & Hinterholzer, 2019","Montevecchi et al., 2020",8,2020,Paper (Conference),2019,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hintemann et al., 2014","Hintemann et al., 2014","Hintemann, 2015a",0,2015,Primary Data Collection (Survey),2014,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hintemann et al., 2014","Hintemann et al., 2014","Hintemann & Hinterholzer, 2019",26,2019,Paper (Conference),2014,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hintemann et al., 2014","Hintemann et al., 2014","Hintemann, 2020",2,2020,Paper (Conference),2014,MS,EL,1,,,,,,,
+"Hintemann et al., 2014","Hintemann et al., 2014","Montevecchi et al., 2020",8,2020,Paper (Conference),2014,MS,EL,1,,,,,,,
+"Hintemann et al., 2016","Hintemann et al., 2016","Hintemann & Hinterholzer, 2019",26,2019,Paper (Conference),2016,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Hintemann, 2015","Hintemann, 2015","Hintemann & Hinterholzer, 2019",26,2019,Paper (Journal) ,2015,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hintemann, 2015","Hintemann, 2015","Hintemann, 2020",2,2020,Paper (Journal) ,2015,MS,EL,1,,,,,,,
+"Hintemann, 2015","Hintemann, 2015","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2015,MS,EL,1,,,,,,,
+"Hintemann, 2015b","Hintemann, 2015b","Hintemann, 2015a",0,2015,Primary Data Collection (Survey),2015,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hintemann, 2015b","Hintemann, 2015b","Hintemann, 2015b",14,2015,Primary Data Collection (Survey),2015,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Hoefflinger, 2016","Hoefflinger, 2016","Andrae, 2019c",19,2019,Book Chapter,2016,SS,EL,1,,,,,,,
+"Howard-Healy, 2013","Howard-Healy, 2013","Hintemann, 2015b",14,2015,Report,n/a,MS,BL,1,,,,,,,
+"Howard-Healy, 2018","Howard-Healy, 2018","Hintemann & Hinterholzer, 2019",26,2019,Presentation,2018,MS,NF,1,,,,,,,
+"Howard-Healy, 2018","Howard-Healy, 2018","Hintemann, 2020",2,2020,Report,2018,MS,NF,1,,,,,,,
+"Howard-Healy, 2018","Howard-Healy, 2018","Montevecchi et al., 2020",8,2020,Report,2018,MS,NF,1,,,,,,,
+"Huang et al., 2015","Huang et al., 2015","Shehabi et al., 2016",691,2016,Report,2015,StS,EL,1,,,,,,,
+"Hylick et al., 2008","Hylick et al., 2008","Shehabi et al., 2016",691,2016,Paper (Conference),2008,StS,EL,1,,,,,,,
+"IEA, 2017","IEA, 2017","Malmodin & Lunden, 2018a",144,2018,Report,2017,"SS, StS, NtS, IS",EL,4,,,,,,,
+"IEA, 2019","IEA, 2019","Montevecchi et al., 2020",8,2020,Data with source,2019,"SS, StS, NtS, IS",EL,4,,,,,,,
+IHS,IHS,"Hintemann & Clausen, 2016",26,2016,Data without source,n/a,MS,NS,1,,,,,,,
+Industry Comment,Industry Comment,"Shehabi et al., 2016",691,2016,Data without source,n/a,NtS,PC,1,,,,,,,
+"Ionescu, 2017","Ionescu, 2017","Andrae, 2019b",2,2019,Paper (Conference),2017,SS,EL,1,,,,,,,
+"Kaskade, 2011","Kaskade, 2011","Liua et al., 2014",23,2014,Blog Post,2011,MS,EL,1,,,,,,,
+"Kezhi Consulting, 2019","Kezhi Consulting, 2019","Greenpeace & NCEPU, 2019",0,2019,Report,2019,MS,EL,1,,,,,,,
+"Kief & Victora, 2018","Kief & Victora, 2018","Masanet et al., 2020",265,2020,Paper (Journal) ,2018,MS,EL,1,,,,,,,
+Koomey 2011,Koomey 2011,"GeSI & BCG, 2012",71,2012,Report,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Koomey & Taylor, 2015","Koomey & Taylor, 2015","Montevecchi et al., 2020",8,2020,Report,2015,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Brown et al., 2007",519,2007,Report,2007,"SS, IS",EL,2,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Koomey, 2007b",38,2007,Report,2007,"MS, SS, IS",EL,3,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Bio Intelligence Service, 2008",11,2008,Report,2007,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Koomey, 2008",581,2008,Report,2007,SS,EL,1,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Somavat, Jadhav & Namboodiri, 2010",57,2010,Report,2007,MS,EL,1,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Malmodin et al., 2010",277,2010,Report,2007,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Koomey, 2007","Koomey, 2007a","Masanet et al., 2011",105,2011,Report,2007,"SS, NtS, IS",EL,3,,,,,,,
+"Koomey, 2007","Koomey, 2007b","Koomey, 2008",581,2008,Report,2007,SS,EL,1,,,,,,,
+"Koomey, 2007","Koomey, 2007b","Malmodin et al., 2010",277,2010,Report,2007,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Koomey, 2007","Koomey, 2007b","Masanet et al., 2011",105,2011,Report,2007,"SS, NtS, IS",EL,3,,,,,,,
+"Koomey, 2008","Koomey, 2008","Koomey, 2011",1627,2011,Paper (Journal) ,2008,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Koomey, 2008","Koomey, 2008","Masanet et al., 2011",105,2011,Paper (Journal) ,2008,"SS, NtS",EL,2,,,,,,,
+"Koomey, 2008","Koomey, 2008","Masanet et al., 2020",265,2020,Paper (Journal) ,2018,MS,EL,1,,,,,,,
+"Koomey, 2011","Koomey, 2011","Corcoran & Andrae, 2013",67,2013,Report,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Koomey, 2011","Koomey, 2011","Liua et al., 2014",23,2014,Report,2011,IS,EL,1,,,,,,,
+"Koomey, 2011","Koomey, 2011","Malmodin et al., 2014",84,2010,Report,2011,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Koomey, 2011","Koomey, 2011","Van Heddeghem et al., 2014",541,2014,Report,2011,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Koomey, 2011","Koomey, 2011","Whitehead et al., 2014",113,2014,Report,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Koomey, 2011","Koomey, 2011","Whitney & Delforge, 2014",259,2014,Report,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Koomey, 2011","Koomey, 2011","Shehabi et al., 2016",691,2016,Report,2011,"SS, StS",EL,2,,,,,,,
+"Koomey, 2011","Koomey, 2011","Malmodin & Lunden, 2018a",144,2018,Report,2011,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Kuckelhaus et al., 2015","Kuckelhaus et al., 2015","Koot & Wijnhoven, 2021",19,2021,Report,2015,MS,EL,1,,,,,,,
+"Lambert et al., 2012","Lambert et al., 2012","Corcoran & Andrae, 2013",67,2013,Paper (Journal) ,2012,NtS,EL,1,,,,,,,
+"Landauer, 1988","Landauer, 1988","Andrae, 2019c",19,2019,Paper (Journal) ,1988,SS,EL,1,,,,,,,
+"Lanzisera et al., 2012","Lanzisera et al., 2012","Shehabi et al., 2016",691,2016,Paper (Journal) ,2012,NtS,EL,1,,,,,,,
+"Lanzisera et al., 2012","Lanzisera et al., 2012","Shehabi et al., 2018",68,2018,Paper (Journal) ,2012,NtS,EL,1,,,,,,,
+"Lorenz, 2011","Lorenz, 2011","Whitney & Delforge, 2014",259,2014,Blog Post,2011,MS,BL,1,,,,,,,
+"Lunden & Malmodin, 2013","Lunden & Malmodin, 2013","Malmodin & Lunden, 2016",24,2016,Paper (Conference),2013,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Malmodin & Lunden, 2016","Malmodin & Lunden, 2016","Malmodin & Lunden, 2018a",144,2018,Paper (Conference),2013,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Malmodin & Lunden, 2018","Malmodin & Lunden, 2018","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2018,MS,EL,1,,,,,,,
+"Malmodin & Lunden, 2018b","Malmodin & Lunden, 2018b","Malmodin & Lunden, 2018a",144,2018,Report,2018,NtS,EL,1,,,,,,,
+"Malmodin et al., 2010","Malmodin et al., 2010","GeSI & BCG, 2012",71,2012,Paper (Journal) ,2010,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Malmodin et al., 2010","Malmodin et al., 2010","Malmodin & Lunden, 2018a",144,2018,Paper (Journal) ,2010,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin & Lunden, 2018a",144,2018,Paper (Conference),2013,MS,EL,1,,,,,,,
+"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin & Lunden, 2018a",144,2018,Paper (Conference),2013,SS,EL,1,,,,,,,
+"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin & Lunden, 2018a",144,2018,Paper (Conference),2013,StS,EL,1,,,,,,,
+"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin & Lunden, 2018a",144,2018,Paper (Conference),2013,NtS,EL,1,,,,,,,
+"Malmodin et al., 2013","Malmodin et al., 2013","Malmodin & Lunden, 2018a",144,2018,Paper (Conference),2013,IS,EL,1,,,,,,,
+"Malmodin et al., 2014","Malmodin et al., 2014","Malmodin & Lunden, 2016",24,2016,Paper (Journal) ,2014,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Malone & Belady, 2006","Malone & Belady, 2006","Koomey, 2007a",762,2007,Paper (Journal) (Conference),2006,IS,EL,1,,,,,,,
+Manufacturing Data,Manufacturing Data,"Koomey, 2007a",762,2007,Data without source,n/a,SS,NS,1,,,,,,,
+Manufacturing Data,Manufacturing Data,"Montevecchi et al., 2020",8,2020,Data without source,n/a,"SS, StS, NtS, IS",NS,4,,,,,,,
+"Masanet et al., 2011","Masanet et al., 2011","Whitehead et al., 2014",113,2014,Paper (Journal) ,2011,MS,EL,1,,,,,,,
+"Masanet et al., 2011","Masanet et al., 2011","Whitney & Delforge, 2014",259,2014,Paper (Journal) ,2011,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Masanet et al., 2011","Masanet et al., 2011","Shehabi et al., 2016",691,2016,Paper (Journal) ,2011,SS,EL,1,,,,,,,
+"Masanet et al., 2011","Masanet et al., 2011","Shehabi et al., 2018",68,2018,Paper (Conference),2011,MS,EL,1,,,,,,,
+"Masanet et al., 2020","Masanet et al., 2020","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2020,MS,EL,1,,,,,,,
+"Masanet et al., 2020","Masanet et al., 2020","Koot & Wijnhoven, 2021",19,2021,Paper (Journal) ,2020,"MS, SS, StS, NtS",EL,4,,,,,,,
+"Mitchell & York, 2020","Mitchell & York, 2020","Andrae, 2020a",23,2020,Paper (Journal) ,2020,SS,EL,1,,,,,,,
+"NetApp, 2009","NetApp, 2009","Liua et al., 2014",23,2014,Report,2009,NtS,BL,1,,,,,,,
+"NL Times, 2018","NL Times, 2018","Koot & Wijnhoven, 2021",19,2021,Report,2018,MS,EL,1,,,,,,,
+"NRDC & WSP, 2012","NRDC & WSP, 2012","Shehabi et al., 2016",691,2016,Report,2012,MS,EL,1,,,,,,,
+Personal Communication,Personal Communication,"Masanet et al., 2011",105,2011,Personal Communications,n/a,"SS, StS, NtS",PC,3,,,,,,,
+Personal Communication,Personal Communication,"Shehabi et al., 2016",691,2016,Personal Communications,n/a,MS,PC,1,,,,,,,
+"Pickavet et al., 2008","Pickavet et al., 2008","Vereecken et al., 2010a",171,2010,Paper (Conference),2008,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Pickavet et al., 2008","Pickavet et al., 2008","Corcoran & Andrae, 2013",67,2010,Paper (Conference),2008,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Porod, 2019","Porod, 2019","Andrae, 2019c",19,2019,Book Chapter,2019,SS,EL,1,,,,,,,
+PTS,PTS,"Malmodin et al., 2014",84,2010,Data with source,n/a,MS,BL,1,,,,,,,
+PTS,"PTS, 2015","Malmodin & Lunden, 2016",24,2016,Data with source,2015,MS,BL,1,,,,,,,
+"Rauchs et al., 2019","Rauchs et al., 2019","Montevecchi et al., 2020",8,2020,Report,2019,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Reinsel, 2010","Reinsel, 2010","Shehabi et al., 2016",691,2016,Report,2010,StS,PC,1,,,,,,,
+"Reinsel, 2010","Reinsel, 2010","Shehabi et al., 2018",68,2018,Report,2010,StS,PC,1,,,,,,,
+"SCB, 2015","SCB, 2015","Malmodin & Lunden, 2016",24,2016,Data without source,2015,MS,NS,1,,,,,,,
+"Schappi et al., 2009","Schappi et al., 2009","Liua et al., 2014",23,2014,Report,2009,"MS, SS",NF,2,,,,,,,
+"Shalf, 2020","Shalf, 2020","Koot & Wijnhoven, 2021",19,2021,Paper (Journal) ,2020,SS,EL,1,,,,,,,
+"Shehabi et al., 2011","Shehabi et al., 2011","Shehabi et al., 2016",691,2016,Paper (Journal) ,2011,IS,EL,1,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","IEA, 2017",15,2017,Report,2016,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","Malmodin & Lunden, 2018a",144,2018,Report,2016,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","Shehabi et al., 2018",68,2018,Report,2016,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","The Shift Project, 2019",28,2019,Report,2016,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","Masanet et al., 2020",265,2020,Report,2016,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","Montevecchi et al., 2020",8,2020,Report,2016,"MS, SS, StS, NtS, IS",EL,5,,,,,,,
+"Shehabi et al., 2016","Shehabi et al., 2016","Koot & Wijnhoven, 2021",19,2021,Report,2016,"StS, NtS",EL,2,,,,,,,
+"Shehabi et al., 2018","Shehabi et al., 2018","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2018,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Shehabi et al., 2018","Shehabi et al., 2018","Koot & Wijnhoven, 2021",19,2021,Paper (Journal) ,2018,"SS, StS, NtS",EL,3,,,,,,,
+"SNIA, 2011","SNIA, 2011","Liua et al., 2014",23,2014,Report,2011,StS,EL,1,,,,,,,
+SPEC,SPEC,"Liua et al., 2014",23,2014,Data with source,n/a,SS,EL,1,,,,,,,
+SPEC,SPEC,"Whitney & Delforge, 2014",259,2014,Data with source,n/a,SS,EL,1,,,,,,,
+SPEC,SPEC,"Shehabi et al., 2016",691,2016,Data with source,n/a,SS,EL,1,,,,,,,
+SPEC,SPEC,"Shehabi et al., 2018",68,2018,Data with source,n/a,SS,EL,1,,,,,,,
+"Stansberry & Kudritzki, 2012","Stansberry & Kudritzki, 2012","Liua et al., 2014",23,2014,Report,2012,"SS, IS",EL,2,,,,,,,
+Statista,Statista,"The Shift Project, 2019",28,2019,Data without source,n/a,MS,NS,1,,,,,,,
+"Stobbe et al., 2021","Stobbe et al., 2021","Andrae, 2020a",23,2020,Book Chapter,2021,NtS,EL,1,,,,,,,
+"Summers, 2017","Summers, 2017","Andrae, 2019c",19,2019,Presentation,2017,SS,NF,1,,,,,,,
+"Summers, 2018","Summers, 2018","Andrae, 2019b",2,2019,Presentation,2018,SS,NF,1,,,,,,,
+"Summers, 2018","Summers, 2018","Andrae, 2019c",19,2019,Presentation,2018,SS,NF,1,,,,,,,
+Survey,Survey,"Bertoldi, 2010",5,2010,Primary Data Collection (Survey),n/a,"MS, SS, StS, NtS, IS",NS,5,,,,,,,
+Survey,Survey,"Shehabi et al., 2016",691,2016,Primary Data Collection (Survey),n/a,NtS,NS,1,,,,,,,
+Survey,Survey,"Avgerinou, Bertoldi & Castellazzi, 2017",232,2017,Primary Data Collection (Survey),2017,"MS, SS, StS, NtS, IS",NS,5,,,,,,,
+"Swedish Energy Agency, 2009","Swedish Energy Agency, 2009","Malmodin & Lunden, 2016",24,2016,Data with source,2009,"SS, StS, NtS, IS",NF,4,,,,,,,
+"Synergy Research Group, 2019","Synergy Research Group, 2019","Greenpeace & NCEPU, 2019",0,2019,Report,2019,MS,EL,1,,,,,,,
+"Synergy Research Group, 2019","Synergy Research Group, 2019","Masanet et al., 2020",265,2020,Data with source,2019,"MS, SS",EL,2,,,,,,,
+Techconsult,Techconsult,"Hintemann, 2015a",0,2015,Data without source,n/a,MS,BL,1,,,,,,,
+Techconsult,Techconsult,"Hintemann, 2015b",14,2015,Data without source,n/a,MS,BL,1,,,,,,,
+Techconsult,Techconsult,"Hintemann & Hinterholzer, 2019",26,2019,Data without source,n/a,MS,BL,1,,,,,,,
+Techconsult,Techconsult,"Hintemann, 2020",2,2020,Data without source,n/a,MS,BL,1,,,,,,,
+Techconsult,Techconsult,"Montevecchi et al., 2020",8,2020,Data without source,n/a,MS,BL,1,,,,,,,
+"Technavio, 2014","Technavio, 2014","Belkhir & Elmeligi, 2018",352,2018,Data with source,2014,MS,BL,1,,,,,,,
+"Technavio, 2015","Technavio, 2015","Belkhir & Elmeligi, 2018",352,2018,Data with source,2015,MS,BL,1,,,,,,,
+Telecom Italia,Telecom Italia,"Corcoran & Andrae, 2013",67,2013,Data with source,n/a,NtS,NF,1,,,,,,,
+"Telecom Italia, 2012","Telecom Italia, 2012","Corcoran & Andrae, 2013",67,2013,Report,2012,NtS,EL,1,,,,,,,
+"TeliaSonera, 2008","TeliaSonera, 2008","Malmodin et al., 2014",84,2010,Report,2008,MS,NS,1,,,,,,,
+"The Shift Project, 2019","The Shift Project, 2019","Montevecchi et al., 2020",8,2020,Report,2019,"SS, StS, NtS, IS",EL,4,,,,,,,
+"The Zettabyte Era, 2017","The Zettabyte Era, 2017","The Shift Project, 2019",28,2019,Report,2017,MS,BL,1,,,,,,,
+"Time Magazine, 2012","Time Magazine, 2012","Andrae & Edler, 2015",659,2015,News Piece,2012,"SS, StS, IS",EL,3,,,,,,,
+"Tucker et al., 2012","Tucker et al., 2012","Andrae & Edler, 2015",659,2015,Paper (Conference),2012,"SS, StS, IS",EL,3,,,,,,,
+Expert Interviews,Expert Interviews,"Brown et al., 2007",519,2007,Personal Communications,n/a,"SS, NtS",PC,2,,,,,,,
+Expert Interviews,Expert Interviews,"GeSI & BCG, 2012",71,2012,Data without source,n/a,SS,PC,1,,,,,,,
+Expert Interviews,Expert Interviews,"Liua et al., 2014",23,2014,Data without source,n/a,IS,PC,1,,,,,,,
+Expert Interviews,Expert Interviews,"Whitney & Delforge, 2014",259,2014,Data without source,n/a,MS,PC,1,,,,,,,
+Expert Interviews,Expert Interviews,"The Shift Project, 2019",28,2019,Personal Communications,n/a,SS,PC,1,,,,,,,
+Expert Interviews,Expert Interviews,"Montevecchi et al., 2020",8,2020,Personal Communications,n/a,IS,PC,1,,,,,,,
+"Uptime institute, 2011","Uptime institute, 2011","Van Heddeghem et al., 2014",541,2014,Report,2011,IS,NF,1,,,,,,,
+US EPA,US EPA,"Brown et al., 2007",519,2007,Report (Draft),n/a,IS,NF,1,,,,,,,
+"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Shehabi et al., 2016",691,2016,Paper (Journal) ,2014,NtS,EL,1,,,,,,,
+"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Andrae, 2019b",2,2019,Paper (Journal) ,2014,SS,EL,1,,,,,,,
+"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Andrae, 2019c",19,2019,Paper (Journal) ,2014,SS,EL,1,,,,,,,
+"Van Heddeghem et al., 2014","Van Heddeghem et al., 2014","Montevecchi et al., 2020",8,2020,Paper (Journal) ,2014,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Vereecken et al., 2010b","Vereecken et al., 2010b","Belkhir & Elmeligi, 2018",352,2018,Paper (Journal),2010,"SS, StS, NtS, IS",EL,4,,,,,,,
+"Verizon Communications, 2010","Verizon Communications, 2010","Corcoran & Andrae, 2013",67,2013,Report,2007,NtS,EL,1,,,,,,,
+"Xu, 2014","Xu, 2014","Andrae, 2019b",2,2019,Paper (Journal) ,2014,"MS, SS",EL,2,,,,,,,
+"Xu, 2014","Xu, 2014","Andrae, 2019c",19,2019,Paper (Journal) ,2014,SS,EL,1,,,,,,,
+"Zhang et al., 2020","Zhang et al., 2020","Andrae, 2020a",23,2020,Paper (Journal) ,2020,NtS,EL,1,,,,,,,

@@ -176,16 +176,8 @@ values = []  # Value for each node, which determines its size, mapped to label
 
 # Loop through every row and build the lists to create the Sankey
 for index, row in sources_unique.iterrows():
-    # Set the color based on the source reliability classification, but hard
-    # code any sources which are also in the review
-    # Colors from https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
-    if row['Source Reliability'] == 'EL' \
-            or row['Source Reliability'] == 'PD':
-        color_node = COLOR_FOUND_DARK
-        color_link = COLOR_FOUND_LIGHT
-    else:
-        color_node = COLOR_NOTFOUND_DARK
-        color_link = COLOR_NOTFOUND_LIGHT
+    if row['Citation Count'] < 100:
+        continue
 
     # Determine if we need to create a new label
     if row['Authors'] not in labels:
@@ -194,6 +186,20 @@ for index, row in sources_unique.iterrows():
 
         labels.append(row['Authors'])
         colors_node.append(color_node)
+
+    # Set the color based on the source reliability classification, but hard
+    # code any sources which are also in the review
+    # Colors from https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
+    if row['Source (Grouped for Visualisations)'] == 'IDC':
+        color_node = COLOR_NOTFOUND_DARK
+        color_link = COLOR_NOTFOUND_LIGHT
+    elif row['Source Reliability'] == 'EL' \
+            or row['Source Reliability'] == 'PD':
+        color_node = COLOR_FOUND_DARK
+        color_link = COLOR_FOUND_LIGHT
+    else:
+        color_node = COLOR_NOTFOUND_DARK
+        color_link = COLOR_NOTFOUND_LIGHT
 
     if row['Source (Grouped for Visualisations)'] not in labels:
         labels.append(row['Source (Grouped for Visualisations)'])
@@ -224,7 +230,7 @@ fig3 = go.Figure(data=[go.Sankey(
         color=colors_link,
     ))])
 
-fig3.update_layout(font_family='sans-serif', height=5000)
+fig3.update_layout(font_family='sans-serif', height=2000)
 # fig.write_image('figure.pdf', width=2000)
 
 #
