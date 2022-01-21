@@ -28,10 +28,6 @@ app = dash.Dash(title=title)
 #
 # Basic stats
 #
-# De-dup on authors to get the count
-publications_analyzed = sources.drop_duplicates(subset=['Authors'])
-total_publications_analyzed = len(publications_analyzed.index)
-
 # Numbers/counts of things included in the review.
 total_estimates = len(estimates.index)
 
@@ -54,8 +50,6 @@ total_estimates_europe = len(result.index)
 # appears once. This provides the true citation count for each source.
 sources_unique = sources.drop_duplicates(
     subset=['Authors', 'Source (Grouped for Visualisations)'])
-
-total_sources_unique = len(sources_unique.index)
 
 
 #
@@ -254,9 +248,7 @@ app.layout = html.Div([
     '''),
     html.H2('Stats'),
     dcc.Markdown(f'''
-- Publications analyzed: {total_publications_analyzed}.
 - Total estimates: {total_estimates}.
-- Key sources: {total_sources_unique}.
 - Estimates by country:
     - Global: {total_estimates_global}.
     - US: {total_estimates_us}.
