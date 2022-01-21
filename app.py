@@ -45,12 +45,6 @@ result = estimates.query(
     Geography == \"Western Europe\"')
 total_estimates_europe = len(result.index)
 
-# There is a row for each entry in Table S1, which doesn't map to anything
-# relevant for visualizing. As such, we de-dup so a source and target only
-# appears once. This provides the true citation count for each source.
-sources_unique = sources.drop_duplicates(
-    subset=['Authors', 'Source (Grouped for Visualisations)'])
-
 
 #
 # Figure 1
@@ -157,63 +151,83 @@ def generate_fig(exclude):
 
 
 #
+# Generate a sankey diagram from the items passed through
+#
+
+def sankey(items):
+    # Define colors
+    # From https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
+    COLOR_NOTFOUND_DARK = '#f1a340'  # Orange
+    COLOR_NOTFOUND_LIGHT = '#fcdfba'  # Light orange
+    COLOR_FOUND_DARK = 'black'
+    COLOR_FOUND_LIGHT = 'lightgray'
+
+    # Build the lists
+    labels = []  # Labels (unique)
+    colors_node = []  # Colors mapped to labels
+    colors_link = []  # Colors mapped to links
+    sources = []  # Index for each source for a link, mapped to label
+    targets = []  # Target for each link, mapped to label
+    values = []  # Value for each node, which determines its size, mapped to label
+
+    # Loop through every row and build the lists to create the Sankey
+    for index, row in items.iterrows():
+        if row['Citation Count'] < 100:
+            continue
+
+        # Determine if we need to create a new label
+        if row['Authors'] not in labels:
+            color_node = COLOR_FOUND_DARK
+            color_link = COLOR_FOUND_LIGHT
+
+            labels.append(row['Authors'])
+            colors_node.append(color_node)
+
+        # Set the color based on the source reliability classification, but hard
+        # code any sources which are also in the review
+        # Colors from https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
+        if row['Source (Grouped for Visualisations)'] == 'IDC':
+            color_node = COLOR_NOTFOUND_DARK
+            color_link = COLOR_NOTFOUND_LIGHT
+        elif row['Source Reliability'] == 'EL' \
+                or row['Source Reliability'] == 'PD':
+            color_node = COLOR_FOUND_DARK
+            color_link = COLOR_FOUND_LIGHT
+        else:
+            color_node = COLOR_NOTFOUND_DARK
+            color_link = COLOR_NOTFOUND_LIGHT
+
+        if row['Source (Grouped for Visualisations)'] not in labels:
+            labels.append(row['Source (Grouped for Visualisations)'])
+            colors_node.append(color_node)
+
+        # Create the node and link
+        sources.append(labels.index(
+            row['Source (Grouped for Visualisations)']))
+        targets.append(labels.index(row['Authors']))
+        colors_link.append(color_link)
+
+        # Link size is always 1 because there's no useful alternative to size them on
+        # The size of the node is determined automatically based on the number of
+        # links, which is the same as the number of references
+        values.append(1)
+
+    return labels, colors_node, colors_link, sources, targets, values
+
+
+#
+# De-dup the sources
+#
+sources_unique = sources.drop_duplicates(
+    subset=['Authors', 'Source (Grouped for Visualisations)'])
+
+#
 # Figure 3
 #
-# Define colors
-# From https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
-COLOR_NOTFOUND_DARK = '#f1a340'  # Orange
-COLOR_NOTFOUND_LIGHT = '#fcdfba'  # Light orange
-COLOR_FOUND_DARK = 'black'
-COLOR_FOUND_LIGHT = 'lightgray'
-
-# Build the lists
-labels = []  # Labels (unique)
-colors_node = []  # Colors mapped to labels
-colors_link = []  # Colors mapped to links
-sources = []  # Index for each source for a link, mapped to label
-targets = []  # Target for each link, mapped to label
-values = []  # Value for each node, which determines its size, mapped to label
-
-# Loop through every row and build the lists to create the Sankey
-for index, row in sources_unique.iterrows():
-    if row['Citation Count'] < 100:
-        continue
-
-    # Determine if we need to create a new label
-    if row['Authors'] not in labels:
-        color_node = COLOR_FOUND_DARK
-        color_link = COLOR_FOUND_LIGHT
-
-        labels.append(row['Authors'])
-        colors_node.append(color_node)
-
-    # Set the color based on the source reliability classification, but hard
-    # code any sources which are also in the review
-    # Colors from https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
-    if row['Source (Grouped for Visualisations)'] == 'IDC':
-        color_node = COLOR_NOTFOUND_DARK
-        color_link = COLOR_NOTFOUND_LIGHT
-    elif row['Source Reliability'] == 'EL' \
-            or row['Source Reliability'] == 'PD':
-        color_node = COLOR_FOUND_DARK
-        color_link = COLOR_FOUND_LIGHT
-    else:
-        color_node = COLOR_NOTFOUND_DARK
-        color_link = COLOR_NOTFOUND_LIGHT
-
-    if row['Source (Grouped for Visualisations)'] not in labels:
-        labels.append(row['Source (Grouped for Visualisations)'])
-        colors_node.append(color_node)
-
-    # Create the node and link
-    sources.append(labels.index(row['Source (Grouped for Visualisations)']))
-    targets.append(labels.index(row['Authors']))
-    colors_link.append(color_link)
-
-    # Link size is always 1 because there's no useful alternative to size them on
-    # The size of the node is determined automatically based on the number of
-    # links, which is the same as the number of references
-    values.append(1)
+sources_fig3 = sources_unique.query(
+    'Authors == \"Van Heddeghem et al., 2014\" or Authors == \"Shehabi et al., 2016\" or Authors == \"Malmodin & Lunden, 2018a\"')
+labels, colors_node, colors_link, sources, targets, values = sankey(
+    sources_fig3)
 
 # Create the figure
 fig3 = go.Figure(data=[go.Sankey(
@@ -230,8 +244,31 @@ fig3 = go.Figure(data=[go.Sankey(
         color=colors_link,
     ))])
 
-fig3.update_layout(font_family='sans-serif', height=2000)
-# fig.write_image('figure.pdf', width=2000)
+fig3.update_layout(font_family='sans-serif', height=1000)
+
+#
+# Figure 4
+#
+labels, colors_node, colors_link, sources, targets, values = sankey(
+    sources_unique)
+
+# Create the figure
+fig4 = go.Figure(data=[go.Sankey(
+    node=dict(
+        pad=15,
+        thickness=20,
+        label=labels,
+        color=colors_node,
+    ),
+    link=dict(
+        source=sources,
+        target=targets,
+        value=values,
+        color=colors_link,
+    ))])
+
+fig4.update_layout(font_family='sans-serif', height=2000)
+
 
 #
 # Run server
@@ -284,9 +321,14 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
     dcc.Graph(id='fig-2'),
     html.H2('Figure 3'),
     dcc.Markdown('''
-Sankey diagram showing data center energy estimate publications analyzed in this review with their key sources. Sources in orange indicate that source could not be found. Node size based on the number of independent citations from  publications analyzed. See Table S1 for the full list of publications, sources and reasons for sources that could not be found.
+Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig3),
+    html.H2('Figure 4'),
+    dcc.Markdown('''
+Sankey diagram showing data center energy estimate publications analyzed in this review that have more >100 citations, and the key sources they cite. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+    '''),
+    dcc.Graph(figure=fig4),
 ])
 
 app.run_server(debug=True)
