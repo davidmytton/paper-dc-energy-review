@@ -19,6 +19,8 @@ with the correct citation.
 
 ## Setup
 
+Written for Python 3.9.
+
 ```shell
 python3 -m venv .venv
 source .venv/bin/activate
