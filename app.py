@@ -142,7 +142,7 @@ def generate_fig(exclude):
         fig.add_annotation(x=s,
                            y=figresult[figresult['Estimate year']
                                        == s]['Value (TWh)'].max(),
-                           text="n = " + str(
+                           text=str(
                                len(figresult[figresult['Estimate year'] == s]['Value (TWh)'])),
                            yshift=10,
                            showarrow=False)
