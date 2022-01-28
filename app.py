@@ -299,7 +299,7 @@ app.layout = html.Div([
     '''),
     html.H2('Figure 1'),
     dcc.Markdown('''
-Global data center energy estimate ranges (in TWh) plotted by the year the estimate applies to (Estimate year). All estimate values are provided in Table S2.
+Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2. 
     '''),
     dcc.Checklist(
         id='fig-1-exclude',
@@ -310,7 +310,7 @@ Global data center energy estimate ranges (in TWh) plotted by the year the estim
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (Estimate year). All estimate values are provided in Table S2.
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-2-exclude',
