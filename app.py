@@ -178,9 +178,6 @@ def sankey(items):
 
     # Loop through every row and build the lists to create the Sankey
     for index, row in items.iterrows():
-        if row['Citation Count'] < 100:
-            continue
-
         # Determine if we need to create a new label
         if row['Authors'] not in labels:
             color_node = COLOR_FOUND_DARK
@@ -260,10 +257,11 @@ fig3.update_layout(font_family='sans-serif', height=1000)
 # Figure 4
 #
 # Sankey diagram showing data center energy estimate publications analyzed in
-# this review that have more >100 citations
+# this review that have >=100 citations
 #
+sources_fig4 = sources_unique.query('`Citation Count` >= 100')
 labels, colors_node, colors_link, sources, targets, values = sankey(
-    sources_unique)
+    sources_fig4)
 
 # Create the figure
 fig4 = go.Figure(data=[go.Sankey(
