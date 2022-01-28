@@ -162,11 +162,17 @@ def generate_fig(exclude):
 
 def sankey(items):
     # Define colors
+    COLOR_FOUND_DARK = 'black'
+    COLOR_FOUND_LIGHT = 'lightgray'
+    COLOR_CITATIONS_GTE1000_DARK = '#ffc6cf'  # Citations >= 1000 = Dark red
+    COLOR_CITATIONS_GTE1000_LIGHT = '#ffc6cf'  # Citations >= 1000 = Light red
+    COLOR_CITATIONS_GTE500_DARK = '#ffea9c'  # Citations >= 500 = Dark yellow
+    COLOR_CITATIONS_GTE500_LIGHT = '#ffea9c'  # Citations >= 500 = Light yellow
+    COLOR_CITATIONS_GTE100_DARK = '#c6eece'  # Citations >= 100 = Dark green
+    COLOR_CITATIONS_GTE100_LIGHT = '#c6eece'  # Citations >= 100 = Light green
     # From https://colorbrewer2.org/#type=diverging&scheme=PuOr&n=3
     COLOR_NOTFOUND_DARK = '#f1a340'  # Orange
     COLOR_NOTFOUND_LIGHT = '#fcdfba'  # Light orange
-    COLOR_FOUND_DARK = 'black'
-    COLOR_FOUND_LIGHT = 'lightgray'
 
     # Build the lists
     labels = []  # Labels (unique)
@@ -180,8 +186,18 @@ def sankey(items):
     for index, row in items.iterrows():
         # Determine if we need to create a new label
         if row['Authors'] not in labels:
-            color_node = COLOR_FOUND_DARK
-            color_link = COLOR_FOUND_LIGHT
+            if row['Citation Count'] >= 1000:
+                color_node = COLOR_CITATIONS_GTE1000_DARK
+                color_link = COLOR_CITATIONS_GTE1000_LIGHT
+            elif row['Citation Count'] >= 500:
+                color_node = COLOR_CITATIONS_GTE500_DARK
+                color_link = COLOR_CITATIONS_GTE500_LIGHT
+            elif row['Citation Count'] >= 100:
+                color_node = COLOR_CITATIONS_GTE100_DARK
+                color_link = COLOR_CITATIONS_GTE100_LIGHT
+            else:
+                color_node = COLOR_FOUND_DARK
+                color_link = COLOR_FOUND_LIGHT
 
             labels.append(row['Authors'])
             colors_node.append(color_node)
@@ -332,12 +348,12 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
     dcc.Graph(id='fig-2'),
     html.H2('Figure 3'),
     dcc.Markdown('''
-Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig3),
     html.H2('Figure 4'),
     dcc.Markdown('''
-Sankey diagram showing data center energy estimate publications analyzed in this review that have more >100 citations, and the key sources they cite. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+Sankey diagram showing data center energy estimate publications analyzed in this review that have more >100 citations, and the key sources they cite. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig4),
 ])
