@@ -49,6 +49,8 @@ total_estimates_europe = len(result.index)
 #
 # Figure 1
 #
+# Global data center energy estimates for 2020, 2025 and 2030.
+#
 # Ideally this would use a break in the y axis to show all the values, but
 # that does not seem possible with Plotly.
 #
@@ -119,6 +121,8 @@ def generate_fig(exclude):
 #
 # Figure 2
 #
+# Global data center energy estimates for 2010-2030.
+#
 # Check box option to exclude estimates >2000 TWh (default = true).
 @app.callback(
     Output("fig-2", "figure"),
@@ -152,6 +156,8 @@ def generate_fig(exclude):
 
 #
 # Generate a sankey diagram from the items passed through
+#
+# items = pandas.DataFrame
 #
 
 def sankey(items):
@@ -224,6 +230,10 @@ sources_unique = sources.drop_duplicates(
 #
 # Figure 3
 #
+# Sankey diagram showing the flow of citations between three highly cited
+# publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van
+# Heddeghem et al., 2014
+#
 sources_fig3 = sources_unique.query(
     'Authors == \"Van Heddeghem et al., 2014\" or Authors == \"Shehabi et al., 2016\" or Authors == \"Malmodin & Lunden, 2018a\"')
 labels, colors_node, colors_link, sources, targets, values = sankey(
@@ -248,6 +258,9 @@ fig3.update_layout(font_family='sans-serif', height=1000)
 
 #
 # Figure 4
+#
+# Sankey diagram showing data center energy estimate publications analyzed in
+# this review that have more >100 citations
 #
 labels, colors_node, colors_link, sources, targets, values = sankey(
     sources_unique)
