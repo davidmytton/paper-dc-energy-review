@@ -73,8 +73,11 @@ def generate_fig(exclude):
     fig = px.box(figresult,
                  x='Estimate year',
                  y='Value (TWh)',
-                 template='simple_white')
-    fig.update_layout(font_family='sans-serif')
+                 template='plotly_white')
+    fig.update_layout(font_family='sans-serif', font_size=16)
+    fig.update_xaxes(showline=True, linewidth=1, linecolor='black')
+    fig.update_yaxes(showline=True, linewidth=1, linecolor='black')
+    fig.update_layout(yaxis_range=[0, 2000])
 
     # Show values
     for s in figresult['Estimate year'].unique():
@@ -138,8 +141,11 @@ def generate_fig(exclude):
     fig = px.box(figresult,
                  x='Estimate year',
                  y='Value (TWh)',
-                 template='simple_white')
-    fig.update_layout(font_family='sans-serif')
+                 template='plotly_white')
+    fig.update_layout(font_family='sans-serif', font_size=16)
+    fig.update_xaxes(showline=True, linewidth=1, linecolor='black')
+    fig.update_yaxes(showline=True, linewidth=1, linecolor='black')
+    fig.update_layout(yaxis_range=[0, 2000])
 
     # Show estimate counts
     for s in figresult['Estimate year'].unique():
