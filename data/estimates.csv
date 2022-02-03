@@ -25,14 +25,14 @@ Reference,Published,Method,Geography,Scenario name,Estimate year,Value (TWh),Pin
 "Koomey, 2008",2008,Bottom-up,Global,Historical estimate,2000,70.8,Table 2,"Total electricity consumption, including storage and network."
 "Koomey, 2008",2008,Bottom-up,USA,Historical estimate,2005,56.0,Table 2,"Total electricity consumption, including storage and network."
 "Koomey, 2008",2008,Bottom-up,Global,Historical estimate,2005,152.5,Table 2,"Total electricity consumption, including storage and network."
-"Pickavet et al., 2008",2008,Bottom-up,Global,,2008,254.04,Fig 1,
+"Pickavet et al., 2008",2008,Bottom-up,Global,,2008,254.74,Fig 1,
 "Somavat, Jadhav & Namboodiri, 2010",2010,Extrapolation,Global,Projection,2011,168.8,Pg 142,"Takes US figure for 2011 from Brown et al., 2007 then doubles it on the assumption that US represents half the global total."
 "Malmodin et al., 2010",2010,"Bottom-up
 Extrapolation",Global,Historical estimate,2007,180,Table 2,
 "Bertoldi, 2010",2010,Survey,Western Europe,Survey,2007,56,Pg 2,Survey of 142 Code of Conduct participants (pg 30).
 "Bertoldi, 2010",2010,Survey,Western Europe,Survey,2020,104,Pg 2,
-"Vereecken et al., 2010",2010,Extrapolation,Global,,2008,254.04,Table III,
-"Vereecken et al., 2010",2010,Extrapolation,Global,,2020,989.88,Table III,
+"Vereecken et al., 2010a",2010,Extrapolation,Global,,2008,254.74,Table III,
+"Vereecken et al., 2010a",2010,Extrapolation,Global,,2020,992.59,Table III,
 "Koomey, 2011",2011,"Bottom-up
 Extrapolation",Global,Upper bound,2010,271.8,Table 2,
 "Koomey, 2011",2011,"Bottom-up
@@ -109,11 +109,11 @@ Extrapolation",Global,,2015,287,Table II,
 "Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2013,98.99,Table 1,System boundary unknown. Converted from GW to TWh.
 "Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2014,98.11,Table 1,System boundary unknown. Converted from GW to TWh.
 "Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2015,106.00,Table 1,System boundary unknown. Converted from GW to TWh.
-"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2016,105.12,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2016,105.41,Table 1,System boundary unknown. Converted from GW to TWh.
 "Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2017,112.13,Table 1,System boundary unknown. Converted from GW to TWh.
 "Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2018,108.62,Table 1,System boundary unknown. Converted from GW to TWh.
 "Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2019,95.48,Table 1,System boundary unknown. Converted from GW to TWh.
-"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2020,98.99,Table 1,System boundary unknown. Converted from GW to TWh.
+"Bertoldi, Avgerinou & Castellazzi, 2017",2017,Unknown,Europe,,2020,99.26,Table 1,System boundary unknown. Converted from GW to TWh.
 "Avgerinou, Bertoldi & Castellazzi, 2017",2017,Survey,Europe,,2016,3.7,Pg 154,"289 data centers from 120 organizations. The previous report - Bertoldi, 2014 - states that this covers 3-5% of the total data centers in Europe."
 "IEA, 2017",2017,Bottom-up,Global,,2014,194,Pg 105,
 "IEA, 2017",2017,Bottom-up,Global,,2020,200,Pg 106,
@@ -161,6 +161,41 @@ Extrapolation",Global,,2017,350,Figure 4,
 "Andrae, 2019a",2019,Extrapolation,Global,,2030,1929,,
 "Andrae, 2019b",2019,Bottom-up,Global,,2010,189,,
 "Andrae, 2019c",2019,Extrapolation,Global,,2030,8253,Table IV,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 33.8%, EI -12.4%",2010,196,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 33.8%, EI -12.4%",2015,220,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 33.8%, EI -12.4%",2020,207,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 33.8%, EI -12.4%",2025,249,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 33.8%, EI -12.4%",2030,944,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, server 1.4%, EI -1.77%",2010,196,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, server 1.4%, EI -1.77%",2015,220,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, server 1.4%, EI -1.77%",2020,207,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, server 1.4%, EI -1.77%",2025,205,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, server 1.4%, EI -1.77%",2030,198,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 56%, EI -22%",2010,196,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 56%, EI -22%",2015,220,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 56%, EI -22%",2020,207,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 56%, EI -22%",2025,556,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 56%, EI -22%",2030,1495,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -24%",2010,273,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -24%",2015,245,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -24%",2020,231,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -24%",2025,184,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -24%",2030,146,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -22%",2010,196,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -22%",2015,220,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -22%",2020,207,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -22%",2025,183,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -22%",2030,163,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -14%",2010,227,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -14%",2015,400,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -14%",2020,651,Table 2,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -14%",2025,952,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,"Data centers, data traffic 25%, EI -14%",2030,1393,Table 3,
+"Andrae, 2019d",2019,Extrapolation,Global,4.4% Historical Compound Aggregated Growth Rate (CAGR) of electricity TWh -> TWh,2025,256,Table 4,
+"Andrae, 2019d",2019,Extrapolation,Global,4.4% Historical Compound Aggregated Growth Rate (CAGR) of electricity TWh -> TWh,2030,318,Table 4,
+"Andrae, 2019d",2019,Extrapolation,Global,Updates to previous models,2020,299,Table 9,Input parameters not provided.
+"Andrae, 2019d",2019,Extrapolation,Global,Updates to previous models,2025,412,Table 9,Input parameters not provided.
+"Andrae, 2019d",2019,Extrapolation,Global,Updates to previous models,2030,974,Table 9,Input parameters not provided.
 "The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2013,323,Appendix 1,
 "The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2014,322,Appendix 1,
 "The Shift Project, 2019",2019,Extrapolation,Global,Expected Updated,2015,400,Appendix 1,
@@ -213,7 +248,7 @@ Extrapolation",Germany,,2017,13.2,Figure 1,
 Extrapolation",Germany,,2018,14.0,Figure 1,
 "Hintemann, 2020",2020,"Bottom-up
 Extrapolation",Global,,2018,400.0,Pg 4,
-"Andrae, 2020a",2020,Unknown,Global,,2020,289.08,Section 5.1,
+"Andrae, 2020a",2020,Unknown,Global,,2020,289.87,Section 5.1,
 "Andrae, 2020a",2020,Unknown,Global,,2018,400,Section 5.1,
 "Andrae, 2020a",2020,Unknown,Global,,2030,2000,Section 5.1,
 "Andrae, 2020a",2020,Unknown,Global,,2020,294,Section 5.1,
