@@ -343,7 +343,7 @@ Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) p
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2.
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. Number above each box indicates the estimate count, which are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-2-exclude',
@@ -357,8 +357,8 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
 Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig3),
-    html.H2('Figure 4'),
-    dcc.Markdown('''
+    html.H2('Figure X'),  # Not currently used
+    dcc.Markdown('''**Not in manuscript.**
 Sankey diagram showing data center energy estimate publications analyzed in this review that have more >100 citations, and the key sources they cite. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig4),
