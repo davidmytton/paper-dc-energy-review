@@ -247,41 +247,12 @@ sources_unique = sources.drop_duplicates(
     subset=['Authors', 'Source (Grouped for Visualisations)'])
 
 #
-# Figure 3
-#
-# Sankey diagram showing the flow of citations between three highly cited
-# publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van
-# Heddeghem et al., 2014
-#
-sources_fig3 = sources_unique.query(
-    'Authors == \"Van Heddeghem et al., 2014\" or Authors == \"Shehabi et al., 2016\" or Authors == \"Malmodin & Lunden, 2018a\"')
-labels, colors_node, colors_link, sources, targets, values = sankey(
-    sources_fig3)
-
-# Create the figure
-fig3 = go.Figure(data=[go.Sankey(
-    node=dict(
-        pad=15,
-        thickness=20,
-        label=labels,
-        color=colors_node,
-    ),
-    link=dict(
-        source=sources,
-        target=targets,
-        value=values,
-        color=colors_link,
-    ))])
-
-fig3.update_layout(font_family='sans-serif', height=1000)
-
-#
 # Figure 4
 #
-# Sankey diagram showing data center energy estimate publications analyzed in
-# this review that have >=100 citations
+# Sankey diagram showing the flow of citations
 #
-sources_fig4 = sources_unique.query('`Citation Count` >= 100')
+sources_fig4 = sources_unique.query(
+    'Authors == \"Corcoran & Andrae, 2013\" or Authors == \"Andrae & Edler, 2015\" or Authors == \"The Shift Project, 2019\"')
 labels, colors_node, colors_link, sources, targets, values = sankey(
     sources_fig4)
 
@@ -300,7 +271,61 @@ fig4 = go.Figure(data=[go.Sankey(
         color=colors_link,
     ))])
 
-fig4.update_layout(font_family='sans-serif', height=2000)
+fig4.update_layout(font_family='sans-serif', height=1000)
+
+#
+# Figure 5
+#
+# Sankey diagram showing the flow of citations
+#
+sources_fig5 = sources_unique.query(
+    'Authors == \"Van Heddeghem et al., 2014\" or Authors == \"Shehabi et al., 2016\" or Authors == \"Malmodin & Lunden, 2018a\"')
+labels, colors_node, colors_link, sources, targets, values = sankey(
+    sources_fig5)
+
+# Create the figure
+fig5 = go.Figure(data=[go.Sankey(
+    node=dict(
+        pad=15,
+        thickness=20,
+        label=labels,
+        color=colors_node,
+    ),
+    link=dict(
+        source=sources,
+        target=targets,
+        value=values,
+        color=colors_link,
+    ))])
+
+fig5.update_layout(font_family='sans-serif', height=1000)
+
+#
+# Figure X
+#
+# Sankey diagram showing data center energy estimate publications analyzed in
+# this review that have >=100 citations
+#
+sources_figx = sources_unique.query('`Citation Count` >= 100')
+labels, colors_node, colors_link, sources, targets, values = sankey(
+    sources_figx)
+
+# Create the figure
+figx = go.Figure(data=[go.Sankey(
+    node=dict(
+        pad=15,
+        thickness=20,
+        label=labels,
+        color=colors_node,
+    ),
+    link=dict(
+        source=sources,
+        target=targets,
+        value=values,
+        color=colors_link,
+    ))])
+
+figx.update_layout(font_family='sans-serif', height=2000)
 
 
 #
@@ -310,7 +335,7 @@ app.layout = html.Div([
     dcc.Markdown(f'''
 # {title}
 
-## Authors
+# Authors
 
 * David Mytton, Centre for Environmental Policy, Imperial College London,
   London, SW7 1NE, UK.
@@ -318,7 +343,7 @@ app.layout = html.Div([
 
 **Correspondence:** <david@davidmytton.co.uk>.
 
-## Summary
+# Summary
 
 > TODO
     '''),
@@ -332,7 +357,7 @@ app.layout = html.Div([
     '''),
     html.H2('Figure 1'),
     dcc.Markdown('''
-Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2. 
+Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-1-exclude',
@@ -352,16 +377,22 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
         labelStyle={'display': 'inline-block'}
     ),
     dcc.Graph(id='fig-2'),
-    html.H2('Figure 3'),
+    html.H2('Figure 4'),
+    dcc.Markdown('''
+Sankey diagram showing the flow of citations between Corcoran & Andrae, 2013, Andrae & Edler, 2015, and The Shift Project, 2019. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+
+    '''),
+    dcc.Graph(figure=fig4),
+    html.H2('Figure 5'),
     dcc.Markdown('''
 Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
-    dcc.Graph(figure=fig3),
+    dcc.Graph(figure=fig5),
     html.H2('Figure X'),  # Not currently used
     dcc.Markdown('''**Not in manuscript.**
 Sankey diagram showing data center energy estimate publications analyzed in this review that have more >100 citations, and the key sources they cite. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
-    dcc.Graph(figure=fig4),
+    dcc.Graph(figure=figx),
 ])
 
 app.run_server(debug=True)
