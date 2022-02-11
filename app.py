@@ -345,7 +345,7 @@ app.layout = html.Div([
 
 # Summary
 
-> TODO
+> Data centers are a critical component of Information Technology (IT), providing a reliable environment for computer equipment such as servers and storage systems. Reliance on data centers for everyday activities has seen increased scrutiny of their environmental impact. In this review, we analyze original data center energy estimates published between 2007 and 2021. Breaking down 46 individual publications into 676 data provenance traces, we map citations used by each publication to assess reliability and highlight methodological challenges. We show that 38% of sources were from peer-reviewed publications and 31% were from non-peer reviewed reports with many lacking clear methodologies and data provenance. We also highlight issues with source availability - there is a general reliance on private data from IDC and Gartner, 11% of sources had broken URLs, and 10% were cited with insufficient detail to locate. These findings pose challenges for the reliability and reproducibility of estimates important for planning the energy systems of the future.
     '''),
     html.H2('Stats'),
     dcc.Markdown(f'''
@@ -368,7 +368,7 @@ Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) p
     dcc.Graph(id='fig-1'),
     html.H2('Figure 2'),
     dcc.Markdown('''
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. Number above each box indicates the estimate count, which are provided in Table S2.
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year to which the estimate applies (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. Number above each box indicates the estimate count, which are provided in Table S2.
     '''),
     dcc.Checklist(
         id='fig-2-exclude',
@@ -385,7 +385,7 @@ Sankey diagram showing the flow of citations between Corcoran & Andrae, 2013, An
     dcc.Graph(figure=fig4),
     html.H2('Figure 5'),
     dcc.Markdown('''
-Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lunden, 2018a, Shehabi et al., 2016 and Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lundén, 2018a cites Shehabi et al., 2016 which cites Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes on the right (for end publications) indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
     dcc.Graph(figure=fig5),
     html.H2('Figure X'),  # Not currently used

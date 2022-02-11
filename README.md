@@ -10,7 +10,21 @@
 
 ## Summary
 
-> TODO
+> Data centers are a critical component of Information Technology (IT),
+> providing a reliable environment for computer equipment such as servers and
+> storage systems. Reliance on data centers for everyday activities has seen
+> increased scrutiny of their environmental impact. In this review, we analyze
+> original data center energy estimates published between 2007 and 2021.
+> Breaking down 46 individual publications into 676 data provenance traces, we
+> map citations used by each publication to assess reliability and highlight
+> methodological challenges. We show that 38% of sources were from peer-reviewed
+> publications and 31% were from non-peer reviewed reports with many lacking
+> clear methodologies and data provenance. We also highlight issues with source
+> availability - there is a general reliance on private data from IDC and
+> Gartner, 11% of sources had broken URLs, and 10% were cited with insufficient
+> detail to locate. These findings pose challenges for the reliability and
+> reproducibility of estimates important for planning the energy systems of the
+> future.
 
 ## Citation
 
