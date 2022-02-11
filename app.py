@@ -25,6 +25,13 @@ sources = pd.read_csv('data/sources.csv', keep_default_na=False)
 title = 'A review of data center energy estimates published 2007 - 2021'
 app = dash.Dash(title=title)
 
+config = {
+    'toImageButtonOptions': {
+        'format': 'svg',  # one of png, svg, jpeg, webp
+    }
+}
+
+
 #
 # Basic stats
 #
@@ -365,7 +372,7 @@ Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) p
         value=['true'],
         labelStyle={'display': 'inline-block'}
     ),
-    dcc.Graph(id='fig-1'),
+    dcc.Graph(id='fig-1', config=config),
     html.H2('Figure 2'),
     dcc.Markdown('''
 Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year to which the estimate applies (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. Number above each box indicates the estimate count, which are provided in Table S2.
@@ -376,18 +383,17 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
         value=['true'],
         labelStyle={'display': 'inline-block'}
     ),
-    dcc.Graph(id='fig-2'),
+    dcc.Graph(id='fig-2', config=config),
     html.H2('Figure 4'),
     dcc.Markdown('''
 Sankey diagram showing the flow of citations between Corcoran & Andrae, 2013, Andrae & Edler, 2015, and The Shift Project, 2019. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
-
     '''),
-    dcc.Graph(figure=fig4),
+    dcc.Graph(figure=fig4, config=config),
     html.H2('Figure 5'),
     dcc.Markdown('''
 Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lundén, 2018a cites Shehabi et al., 2016 which cites Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes on the right (for end publications) indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     '''),
-    dcc.Graph(figure=fig5),
+    dcc.Graph(figure=fig5, config=config),
     html.H2('Figure X'),  # Not currently used
     dcc.Markdown('''**Not in manuscript.**
 Sankey diagram showing data center energy estimate publications analyzed in this review that have more >100 citations, and the key sources they cite. Sources in orange indicate that source could not be found. Colored nodes indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
