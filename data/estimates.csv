@@ -27,20 +27,15 @@ Reference,Published,Method,Geography,Scenario name,Estimate year,Value (TWh),Pin
 "Koomey, 2008",2008,Bottom-up,Global,Historical estimate,2005,152.5,Table 2,"Total electricity consumption, including storage and network."
 "Pickavet et al., 2008",2008,Bottom-up,Global,,2008,254.74,Fig 1,
 "Somavat, Jadhav & Namboodiri, 2010",2010,Extrapolation,Global,Projection,2011,168.8,Pg 142,"Takes US figure for 2011 from Brown et al., 2007 then doubles it on the assumption that US represents half the global total."
-"Malmodin et al., 2010",2010,"Bottom-up
-Extrapolation",Global,Historical estimate,2007,180,Table 2,
+"Malmodin et al., 2010",2010,Bottom-up,Global,Historical estimate,2007,180,Table 2,
 "Bertoldi, 2010",2010,Survey,Western Europe,Survey,2007,56,Pg 2,Survey of 142 Code of Conduct participants (pg 30).
 "Bertoldi, 2010",2010,Survey,Western Europe,Survey,2020,104,Pg 2,
 "Vereecken et al., 2010a",2010,Extrapolation,Global,,2008,254.74,Table III,
 "Vereecken et al., 2010a",2010,Extrapolation,Global,,2020,992.59,Table III,
-"Koomey, 2011",2011,"Bottom-up
-Extrapolation",Global,Upper bound,2010,271.8,Table 2,
-"Koomey, 2011",2011,"Bottom-up
-Extrapolation",Global,Lower bound,2010,203.4,Table 2,
-"Koomey, 2011",2011,"Bottom-up
-Extrapolation",USA,Upper bound,2010,85.6,Table 2,
-"Koomey, 2011",2011,"Bottom-up
-Extrapolation",USA,Lower bound,2010,67.1,Table 2,
+"Koomey, 2011",2011,Bottom-up,Global,Upper bound,2010,271.8,Table 2,
+"Koomey, 2011",2011,Bottom-up,Global,Lower bound,2010,203.4,Table 2,
+"Koomey, 2011",2011,Bottom-up,USA,Upper bound,2010,85.6,Table 2,
+"Koomey, 2011",2011,Bottom-up,USA,Lower bound,2010,67.1,Table 2,
 "Masanet et al., 2011",2011,Bottom-up,USA,Historical estimate,2008,69.0,Table 4,
 "Global e-Sustainability Initiative aisbl & The Boston Consulting Group, Inc, 2012",2012,Extrapolation,Global,Historical estimate,2011,237,"Figure 5, Pg 211","Average of Koomey, 2011 & Lower Bounds."
 "Corcoran & Andrae, 2013",2013,Extrapolation,Global,"Koomey, 2011 Extrapolation",2010,237.4,Table 4b,"Average of Koomey, 2011 & Lower Bounds. Includes network."
@@ -69,9 +64,7 @@ Extrapolation",USA,Lower bound,2010,67.1,Table 2,
 "Van Heddeghem et al., 2014",2014,Bottom-up,Global,Historical estimate,2007,216,Table 3,
 "Van Heddeghem et al., 2014",2014,Bottom-up,Global,Historical estimate,2012,268,Table 3,
 "Liua et al., 2014",2014,Bottom-up,EU27,,2011,52.00,Pg 125,
-"Malmodin et al., 2014",2014,"Bottom-up
-Top-down
-Extrapolation",Sweden,Historical estimate,2010,1.38,Table S4.1,"Based on Koomey, 2011, then adjusted for the global ratio between estimated active servers and PCs globally and the ratio of the number of PCs in Sweden."
+"Malmodin et al., 2014",2014,Top-down,Sweden,Historical estimate,2010,1.38,Table S4.1,"Based on Koomey, 2011, then adjusted for the global ratio between estimated active servers and PCs globally and the ratio of the number of PCs in Sweden."
 "Whitehead et al., 2014",2014,Extrapolation,Global,Historical estimate,2010,238,Pg 154,"Average of Koomey, 2011 & Lower Bounds."
 "Whitehead et al., 2014",2014,Extrapolation,Global,Projection,2012,291,Pg 154,"Extrapolates 56% growth between 2010-2015 based on same growth 2005-2010 from Koomey, 2011."
 "Whitehead et al., 2014",2014,Extrapolation,Global,Projection,2015,371.1,Pg 154,"Extrapolates 56% growth between 2010-2015 based on same growth 2005-2010 from Koomey, 2011."
@@ -87,22 +80,17 @@ Extrapolation",Sweden,Historical estimate,2010,1.38,Table S4.1,"Based on Koomey,
 "Andrae & Edler, 2015",2015,Extrapolation,Global,Best (15% annual improvement),2030,1137,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
 "Andrae & Edler, 2015",2015,Extrapolation,Global,Expected (10% annual improvement),2030,2967,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
 "Andrae & Edler, 2015",2015,Extrapolation,Global,Worst (5% annual improvement),2030,7993,"Supplementary Material - ""DataCenters"" sheet","Data centers, excluding networks. Capped at 5% annual improvement from 2022."
-"Bio by Deloitte, 2015",2015,"Bottom-up
-Extrapolation",EU28,,2015,78,Pg 32 (Task 7),
+"Bio by Deloitte, 2015",2015,Bottom-up,EU28,,2015,78,Pg 32 (Task 7),
 "Hintemann, 2015a",2015,Bottom-up,Germany,,2010,10.5,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
 "Hintemann, 2015a",2015,Bottom-up,Germany,,2015,12.0,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
 "Hintemann, 2015a",2015,Bottom-up,Germany,,2020,14.3,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
 "Hintemann, 2015a",2015,Bottom-up,Germany,,2025,16.4,Figure 1,"Update to Stobbe et al., 2015 (in German so excluded)."
 "Hintemann, 2015b",2015,Bottom-up,Germany,,2008,10.1,Figure 3,"Update to Hintemann and Fichter, 2010 (in German so excluded)."
 "Hintemann, 2015b",2015,Bottom-up,Germany,,2013,9.7,Figure 3,"Update to Hintemann and Fichter, 2010 (in German so excluded)."
-"Hintemann & Clausen, 2016",2016,"Bottom-up
-Extrapolation",Germany,,2010,10.4,Table II,"Figure taken from Stobbe et al., 2015 (in German so excluded)."
-"Hintemann & Clausen, 2016",2016,"Bottom-up
-Extrapolation",Germany,,2015,11.7,Table II,"Figure taken from Stobbe et al., 2015 (in German so excluded)."
-"Hintemann & Clausen, 2016",2016,"Bottom-up
-Extrapolation",Global,,2010,222.8,Table II,
-"Hintemann & Clausen, 2016",2016,"Bottom-up
-Extrapolation",Global,,2015,287,Table II,
+"Hintemann & Clausen, 2016",2016,Bottom-up,Germany,,2010,10.4,Table II,"Figure taken from Stobbe et al., 2015 (in German so excluded)."
+"Hintemann & Clausen, 2016",2016,Bottom-up,Germany,,2015,11.7,Table II,"Figure taken from Stobbe et al., 2015 (in German so excluded)."
+"Hintemann & Clausen, 2016",2016,Bottom-up,Global,,2010,222.8,Table II,
+"Hintemann & Clausen, 2016",2016,Bottom-up,Global,,2015,287,Table II,
 "Shehabi et al., 2016",2016,Bottom-up,USA,,2014,70,Executive Summary,
 "Shehabi et al., 2016",2016,Bottom-up,USA,,2020,73,Executive Summary,
 "Malmodin & Lundén, 2016",2016,Unknown,Sweden,,2015,1.25,Pg 212,"Based on Malmodin et al., 2014 but calculations for this updated figure are not provided."
@@ -122,24 +110,15 @@ Extrapolation",Global,,2015,287,Table II,
 "Shehabi et al., 2018",2018,Bottom-up,USA,Projection: Current trends,2020,73,Pg 7,
 "Shehabi et al., 2018",2018,Bottom-up,USA,Projection: Frozen efficiency,2020,170,Pg 8,
 "Belkhir & Elmeligi, 2018",2018,Extrapolation,Global,,2008,254,Pg 456,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2010,10.5,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2011,10.7,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2012,10.9,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2013,11.2,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2014,11.5,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2015,12.0,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2016,12.4,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Germany,,2017,13.2,Figure 1,
-"Hintemann & Hinterholzer, 2019",2019,"Bottom-up
-Extrapolation",Global,,2017,350,Figure 4,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2010,10.5,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2011,10.7,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2012,10.9,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2013,11.2,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2014,11.5,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2015,12.0,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2016,12.4,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Germany,,2017,13.2,Figure 1,
+"Hintemann & Hinterholzer, 2019",2019,Bottom-up,Global,,2017,350,Figure 4,
 "Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2018,160.89,Pg 4,Detailed report in Chinese. Summary provided in English.
 "Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2019,178.02,Pg 4,Detailed report in Chinese. Summary provided in English.
 "Greenpeace & North China Electric Power University, 2019",2019,Unknown,China,,2020,196.96,Pg 4,Detailed report in Chinese. Summary provided in English.
@@ -228,26 +207,16 @@ Extrapolation",Global,,2017,350,Figure 4,
 "The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2020,651,Appendix 1,
 "The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2023,753,Appendix 1,
 "The Shift Project, 2019",2019,Extrapolation,Global,Sobriety,2025,761,Appendix 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2010,10.5,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2011,10.7,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2012,10.9,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2013,11.2,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2014,11.5,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2015,12.0,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2016,12.4,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2017,13.2,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Germany,,2018,14.0,Figure 1,
-"Hintemann, 2020",2020,"Bottom-up
-Extrapolation",Global,,2018,400.0,Pg 4,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2010,10.5,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2011,10.7,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2012,10.9,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2013,11.2,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2014,11.5,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2015,12.0,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2016,12.4,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2017,13.2,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Germany,,2018,14.0,Figure 1,
+"Hintemann, 2020",2020,Bottom-up,Global,,2018,400.0,Pg 4,
 "Andrae, 2020a",2020,Unknown,Global,,2020,289.87,Section 5.1,
 "Andrae, 2020a",2020,Unknown,Global,,2018,400,Section 5.1,
 "Andrae, 2020a",2020,Unknown,Global,,2030,2000,Section 5.1,
