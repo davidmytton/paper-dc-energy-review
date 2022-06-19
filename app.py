@@ -55,9 +55,9 @@ total_estimates_europe = len(result.index)
 
 
 #
-# Figure 1
+# Figure 2
 #
-# Global data center energy estimates for 2020, 2025 and 2030.
+# Global data center energy estimates for 2020 and 2030.
 #
 # Ideally this would use a break in the y axis to show all the values, but
 # that does not seem possible with Plotly.
@@ -67,15 +67,15 @@ total_estimates_europe = len(result.index)
 #
 # Fall back solution is a check box option to exclude estimates >2000 TWh
 # (default = true).
-@app.callback(Output("fig-1", "figure"), [Input("fig-1-exclude", "value")])
+@app.callback(Output("fig-2", "figure"), [Input("fig-2-exclude", "value")])
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query(
-            'Geography == "Global" and (`Estimate year` == 2020 or `Estimate year` == 2025 or `Estimate year` == 2030)'
+            '(Method == "Bottom-up" or Method == "Extrapolation") and Geography == "Global" and (`Estimate year` == 2010 or `Estimate year` == 2020 or or `Estimate year` == 2030)'
         )
     else:
         figresult = estimates.query(
-            'Geography == "Global" and (`Estimate year` == 2020 or `Estimate year` == 2025 or `Estimate year` == 2030) and `Value (TWh)` < 2000'
+            '(Method == "Bottom-up" or Method == "Extrapolation") and Geography == "Global" and (`Estimate year` == 2010 or `Estimate year` == 2020 or `Estimate year` == 2030) and `Value (TWh)` < 2000'
         )
 
     fig = px.box(figresult, x="Estimate year", y="Value (TWh)", template="plotly_white")
@@ -106,13 +106,19 @@ def generate_fig(exclude):
             showarrow=False,
         )
 
+        # Position the median annotation
+        if s != 2010:
+            yshift = 10  # On the median line
+        else:
+            yshift = 60  # Above the count, because there's no space
+
         # Median
         fig.add_annotation(
             x=s,
             y=figresult[figresult["Estimate year"] == s]["Value (TWh)"].median(),
             text="median = "
             + str(figresult[figresult["Estimate year"] == s]["Value (TWh)"].median()),
-            yshift=10,
+            yshift=yshift,
             showarrow=False,
         )
 
@@ -130,20 +136,164 @@ def generate_fig(exclude):
 
 
 #
-# Figure 2
+# Figure 4
+#
+# Global data center energy estimates for 2020 and 2030, grouped by estimate
+# method.
+#
+# Ideally this would use a break in the y axis to show all the values, but that
+# does not seem possible with Plotly.
+#
+# https://stackoverflow.com/a/65766964/2183 is an option for bar charts but
+# probably wouldn't work for a box plot due to the integrated error bars.
+#
+# Fall back solution is a check box option to exclude estimates >2000 TWh
+# (default = true).
+@app.callback(Output("fig-4", "figure"), [Input("fig-4-exclude", "value")])
+def generate_fig(exclude):
+    if not exclude:
+        figresult = estimates.query(
+            '(Method == "Bottom-up" or Method == "Extrapolation") and Geography == "Global" and (`Estimate year` == 2010 or `Estimate year` == 2020 or `Estimate year` == 2030)'
+        )
+    else:
+        figresult = estimates.query(
+            '(Method == "Bottom-up" or Method == "Extrapolation") and Geography == "Global" and (`Estimate year` == 2010 or `Estimate year` == 2020 or `Estimate year` == 2030) and `Value (TWh)` < 2000'
+        )
+
+    fig = px.box(
+        figresult,
+        x="Estimate year",
+        y="Value (TWh)",
+        template="plotly_white",
+        color="Method",
+    )
+    fig.update_layout(font_family="sans-serif", font_size=16)
+    fig.update_xaxes(showline=True, linewidth=1, linecolor="black")
+    fig.update_yaxes(showline=True, linewidth=1, linecolor="black")
+    fig.update_layout(yaxis_range=[0, 2000])
+
+    # Show values
+    for s in figresult["Estimate year"].unique():
+        for m in figresult["Method"].unique():
+
+            # Position annotations
+            if m == "Extrapolation":
+                xshift = -75
+            elif m == "Bottom-up":
+                xshift = 75
+
+            # Max
+            fig.add_annotation(
+                x=s,
+                y=figresult[figresult["Estimate year"] == s][figresult["Method"] == m][
+                    "Value (TWh)"
+                ].max(),
+                text="max = "
+                + str(
+                    figresult[figresult["Estimate year"] == s][
+                        figresult["Method"] == m
+                    ]["Value (TWh)"].max()
+                ),
+                xshift=xshift,
+                yshift=15,
+                showarrow=False,
+            )
+
+            # Min
+            fig.add_annotation(
+                x=s,
+                y=figresult[figresult["Estimate year"] == s][figresult["Method"] == m][
+                    "Value (TWh)"
+                ].min(),
+                text="min = "
+                + str(
+                    figresult[figresult["Estimate year"] == s][
+                        figresult["Method"] == m
+                    ]["Value (TWh)"].min()
+                ),
+                xshift=xshift,
+                yshift=-10,
+                showarrow=False,
+            )
+
+            if s == 2010:
+                yshift = 50
+            else:
+                if s == 2020 and m == "Extrapolation":
+                    yshift = 50
+                elif s == 2020 and m == "Bottom-up":
+                    yshift = 45
+                elif s == 2030 and m == "Extrapolation":
+                    yshift = 50
+                elif s == 2030 and m == "Bottom-up":
+                    yshift = 50
+
+            # Count
+            fig.add_annotation(
+                x=s,
+                y=figresult[figresult["Estimate year"] == s][figresult["Method"] == m][
+                    "Value (TWh)"
+                ].max(),
+                text="n = "
+                + str(
+                    len(
+                        figresult[figresult["Estimate year"] == s][
+                            figresult["Method"] == m
+                        ]["Value (TWh)"]
+                    )
+                ),
+                xshift=xshift,
+                yshift=yshift,
+                showarrow=False,
+            )
+
+            if s == 2010:
+                yshift = 45
+            else:
+                if s == 2020 and m == "Extrapolation":
+                    yshift = 170
+                elif s == 2020 and m == "Bottom-up":
+                    yshift = 30
+                elif s == 2030 and m == "Extrapolation":
+                    yshift = 180
+                elif s == 2030 and m == "Bottom-up":
+                    yshift = 70
+
+            # Median
+            fig.add_annotation(
+                x=s,
+                y=figresult[figresult["Estimate year"] == s][figresult["Method"] == m][
+                    "Value (TWh)"
+                ].median(),
+                text="median = "
+                + str(
+                    figresult[figresult["Estimate year"] == s][
+                        figresult["Method"] == m
+                    ]["Value (TWh)"].median()
+                ),
+                xshift=xshift,
+                yshift=yshift,
+                showarrow=False,
+            )
+
+    return fig
+
+
+#
+# Figure 5a
 #
 # Global data center energy estimates for 2010-2030.
 #
 # Check box option to exclude estimates >2000 TWh (default = true).
-@app.callback(Output("fig-2", "figure"), [Input("fig-2-exclude", "value")])
+@app.callback(Output("fig-5a", "figure"), [Input("fig-5a-exclude", "value")])
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query('Geography == "Global" and `Estimate year` >= 2010')
     else:
         figresult = estimates.query(
-            'Geography == "Global" and `Estimate year` >= 2010 and `Value (TWh)` < 2000'
+            'Geography == "Global" and `Estimate year` >= 2010 and `Value (TWh)` < 2000',
+            engine="python",
         )
-
     fig = px.box(figresult, x="Estimate year", y="Value (TWh)", template="plotly_white")
     fig.update_layout(font_family="sans-serif", font_size=16)
     fig.update_xaxes(showline=True, linewidth=1, linecolor="black")
@@ -164,12 +314,40 @@ def generate_fig(exclude):
 
 
 #
+# Figure 5b
+#
+# Global data center energy estimates for 2010-2030.
+#
+# Check box option to exclude estimates >2000 TWh (default = true).
+@app.callback(Output("fig-5b", "figure"), [Input("fig-5b-exclude", "value")])
+def generate_fig(exclude):
+    if not exclude:
+        figresult = estimates.query('Geography == "Global" and `Estimate year` >= 2010')
+    else:
+        figresult = estimates.query(
+            'Geography == "Global" and `Estimate year` >= 2010 and `Value (TWh)` < 2000',
+            engine="python",
+        )
+    fig = px.box(
+        figresult,
+        x="Estimate year",
+        y="Value (TWh)",
+        template="plotly_white",
+        color="Method",
+    )
+    fig.update_layout(font_family="sans-serif", font_size=16)
+    fig.update_xaxes(showline=True, linewidth=1, linecolor="black")
+    fig.update_yaxes(showline=True, linewidth=1, linecolor="black")
+    fig.update_layout(yaxis_range=[0, 2000])
+
+    return fig
+
+
+#
 # Generate a sankey diagram from the items passed through
 #
 # items = pandas.DataFrame
 #
-
-
 def sankey(items):
     # Define colors
     COLOR_FOUND_DARK = "black"
@@ -250,17 +428,17 @@ sources_unique = sources.drop_duplicates(
 )
 
 #
-# Figure 4
+# Figure 6
 #
 # Sankey diagram showing the flow of citations
 #
-sources_fig4 = sources_unique.query(
+sources_fig6 = sources_unique.query(
     'Authors == "Corcoran & Andrae, 2013" or Authors == "Andrae & Edler, 2015" or Authors == "The Shift Project, 2019"'
 )
-labels, colors_node, colors_link, sources, targets, values = sankey(sources_fig4)
+labels, colors_node, colors_link, sources, targets, values = sankey(sources_fig6)
 
 # Create the figure
-fig4 = go.Figure(
+fig6 = go.Figure(
     data=[
         go.Sankey(
             node=dict(
@@ -279,20 +457,19 @@ fig4 = go.Figure(
     ]
 )
 
-fig4.update_layout(font_family="sans-serif", height=1000)
+fig6.update_layout(font_family="sans-serif", height=1000)
 
 #
-# Figure 5
-#
+# Figure 7
 # Sankey diagram showing the flow of citations
 #
-sources_fig5 = sources_unique.query(
+sources_fig7 = sources_unique.query(
     'Authors == "Van Heddeghem et al., 2014" or Authors == "Shehabi et al., 2016" or Authors == "Malmodin & Lunden, 2018a"'
 )
-labels, colors_node, colors_link, sources, targets, values = sankey(sources_fig5)
+labels, colors_node, colors_link, sources, targets, values = sankey(sources_fig6)
 
 # Create the figure
-fig5 = go.Figure(
+fig7 = go.Figure(
     data=[
         go.Sankey(
             node=dict(
@@ -311,7 +488,7 @@ fig5 = go.Figure(
     ]
 )
 
-fig5.update_layout(font_family="sans-serif", height=1000)
+fig7.update_layout(font_family="sans-serif", height=1000)
 
 #
 # Figure X
@@ -364,7 +541,7 @@ app.layout = html.Div(
 
 # Summary
 
-> Data centers are a critical component of Information Technology (IT), providing a reliable environment for computer equipment such as servers and storage systems. Reliance on data centers for everyday activities has seen increased scrutiny of their environmental impact. In this review, we analyze original data center energy estimates published between 2007 and 2021. Breaking down 46 individual publications into 676 data provenance traces, we map citations used by each publication to assess reliability and highlight methodological challenges. We show that 38% of sources were from peer-reviewed publications and 31% were from non-peer reviewed reports with many lacking clear methodologies and data provenance. We also highlight issues with source availability - there is a general reliance on private data from IDC and Gartner, 11% of sources had broken URLs, and 10% were cited with insufficient detail to locate. These findings pose challenges for the reliability and reproducibility of estimates important for planning the energy systems of the future.
+> TBC
     """
         ),
         html.H2("Stats"),
@@ -377,24 +554,10 @@ app.layout = html.Div(
     - Europe: {total_estimates_europe}.
     """
         ),
-        html.H2("Figure 1"),
-        dcc.Markdown(
-            """
-Global data center energy estimates for 2020, 2025 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2.
-    """
-        ),
-        dcc.Checklist(
-            id="fig-1-exclude",
-            options=[{"value": "true", "label": "Exclude estimates >2000 TWh"}],
-            value=["true"],
-            labelStyle={"display": "inline-block"},
-        ),
-        dcc.Graph(id="fig-1", config=config),
         html.H2("Figure 2"),
         dcc.Markdown(
             """
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year to which the estimate applies (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. Number above each box indicates the estimate count, which are provided in Table S2.
-    """
+Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2. Excludes estimates > 2000 TWh to allow for effective scaling of the visualization.    """
         ),
         dcc.Checklist(
             id="fig-2-exclude",
@@ -406,17 +569,49 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
         html.H2("Figure 4"),
         dcc.Markdown(
             """
+Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year) and grouped by methodological classification. This figure demonstrates the wide range of estimates across publications and highlights how the estimates vary by methodology. It should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2. Excludes estimates > 2000 TWh to allow for effective scaling of the visualization."""
+        ),
+        dcc.Checklist(
+            id="fig-4-exclude",
+            options=[{"value": "true", "label": "Exclude estimates >2000 TWh"}],
+            value=["true"],
+            labelStyle={"display": "inline-block"},
+        ),
+        dcc.Graph(id="fig-4", config=config),
+        html.H2("Figure 5a"),
+        dcc.Markdown(
+            """
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year to which the estimate applies (estimate year). Number above each box indicates the estimate count, which are provided in Table S2. Excludes estimates > 2000 TWh to allow for effective scaling of the visualization. Code used to perform calculations and generate visualization is available on Figshare.    """
+        ),
+        dcc.Checklist(
+            id="fig-5a-exclude",
+            options=[{"value": "true", "label": "Exclude estimates >2000 TWh"}],
+            value=["true"],
+            labelStyle={"display": "inline-block"},
+        ),
+        dcc.Graph(id="fig-5a", config=config),
+        html.H2("Figure 5b"),
+        dcc.Checklist(
+            id="fig-5b-exclude",
+            options=[{"value": "true", "label": "Exclude estimates >2000 TWh"}],
+            value=["true"],
+            labelStyle={"display": "inline-block"},
+        ),
+        dcc.Graph(id="fig-5b", config=config),
+        html.H2("Figure 6"),
+        dcc.Markdown(
+            """
 Sankey diagram showing the flow of citations between Corcoran & Andrae, 2013, Andrae & Edler, 2015, and The Shift Project, 2019. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     """
         ),
-        dcc.Graph(figure=fig4, config=config),
-        html.H2("Figure 5"),
+        dcc.Graph(figure=fig6, config=config),
+        html.H2("Figure 7"),
         dcc.Markdown(
             """
 Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lundén, 2018a cites Shehabi et al., 2016 which cites Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes on the right (for end publications) indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
     """
         ),
-        dcc.Graph(figure=fig5, config=config),
+        dcc.Graph(figure=fig7, config=config),
         html.H2("Figure X"),  # Not currently used
         dcc.Markdown(
             """**Not in manuscript.**
