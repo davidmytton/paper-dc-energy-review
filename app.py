@@ -1,4 +1,4 @@
-# A review of global data center energy estimates from 2007 - 2021
+# A comprehensive data provenance review of data center energy estimates
 #
 # Authors:
 # - David Mytton, Centre for Environmental Policy, Imperial College London,
@@ -22,7 +22,7 @@ estimates = pd.read_csv("data/estimates.csv", keep_default_na=False)
 sources = pd.read_csv("data/sources.csv", keep_default_na=False)
 
 # Set up app
-title = "A review of data center energy estimates published 2007 - 2021"
+title = "A comprehensive data provenance review of data center energy estimates"
 app = dash.Dash(title=title)
 
 config = {
@@ -541,7 +541,23 @@ app.layout = html.Div(
 
 # Summary
 
-> TBC
+> Data centers are a critical component of Information Technology (IT),
+> providing an environment for running computer equipment. Reliance on data
+> centers for everyday activities has seen increased scrutiny of their energy
+> footprint, yet the literature presents a wide range of estimates with
+> challenging to validate calculations that makes it difficult to rely on their
+> subsequent estimates. In this review, we analyze 46 original data center
+> energy estimates published between 2007 and 2021 to assess their reliability
+> through examining the 676 sources used. We show that 31% of sources were from
+> peer-reviewed publications, 38% were from non-peer reviewed reports, and many
+> lacked clear methodologies and data provenance. We also highlight issues with
+> source availability - there is a reliance on private data from IDC (43%) and
+> Cisco (30%), 11% of sources had broken web links, and 10% were cited with
+> insufficient detail to locate. We make recommendations to 3 groups of
+> stakeholders for how to improve and better understand the literature -
+> end-users who make use of data center energy estimates e.g. journalists; the
+> research community e.g. academics; and policy-makers or regulators within the
+> energy sector e.g. grid operators.
     """
         ),
         html.H2("Stats"),
@@ -557,7 +573,14 @@ app.layout = html.Div(
         html.H2("Figure 2"),
         dcc.Markdown(
             """
-Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year). This figure demonstrates the wide range of estimates across publications and should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2. Excludes estimates > 2000 TWh to allow for effective scaling of the visualization.    """
+Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh)
+plotted by the year the estimate applies to (estimate year). This figure
+demonstrates the wide range of estimates across publications and should not be
+used as an analysis or projection of data center energy values themselves -
+caution should be used when comparing estimates due to a wide range of methods
+and system boundaries. n = number of estimates. Excludes 5 estimates > 2,000
+TWh with a range of 2,000 TWh to 8,253 TWh to allow for effective scaling of
+the visualization. All estimates can be found in Table S2. """
         ),
         dcc.Checklist(
             id="fig-2-exclude",
@@ -569,7 +592,16 @@ Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh) p
         html.H2("Figure 4"),
         dcc.Markdown(
             """
-Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh) plotted by the year the estimate applies to (estimate year) and grouped by methodological classification. This figure demonstrates the wide range of estimates across publications and highlights how the estimates vary by methodology. It should not be used as an analysis or projection of data center energy values themselves - caution should be used when comparing estimates due to a wide range of methods and system boundaries. n = number of estimates, which are provided in Table S2. Excludes estimates > 2000 TWh to allow for effective scaling of the visualization."""
+Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh)
+plotted by the year the estimate applies to (estimate year) and grouped by
+methodological classification. This figure demonstrates the wide range of
+estimates across publications and highlights how the estimates vary by
+methodology. It should not be used as an analysis or projection of data center
+energy values themselves - caution should be used when comparing estimates due
+to a wide range of methods and system boundaries. n = number of estimates.
+Excludes 5 estimates > 2,000 TWh with a range of 2,000 TWh to 8,253 TWh to
+allow for effective scaling of the visualization. All estimates can be found in
+Table S2."""
         ),
         dcc.Checklist(
             id="fig-4-exclude",
@@ -581,7 +613,11 @@ Global data center energy estimates for 2010, 2020 and 2030 as ranges (in TWh) p
         html.H2("Figure 5a"),
         dcc.Markdown(
             """
-Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by the year to which the estimate applies (estimate year). Number above each box indicates the estimate count, which are provided in Table S2. Excludes estimates > 2000 TWh to allow for effective scaling of the visualization. Code used to perform calculations and generate visualization is available on Figshare.    """
+Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by
+the year to which the estimate applies (estimate year). Number above each box
+indicates the estimate count. Excludes 5 estimates > 2,000 TWh with a range of
+2,000 TWh to 8,253 TWh to allow for effective scaling of the visualization. All
+estimates can be found in Table S2."""
         ),
         dcc.Checklist(
             id="fig-5a-exclude",
@@ -601,14 +637,30 @@ Global data center energy estimates for 2010-2030 as ranges (in TWh) plotted by 
         html.H2("Figure 6"),
         dcc.Markdown(
             """
-Sankey diagram showing the flow of citations between Corcoran & Andrae, 2013, Andrae & Edler, 2015, and The Shift Project, 2019. Sources in orange indicate that source could not be found. See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+Sankey diagram showing the flow of citations between Corcoran & Andrae, 201344,
+Andrae & Edler, 201511, and The Shift Project, 201913. Each of these
+publications has at least one missing source (indicated in orange), with the
+sources used by The Shift Project, 201913 such as Gartner, IDC, and Statista
+almost entirely unavailable or insufficiently referenced so as to locate the
+original source. Although we assume these sources were available when
+originally published, they are now unavailable which undermines the
+replicability of the estimate today. See Table S1 for the full list of
+publications, sources, and reasons for sources that could not be found.
     """
         ),
         dcc.Graph(figure=fig6, config=config),
         html.H2("Figure 7"),
         dcc.Markdown(
             """
-Sankey diagram showing the flow of citations between three highly cited publications - Malmodin & Lundén, 2018a cites Shehabi et al., 2016 which cites Van Heddeghem et al., 2014. Sources in orange indicate that source could not be found. Colored nodes on the right (for end publications) indicate citation count from Google Scholar (green >= 100, yellow >= 500, red >= 1000 citations). See Table S1 for the full list of publications, sources, and reasons for sources that could not be found.
+Sankey diagram showing the flow of citations between three highly cited
+publications - Malmodin & Lundén, 2018a54 cites Shehabi et al., 20169 which
+cites Van Heddeghem et al., 201470. Sources in orange indicate that source
+could not be found. This diagram highlights how publications can be undermined
+by unavailable sources further down the chain, such as the use of non-public
+data from IDC in both Malmodin & Lundén, 2018a and Shehabi et al., 2016.
+Colored nodes on the right (for end publications) indicate citation count from
+Google Scholar (green >= 100, yellow >= 500). See Table S1 for the full list of
+publications, sources, and reasons for sources that could not be found.
     """
         ),
         dcc.Graph(figure=fig7, config=config),
