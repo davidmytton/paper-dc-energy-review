@@ -71,7 +71,7 @@ total_estimates_europe = len(result.index)
 def generate_fig(exclude):
     if not exclude:
         figresult = estimates.query(
-            '(Method == "Bottom-up" or Method == "Extrapolation") and Geography == "Global" and (`Estimate year` == 2010 or `Estimate year` == 2020 or or `Estimate year` == 2030)'
+            '(Method == "Bottom-up" or Method == "Extrapolation") and Geography == "Global" and (`Estimate year` == 2010 or `Estimate year` == 2020 or `Estimate year` == 2030)'
         )
     else:
         figresult = estimates.query(
