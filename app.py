@@ -1,4 +1,5 @@
-# A comprehensive data provenance review of data center energy estimates
+# Sources of data center energy estimates: A comprehensive review
+# <https://doi.org/10.1016/j.joule.2022.07.011>
 #
 # Authors:
 # - David Mytton, Centre for Environmental Policy, Imperial College London,
@@ -22,7 +23,7 @@ estimates = pd.read_csv("data/estimates.csv", keep_default_na=False)
 sources = pd.read_csv("data/sources.csv", keep_default_na=False)
 
 # Set up app
-title = "A comprehensive data provenance review of data center energy estimates"
+title = "Sources of data center energy estimates: A comprehensive review"
 app = dash.Dash(title=title)
 
 config = {
@@ -541,23 +542,23 @@ app.layout = html.Div(
 
 # Summary
 
-> Data centers are a critical component of Information Technology (IT),
-providing an environment for running computer equipment. Reliance on data
-centers for everyday activities has seen increased scrutiny of their energy
-footprint, yet the literature presents a wide range of estimates with
-challenging to validate calculations that makes it difficult to rely on their
-subsequent estimates. In this review, we analyze 258 data center energy
-estimates from 46 original publications between 2007 and 2021 to assess their
-reliability through examining the 676 sources used. We show that 31% of sources
-were from peer-reviewed publications, 38% were from non-peer reviewed reports,
-and many lacked clear methodologies and data provenance. We also highlight
-issues with source availability - there is a reliance on private data from IDC
-(43%) and Cisco (30%), 11% of sources had broken web links, and 10% were cited
-with insufficient detail to locate. We make recommendations to 3 groups of
-stakeholders for how to improve and better understand the literature -
-end-users who make use of data center energy estimates e.g. journalists; the
-research community e.g. academics; and policy-makers or regulators within the
-energy sector e.g. grid operators.
+> Data centers are a critical component of information technology (IT),
+> providing an environment for running computer equipment. Reliance on data
+> centers for everyday activities has brought increased scrutiny of their energy
+> footprint, yet the literature presents a wide range of estimates with
+> challenging-to-validate calculations that make it difficult to rely on their
+> subsequent estimates. In this review, we analyze 258 data center energy
+> estimates from 46 original publications between 2007 and 2021 to assess their
+> reliability by examining the 676 sources used. We show that 31% of sources
+> were from peer-reviewed publications, 38% were from non-peer-reviewed reports,
+> and many lacked clear methodologies and data provenance. We also highlight
+> issues with source availability—there is a reliance on private data from IDC
+> (43%) and Cisco (30%), 11% of sources had broken web links, and 10% were cited
+> with insufficient detail to locate. We make recommendations to 3 groups of
+> stakeholders on how to improve and better understand the literature—end users
+> who make use of data center energy estimates (e.g., journalists), the research
+> community (e.g., academics), and policy makers or regulators within the energy
+> sector (e.g., grid operators).
     """
         ),
         html.H2("Stats"),
@@ -637,10 +638,10 @@ estimates can be found in Table S2."""
         html.H2("Figure 6"),
         dcc.Markdown(
             """
-Sankey diagram showing the flow of citations between Corcoran & Andrae, 201344,
-Andrae & Edler, 201511, and The Shift Project, 201913. Each of these
+Sankey diagram showing the flow of citations between Corcoran & Andrae, 2013,
+Andrae & Edler, 2015, and The Shift Project, 2019. Each of these
 publications has at least one missing source (indicated in orange), with the
-sources used by The Shift Project, 201913 such as Gartner, IDC, and Statista
+sources used by The Shift Project, 2019 such as Gartner, IDC, and Statista
 almost entirely unavailable or insufficiently referenced so as to locate the
 original source. Although we assume these sources were available when
 originally published, they are now unavailable which undermines the
@@ -653,8 +654,8 @@ publications, sources, and reasons for sources that could not be found.
         dcc.Markdown(
             """
 Sankey diagram showing the flow of citations between three highly cited
-publications - Malmodin & Lundén, 2018a54 cites Shehabi et al., 20169 which
-cites Van Heddeghem et al., 201470. Sources in orange indicate that source
+publications - Malmodin & Lundén, 2018a cites Shehabi et al., 2016 which
+cites Van Heddeghem et al., 2014. Sources in orange indicate that source
 could not be found. This diagram highlights how publications can be undermined
 by unavailable sources further down the chain, such as the use of non-public
 data from IDC in both Malmodin & Lundén, 2018a and Shehabi et al., 2016.

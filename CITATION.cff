@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this paper using the following"
+authors:
+  - family-names: "Mytton"
+    given-names: "David"
+    orcid: "https://orcid.org/0000-0003-0135-6327"
+  - family-names: "Ashtine"
+    given-names: "Masaō"
+    orcid: "https://orcid.org/0000-0001-6096-0060"
+title: "Sources of data center energy estimates: A comprehensive review"
+version: 1.0
+doi: 10.1016/j.joule.2022.07.011
+date-released: 2022-08-17
